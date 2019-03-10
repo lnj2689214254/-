@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+
+Name: feature.properties
+SHA1-Digest: Ef5dgbBSjWqGEI0Bkni2D3/pCa8=
+
+Name: feature.xml
+SHA1-Digest: QKVOX6g9bzBBrPFRgoPUP7FCk7c=
+
+Name: license.html
+SHA1-Digest: xUnTTzKttVv44IWxbVOxzgfdVDA=
+

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:metadatamodel
+	xmlns:md="http://org.eclipse.jst.jsf.common.metadata/metadata.ecore"
+	xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+	xmlns:mdt="http://org.eclipse.jst.jsf.common.metadata/metadataTraitTypes.ecore"
+	xmlns:pi="http://org.eclipse.jsf.pagedesigner/paletteInfos.ecore"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://www.icefaces.org/icefaces/components"
+	type="tagFile">
+	<trait id="is-jsf-component-library">
+		<value xsi:type="mdt:BooleanValue">true</value>
+	</trait>
+	<trait id="images-base-path">
+		<value xsi:type="mdt:StringValue">/icons/palette/ICEfaces/ace/</value>
+	</trait>
+	<trait id="display-label">
+		<value xsi:type="mdt:StringValue">ICEfaces ACE Components</value>
+	</trait>
+	<trait id="description">
+		<value xsi:type="mdt:StringValue">ICEfaces ACE Components</value>
+	</trait>
+	<trait id="default-prefix">
+		<value xsi:type="mdt:StringValue">ace</value>
+	</trait>
+	<trait id="paletteInfos">
+		<value xsi:type="pi:PaletteInfos">
+			<item id="ajax" />
+			<item id="accordion" />
+			<item id="accordionPane" />
+			<item id="animation" />
+			<item id="checkboxButton" />
+			<item id="column" />
+			<item id="columnGroup" />
+			<item id="confirmationDialog" />
+			<item id="contextMenu" />
+			<item id="dataExporter"/>
+			<item id="dataTable" />
+			<item id="dateTimeEntry" />
+			<item id="dialog" />
+			<item id="draggable" />
+			<item id="droppable" />
+			<item id="expansionToggler" />
+			<item id="fileEntry" />
+			<item id="linkButton" />
+			<item id="maskedEntry" />
+			<item id="menu" />
+			<item id="menuBar" />
+			<item id="menuButton" />
+			<item id="menuItem" />
+			<item id="notificationPanel" />
+			<item id="panel" />
+			<item id="panelExpansion" />			
+			<item id="progressBar" />
+			<item id="pushButton" />
+			<item id="resizable" />			
+			<item id="row" />
+			<item id="rowExpansion" />
+			<item id="sliderEntry" />
+			<item id="submenu" />
+			<item id="tableConfigPanel"/>
+			<item id="tabPane" />
+			<item id="tabSet" />
+			<item id="tabSetProxy" />
+			<item id="tooltip" />			
+		</value>
+	</trait>
+	<entity id="ajax" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Ajax_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="disabled" value="false"/>
+			</value>
+		</trait>
+	</entity>		
+	<entity id="accordion" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Accordion_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<accordionPane title="accordionPane1" _uri_="http://www.icefaces.org/icefaces/components">  
+      <outputText  value="accordionPane1 Content"  _uri_="http://java.sun.com/jsf/html" />  
+   </accordionPane>  
+   <accordionPane title="accordionPane2" _uri_="http://www.icefaces.org/icefaces/components">  
+      <outputText  value="accordionPane2 Content"  _uri_="http://java.sun.com/jsf/html" />  
+   </accordionPane>]]></template>
+				<attribute id="autoHeight" value="false"/>
+			</value>
+		</trait>		
+	</entity>
+	<entity id="accordionPane" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/AccordionPane_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<outputText  value="accordionPane Content"  _uri_="http://java.sun.com/jsf/html" />]]></template>
+				<attribute id="autoHeight" value="false"/>
+			</value>
+		</trait>		
+	</entity>	
+	<entity id="animation" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Animation_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="event" value="transition"/>
+				<attribute id="name" value="fade"/>
+			</value>
+		</trait>		
+	</entity>	
+
+	<entity id="checkboxButton" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/CheckboxButton_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="id" value="ckbxbtn1"/>
+				<attribute id="valueChangeListener" value="#{yourCheckboxButtonBean.clickChangeListener}"/>
+			</value>
+		</trait>			
+	</entity>
+	<entity id="column" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Column_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+		<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<outputText value="column1" _uri_="http://java.sun.com/jsf/html"/>]]></template>
+				<attribute id="id" value="column1"/>
+				<attribute id="headerText" value="column1 label"/>
+				<attribute id="sortBy" value="property"/>
+				<attribute id="filterBy" value="property"/>
+				<attribute id="filterMatchMode" value="contains"/>
+		</value>
+		</trait>	
+	</entity>
+	<entity id="columnGroup" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/ColumnGroup_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[
+<row _uri_="http://www.icefaces.org/icefaces/components">
+      <column headerText="header1" _uri_="http://www.icefaces.org/icefaces/components"/>
+      <column headerText="header2" _uri_="http://www.icefaces.org/icefaces/components"/>
+</row>]]></template>			
+				<attribute id="type" value="header"/>																
+			</value>
+		</trait>				
+	</entity>
+	<entity id="confirmationDialog" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/ConfirmationDialog_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<commandButton value="Yes" oncomplete="confirmation.hide()" type="button" _uri_="http://java.sun.com/jsf/html"/>  
+<commandButton value="No" onclick="confirmation.hide()" type="button" _uri_="http://java.sun.com/jsf/html"/>       
+]]></template>
+				<attribute id="id" value="confirmDlg1"/>
+				<attribute id="message" value="confirmation text"/>
+				<attribute id="showEffect" value="bounce"/>
+				<attribute id="hideEffect" value="explode"/>
+				<attribute id="header" value="header text"/>
+				<attribute id="severity" value="alert"/>
+				<attribute id="widgetVar" value="confirmation"/>															
+			</value>
+		</trait>		
+	</entity>
+	<entity id="contextMenu" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/ContextMenu_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<menuItem value="Homepage" icon="ui-icon ui-icon-extlink" url="http://www.icefaces.org" target="_blank" _uri_="http://www.icefaces.org/icefaces/components"/>]]></template>
+				<attribute id="effect" value="puff"/>
+				<attribute id="effectDuration" value="200"/>				
+			</value>
+		</trait>		
+	</entity>
+	<entity id="dataExporter" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/DataExporter_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="type" value="csv"/>
+				<attribute id="target" value="dataTableId"/>
+				<attribute id="fileName" value="fileName"/>
+				<attribute id="label" value="Export"/>
+			</value>
+		</trait>
+	</entity>	
+	<entity id="dataTable" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/DataTable_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[
+   <column headerText="column1" sortBy="column1" filterBy="#{var.column1}" filterMatchMode="contains" _uri_="http://www.icefaces.org/icefaces/components">
+       <outputText value="#{var.column1}" _uri_="http://java.sun.com/jsf/html"/>
+   </column>]]></template>
+				<attribute id="id" value="dataTableId"/>
+				<attribute id="value" value="#{yourBean.yourData}"/>
+				<attribute id="var" value="var"/>
+				<attribute id="paginator" value="true"/>
+				<attribute id="paginatorPosition" value="bottom"/>
+				<attribute id="rows" value="10"/>
+			</value>
+		</trait>		
+	</entity>
+	<entity id="dateTimeEntry" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/DateTimeEntry_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">		
+				<attribute id="id" value="dateTimeEntryId"/>
+				<attribute id="value" value="#{yourBean.selectDateProperty}"/>
+				<attribute id="timeZone" value="Canada/Mountain"/>
+				<attribute id="pattern" value="MMM/dd/yyyy"/>				
+			</value>
+		</trait>
+	</entity>
+	<entity id="dialog" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Dialog_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<outputText value="dialog content" _uri_="http://java.sun.com/jsf/html"/>]]></template>				
+				<attribute id="id" value="dialogId"/>
+				<attribute id="header" value="Dialog example"/>
+				<attribute id="widgetVar" value="sampleDialog"/>
+				<attribute id="draggable" value="true" />
+    			<attribute id="modal" value="true" />
+    			
+			</value>
+		</trait>		
+	</entity>	
+	<entity id="draggable" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Draggable_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="forValue" value="dragged_component_id"/>
+				<attribute id="revert" value="true"/>
+				<attribute id="opacity" value="0.5"/>
+				<attribute id="scope" value="key to match droppables"/>
+			</value>
+		</trait>		
+	</entity>
+	<entity id="droppable" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Droppable_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="activeStyleClass" value="activatedSlot"/>
+				<attribute id="tolerance" value="true"/>
+				<attribute id="scope" value="key to match draggables"/>					
+			</value>
+		</trait>
+	</entity>
+	<entity id="expansionToggler" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/ExpansionToggler_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="fileEntry" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/FileEntry_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">			
+				<attribute id="id" value="file-entry"/>
+			</value>
+		</trait>			
+	</entity>
+	<entity id="linkButton" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/LinkButton_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">			
+				<attribute id="id" value="linkButtonId"/>
+				<attribute id="value" value="linke label"/>
+				<attribute id="href" value="href"/>				
+			</value>
+		</trait>			
+	</entity>
+	<entity id="maskedEntry" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/MaskedEntry_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">			
+				<attribute id="id" value="maskedEntryId1"/>
+				<attribute id="value" value="#{yourBean.yourProperty}"/>
+				<attribute id="pattern" value="(999) 999-9999"/>				
+			</value>
+		</trait>			
+	</entity>
+	<entity id="menu" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Menu_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<submenu label="Options"  _uri_="http://www.icefaces.org/icefaces/components">
+    <menuItem value="Save" actionListener="#{yourBean.save}" icon="ui-icon ui-icon-disk"  _uri_="http://www.icefaces.org/icefaces/components" />
+    <menuItem value="Delete" actionListener="#{yourBean.delete}" icon="ui-icon ui-icon-close"  _uri_="http://www.icefaces.org/icefaces/components"/>
+   </submenu>]]></template>				
+				<attribute id="type" value="plain"/>
+			</value>
+		</trait>			
+	</entity>
+	<entity id="menuBar" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Menubar_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<menuItem value="Home" url="http://www.icefaces.org" target="_blank" icon="ui-icon ui-icon-home"  _uri_="http://www.icefaces.org/icefaces/components"/>]]></template>				
+				<attribute id="autoSubmenuDisplay" value="true"/>
+			</value>
+		</trait>		
+	</entity>
+	<entity id="menuButton" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/MenuButton_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<menuItem value="Home" url="http://www.icefaces.org" target="_blank" icon="ui-icon ui-icon-home"  _uri_="http://www.icefaces.org/icefaces/components"/>]]></template>				
+				<attribute id="value" value="options"/>
+			</value>
+		</trait>		
+	</entity>
+	<entity id="menuItem" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Menuitem_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="value" value="ICEsoft"/>
+				<attribute id="url" value="http://www.icesoft.com"/>
+				<attribute id="target" value="_blank"/>
+				<attribute id="icon" value="ui-icon ui-icon-home"/>
+			</value>
+		</trait>		
+	</entity>
+	<entity id="notificationPanel" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/NotificationPanel_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[
+<facet name="close" _uri_="http://java.sun.com/jsf/core">Close</facet>  
+<outputText value="notification panel content."  _uri_="http://java.sun.com/jsf/html"/>]]></template>
+				<attribute id="position" value="top"/>
+				<attribute id="effect" value="slide"/>
+				<attribute id="widgetVar" value="_blank"/>
+				<attribute id="effectSpeed" value="slow"/>
+				<attribute id="style" value="height: 20px; color: #666; background-color: #ffc; border: 2px solid #fc0;"/>		
+			</value>
+		</trait>		
+	</entity>
+	<entity id="panel" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Panel_C16.png</value>
+		</trait>
+<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<facet name="options" _uri_="http://java.sun.com/jsf/core">
+     <menu _uri_="http://www.icefaces.org/icefaces/components">
+       <menuItem value="Toggle" icon="ui-icon" onclick="panel.toggle()" _uri_="http://www.icefaces.org/icefaces/components"/>
+       <menuItem value="Close" icon="ui-icon" onclick="panel.close()" _uri_="http://www.icefaces.org/icefaces/components"/>
+      </menu>
+</facet>				
+<outputText value="Add content" _uri_="http://java.sun.com/jsf/html"/>]]></template>
+				<attribute id="header" value="Panel Header"/>
+				<attribute id="closable" value="true"/>
+				<attribute id="toggleable" value="true"/>
+			</value>
+		</trait>		
+	</entity>
+	<entity id="panelExpansion" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/PanelExpansion_C16.png</value>
+		</trait>
+	</entity>	
+	<entity id="progressBar" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/ProgressBar_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="widgetVar" value="progressBar"/>
+				<attribute id="usePolling" value="true"/>
+				<attribute id="value" value="#{yourProgressBarBean.progress}"/>
+				<attribute id="completeListener" value="#{yourProgressBarBean.onComplete}"/>
+				<attribute id="onCompleteUpdate" value="output component id"/>
+				<attribute id="cancelListener" value="#{yourProgressBarBean.onCancel}"/>
+				<attribute id="onCancelUpdate" value="output component id"/>
+				<attribute id="interval" value="500"/>																
+			</value>
+		</trait> 	
+	</entity>
+	<entity id="pushButton" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/PushButton_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="value" value="label"/>
+				<attribute id="actionListener" value="#{yourBean.actionListener}"/>																
+			</value>
+		</trait>		
+	</entity>
+	<entity id="resizable" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Resizable_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="handles" value="true"/>
+				<attribute id="grid" value="label"/>
+				<attribute id="minHeight" value="160"/>																
+				<attribute id="minWidth" value="300"/>
+				<attribute id="maxHeight" value="300"/>
+				<attribute id="maxWidth" value="700"/>					
+			</value>
+		</trait>		
+	</entity>
+		
+	<entity id="row" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Row_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[  <column headerText="column 1" _uri_="http://www.icefaces.org/icefaces/components" />
+  <column headerText="column2" _uri_="http://www.icefaces.org/icefaces/components" />]]></template>
+			</value>
+		</trait>		
+	</entity>
+	
+	<entity id="rowExpansion" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/RowExpansion_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="handles" value="true"/>
+				<attribute id="grid" value="label"/>
+				<attribute id="minHeight" value="160"/>																
+				<attribute id="minWidth" value="300"/>
+				<attribute id="maxHeight" value="300"/>
+				<attribute id="maxWidth" value="700"/>					
+			</value>
+		</trait>			
+	</entity>
+
+	<entity id="sliderEntry" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/SliderEntry_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="clickableRail" value="true"/>
+				<attribute id="length" value="200px"/>																
+				<attribute id="min" value="-30"/>
+				<attribute id="max" value="150"/>
+				<attribute id="value" value="#{yourBean.sliderValueProperty}"/>					
+			</value>
+		</trait>		
+	</entity>
+	
+	<entity id="submenu" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Submenu_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<menuItem value="Home" url="http://www.icefaces.org" target="_blank" icon="ui-icon ui-icon-home"  _uri_="http://www.icefaces.org/icefaces/components"/>]]></template>
+			</value>
+			<attribute id="label" value="Links"/>				
+		</trait>		
+	</entity>
+	<entity id="tableConfigPanel" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/TableConfigPanel_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="forTarget" value="dataTableId"/>
+				<attribute id="columnNameConfigurable" value="true"/>
+			
+			</value>
+		</trait>
+	</entity>	
+	<entity id="tabPane" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/TabPane_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[
+				<facet name="label" _uri_="http://java.sun.com/jsf/core">tab</facet>  
+				<outputText value="text in tabPane" _uri_="http://java.sun.com/jsf/html"/>]]></template>
+			</value>
+		</trait>
+	</entity>
+	<entity id="tabSet" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/TabSet_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[<tabPane _uri_="http://www.icefaces.org/icefaces/components">
+				<facet name="label" _uri_="http://java.sun.com/jsf/core">tab</facet>  
+				<outputText value="text in tabPane" _uri_="http://java.sun.com/jsf/html"/>
+				</tabPane>]]></template>
+			</value>
+		</trait>
+	</entity>
+	<entity id="tabSetProxy" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/TabSetProxy_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+              <attribute id="For" value="tabsetId"/>	
+			</value>
+		</trait>			
+	</entity>
+	<entity id="tooltip" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Tooltip_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="forValue" value="componentId"/>
+				<attribute id="showEvent" value="focus"/>
+				<attribute id="hideEvent" value="blur"/>																
+				<attribute id="value" value="tooltip for the component"/>					
+			</value>
+		</trait>			
+	</entity>	
+</md:metadatamodel>

@@ -1,0 +1,185 @@
+Signature-Version: 1.0
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest-Main-Attributes: 6Xsvx5ci2PZtmoH2muqyjPM/TRE=
+SHA1-Digest-Manifest: mvBblIRr9GYgud0PBNr/ElneEMg=
+
+Name: catalog-xsd/spring-security-2.0.2.xsd
+SHA1-Digest: cRSW4aLZU2RR3HZz/7U2vpnDDy8=
+
+Name: catalog-xsd/spring-security-2.0.1.xsd
+SHA1-Digest: mqUMlRULwaGrz5o7p4hJ+Ft+J4A=
+
+Name: catalog-xsd/spring-context-2.5.xsd
+SHA1-Digest: mRH4P2gAbj1uL1rKHlPOtLdS/PQ=
+
+Name: icons/obj16/bean.gif
+SHA1-Digest: 6hY6lQ5+kF6S7grt9/si/zLaGiA=
+
+Name: catalog-xsd/spring-util-2.0.xsd
+SHA1-Digest: 2sOOp8skm4TYdfI6DQyPV5mC8NM=
+
+Name: catalog-xsd/spring-tx-2.5.xsd
+SHA1-Digest: e4v9xUcGgzNYiTOTwRARaUpHmEs=
+
+Name: catalog-xsd/spring-aop-2.5.xsd
+SHA1-Digest: uPq/6IFAODEnIOV+lt7Bj1C5Md0=
+
+Name: icons/obj16/newconfig_wiz.gif
+SHA1-Digest: tSh6MRT9rxqBDLL7oyTudr7q+bI=
+
+Name: catalog-xsd/spring-jms-2.5.xsd
+SHA1-Digest: RMfzsm33bfaYcFDZ38Ceg/4wJrU=
+
+Name: catalog-xsd/spring-tool-2.5.xsd
+SHA1-Digest: oYtSFo162u4J2b0LGfDVfkxQd6g=
+
+Name: catalog-xsd/spring-jee-2.5.xsd
+SHA1-Digest: WzycCrrtzdeFtrxE3uSyJ7gd+7U=
+
+Name: icons/obj16/Spring_Bean_action.gif
+SHA1-Digest: lBSiBPMPDn2faHbbm0XhJleVBC4=
+
+Name: catalog-xsd/spring-osgi-compendium-1.0.xsd
+SHA1-Digest: eC0ReEigzwWg1x3pjmM8EH1Wbvw=
+
+Name: icons/obj16/Java_Hibernate_mapping.gif
+SHA1-Digest: nbod7rjWRxVw/urnPANvdK3N6V4=
+
+Name: icons/etool16/opentype.gif
+SHA1-Digest: SJYNBqPjVCsqM0j/pYWbIlu4QXA=
+
+Name: icons/obj16/Spring_Hibernate_SessionFactory_action.gif
+SHA1-Digest: 9VPs6AXW9O87AuppLjXiiJbxYIw=
+
+Name: plugin.xml
+SHA1-Digest: 6BPDPze7rQ77F+y/9leX3SL3A/Y=
+
+Name: icons/obj16/Spring_DSSF_action.gif
+SHA1-Digest: YVGhLXL4hTPb81P+c0HOa7E6mkA=
+
+Name: icons/full/ovr16/spring_ovr.gif
+SHA1-Digest: h6bI/I4wCPtltdZ76nlZya3VbX8=
+
+Name: icons/obj16/value.gif
+SHA1-Digest: pT1H5trdlwna6QdwYQUF5L7VTFo=
+
+Name: icons/wizban/Spring_DataSource_wizban.gif
+SHA1-Digest: 2/YvUJ/yNSjpyJOyBi0j8uWlSDE=
+
+Name: catalog-xsd/spring-faces-2.0.xsd
+SHA1-Digest: VuDkpLTzAuUV95iS8bP+1TXWybU=
+
+Name: icons/obj16/Java_Hibernate_property.gif
+SHA1-Digest: 5A52MRtXof42BmyqbzFJ4bqw8lw=
+
+Name: catalog-xsd/spring-jee-2.0.xsd
+SHA1-Digest: GkzbCcUNkY0ee2yjxSmrD97T8jk=
+
+Name: icons/etool16/show_in_view.gif
+SHA1-Digest: ZgbnUIP67d3j9IwA/5aZOgMPc/Q=
+
+Name: catalog-xsd/spring-webflow-config-2.0.xsd
+SHA1-Digest: JRw/AR/oMlundy6kjk2OpMHOlVM=
+
+Name: catalog-dtd/spring-beans.dtd
+SHA1-Digest: /BhX8I+QEyb1Q/dk/iSp4xLwpUw=
+
+Name: catalog-xsd/spring-webflow-config-1.0.xsd
+SHA1-Digest: rlSxQe2vtQ05gS44ICA6Q4/Ss/E=
+
+Name: icons/wizban/Spring_Bean_wizban.gif
+SHA1-Digest: O9fALee/mbYnE45uEw0xvnThU3U=
+
+Name: catalog-xsd/spring-tx-2.0.xsd
+SHA1-Digest: Al5PWuikMg+1wqYRdMz9s49yD7w=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: HNV4kj6djm1nVGsjpfE9c78L3/s=
+
+Name: catalog-xsd/spring-util-2.5.xsd
+SHA1-Digest: CCs89GrQjaH2d33N0GyX9HMq3I8=
+
+Name: catalog-xsd/spring-webflow-1.0.xsd
+SHA1-Digest: vuloMrppmvKjaGI8GlpnqrUGyGk=
+
+Name: catalog-xsd/spring-webflow-2.0.xsd
+SHA1-Digest: R0kjI/4PwodHkT+F6PRzBysTG7g=
+
+Name: icons/obj16/constructor_obj.gif
+SHA1-Digest: Q7bGxY9hgqkssguhBWsz8VABTe0=
+
+Name: catalog-xsd/spring-lang-2.0.xsd
+SHA1-Digest: Qy8chS1o2WVUciwBr9ZSIniGX50=
+
+Name: plugin.properties
+SHA1-Digest: F8BJ+avUxD82uY0f/JoVrFCj9mk=
+
+Name: icons/wizban/spring_support_wizban.gif
+SHA1-Digest: 6ZPFuv8ULdBYxDW4FgvFBT7k/jE=
+
+Name: catalog-dtd/spring-webflow.dtd
+SHA1-Digest: YIbIFXa6T709m9pX94uKrv5JHdg=
+
+Name: catalog-xsd/spring-aop-2.0.xsd
+SHA1-Digest: g94cEvCikfQFZC67sGAs4Ybc8/g=
+
+Name: icons/obj16/star.gif
+SHA1-Digest: p/owX+SyboYSM4h30pdVfCEiFmk=
+
+Name: catalog-xsd/spring-osgi-1.0.xsd
+SHA1-Digest: s4uMqFAgpNtTCjg4qsnfgttj8dI=
+
+Name: icons/obj16/spring_obj.gif
+SHA1-Digest: 5XFdXlua3Hdt/PXbgAtxovnSdZk=
+
+Name: icons/obj16/edit_action.gif
+SHA1-Digest: /Xp4JYto3vsDTEFtSYD+LXizCFk=
+
+Name: catalog-dtd/spring-beans-2.0.dtd
+SHA1-Digest: w8igyFykiqGzQmS1lAwtJZVldpA=
+
+Name: icons/obj16/ref.gif
+SHA1-Digest: wbgi3pmfGzt2Rk1XL8EJtKhueBM=
+
+Name: catalog-xsd/spring-security-2.0.xsd
+SHA1-Digest: XV08fg6Jjlc5nkPMTa1oVhpqPc0=
+
+Name: icons/obj16/collection.gif
+SHA1-Digest: CyI9U2Q5xa7fXQeGhrEqClFRDLc=
+
+Name: icons/wizban/Spring_Hibernate_SessionFactory_wizban.gif
+SHA1-Digest: XyZSLxoXYLC3uT5LnFdX+Lin/pY=
+
+Name: springframework.jar
+SHA1-Digest: tYsCF6bAbhjUeUojXSnBszAEriU=
+
+Name: icons/obj16/spring_webflow_obj.gif
+SHA1-Digest: +Oe+8tg0oqRF8PrBnFGbjm8zsz8=
+
+Name: catalog-xsd/spring-lang-2.5.xsd
+SHA1-Digest: BDK/o9rHs3EA8tU/Oc9F32WCqXY=
+
+Name: icons/wizban/constructor_arg_wizban.gif
+SHA1-Digest: kN0UFPXlkCl+rsGa+KWPzeFJ7EQ=
+
+Name: catalog-xsd/spring-beans-2.5.xsd
+SHA1-Digest: Sp5hAHmgyHlHSCfwW2qg0nhly/s=
+
+Name: catalog-xsd/spring-beans-2.0.xsd
+SHA1-Digest: yv4ZNsyg9+vbbu91yVD4SgTUPYc=
+
+Name: icons/obj16/Spring_DataSource_action.gif
+SHA1-Digest: brxFMeRq4Z1/ZgLu89bbh4v7PJ4=
+
+Name: catalog-xsd/spring-tool-2.0.xsd
+SHA1-Digest: 8vByAOd8qMVI6fA80vJqgx45+xM=
+
+Name: icons/obj16/null.gif
+SHA1-Digest: IQJuFT3ceu04kZkF7k0NVsBesTQ=
+
+Name: license.html
+SHA1-Digest: AO1UJkIAfI6NC/BuditrxrePtLA=
+
+Name: icons/wizban/property_wizban.gif
+SHA1-Digest: CaKkQr1hShLKt3yntJrcFvOTW8U=
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.datatools.sqldevtools.feature" image="eclipse_update_120.jpg" label="%featureName" plugin="org.eclipse.datatools.sqltools.common.ui" provider-name="%providerName" version="1.9.0.me201206141911">
+
+   <description>
+      %description
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <includes id="org.eclipse.datatools.sqldevtools.results.feature" version="1.9.0.me201206141911"/>
+
+   <includes id="org.eclipse.datatools.sqldevtools.ddlgen.feature" version="1.9.0.me201206141911"/>
+
+   <includes id="org.eclipse.datatools.sqldevtools.ddl.feature" optional="true" version="1.9.0.v201106031100-278-78B04G8S_IMz00Iz00PmQz01"/>
+
+   <includes id="org.eclipse.datatools.sqldevtools.data.feature" optional="true" version="1.9.0.me201206141911"/>
+
+   <includes id="org.eclipse.datatools.sqldevtools.parsers.feature" optional="true" version="1.9.0.v201106031100-622BgJ9CR9XFcEWLP"/>
+
+   <includes id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature" optional="true" version="1.9.0.me201206141911"/>
+
+   <includes id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature" optional="true" version="1.9.0.v201106031100-4208375LG5BJ93413"/>
+
+   <requires>
+      <import feature="org.eclipse.gef" match="greaterOrEqual" version="3.4.0"/>
+      <import feature="org.eclipse.datatools.modelbase.feature" match="greaterOrEqual" version="1.8.0"/>
+      <import feature="org.eclipse.datatools.connectivity.feature" match="greaterOrEqual" version="1.8.0"/>
+      <import feature="org.eclipse.datatools.doc.user" match="greaterOrEqual" version="1.8.0"/>
+      <import feature="org.eclipse.datatools.enablement.jdbc.feature" match="greaterOrEqual" version="1.8.0"/>
+   </requires>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.common.ui" install-size="0" unpack="false" version="1.0.0.v200906022302"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.debugger.core" install-size="0" unpack="false" version="1.0.1.v201005250945"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.editor.core" install-size="0" unpack="false" version="1.0.0.v201001150815"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.plan" install-size="0" unpack="false" version="1.0.0.v200906022302"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.routineeditor" install-size="0" unpack="false" version="1.0.0.v201003161000"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.sql" install-size="0" unpack="false" version="1.0.0.v200906022302"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.sqleditor" install-size="0" unpack="false" version="1.0.2.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.sqlscrapbook" install-size="0" unpack="false" version="1.0.1.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.help" install-size="0" unpack="false" version="1.5.0.v200906020553"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.db.generic" install-size="0" unpack="false" version="1.0.0.v200906020900"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.debugger.core.ui" install-size="0" unpack="false" version="1.0.0.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.editor.core.ui" install-size="0" unpack="false" version="1.0.0.v201001150815"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.result.ui" install-size="0" unpack="false" version="1.1.1.me201110192133"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.routineeditor.ui" install-size="0" unpack="false" version="1.0.1.v201004060545"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.sqltools.sql.ui" install-size="0" unpack="false" version="1.0.0.v200906022302"/>
+
+</feature>

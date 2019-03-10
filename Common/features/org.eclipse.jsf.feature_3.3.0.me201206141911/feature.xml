@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.jsf.feature" image="eclipse_update_120.jpg" label="%name" provider-name="%provider" version="3.3.0.me201206141911">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.common" install-size="0" unpack="false" version="1.2.3.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.common.runtime" install-size="0" unpack="false" version="1.1.0.v20100510"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.common.ui" install-size="0" unpack="false" version="1.2.100.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.core" install-size="0" unpack="false" version="1.3.5.me201109051559"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.facelet.core" install-size="0" unpack="false" version="1.0.100.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.facelet.ui" install-size="0" unpack="false" version="1.0.1.v201104032306"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.facesconfig" install-size="0" unpack="false" version="1.2.2.v201105031140"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.facesconfig.ui" install-size="0" unpack="false" version="1.2.2.v201103292152"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.ui" install-size="0" unpack="false" version="1.3.2.me201108301958"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsf.standard.tagsupport" install-size="0" unpack="false" version="1.2.100.v201104061711"/>
+
+   <plugin download-size="0" id="org.eclipse.jsf.branding" install-size="0" unpack="false" version="3.2.0.v20100522"/>
+
+</feature>

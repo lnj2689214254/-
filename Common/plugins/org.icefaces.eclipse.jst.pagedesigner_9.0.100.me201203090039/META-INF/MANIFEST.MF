@@ -1,0 +1,1791 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.jst.pagedesigner;bundle-version="[1.2.0,2.
+ 0.0)",org.eclipse.jst.pagedesigner.jsf.ui;bundle-version="[1.1.0,2.0.
+ 0)",org.eclipse.jst.jsf.common.ui;bundle-version="[1.1.0,2.0.0)",org.
+ eclipse.jst.jsf.core;bundle-version="[1.2.0,2.0.0)",org.eclipse.jst.j
+ sf.common;bundle-version="[1.1.0,2.0.0)",org.eclipse.wst.sse.core;bun
+ dle-version="[1.1.0,1.2.0)",org.eclipse.wst.xml.core;bundle-version="
+ [1.1.0,1.2.0)",org.eclipse.core.runtime;bundle-version="[3.5.0,4.0.0)
+ ",org.eclipse.gef;bundle-version="[3.5.0,4.0.0)",org.eclipse.core.res
+ ources;bundle-version="[3.5.0,4.0.0)",org.eclipse.ui.views.properties
+ .tabbed;bundle-version="[3.5.0,4.0.0)"
+Bundle-Vendor: ICEsoft Technologies, Inc.
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 9.0.100.me201203090039
+Bundle-Name: ICEfaces Page Designer Support for Eclipse v3.6 (Helios)
+Bundle-Activator: org.icefaces.eclipse.jst.pagedesigner.Activator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.icefaces.eclipse.jst.pagedesigner;singleton:=
+ true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+Name: icons/palette/ICEfaces/ice/small/Form_C16.png
+SHA1-Digest: xqILJVJ7VOJDlxVprQZItI60eu4=
+
+Name: icons/palette/ICEfaces/mobi/small/Scan_C16.png
+SHA1-Digest: 6NHXMsc8ev83f7yqtT2NCgI31Wg=
+
+Name: icons/palette/ICEfaces/small/DataExporter_C16.png
+SHA1-Digest: k+3Tkq06+LnLu2LG6eM/YznhrhA=
+
+Name: icons/palette/ICEfaces/ice/small/OutputDeclaration_C16.png
+SHA1-Digest: 9KEs4kF10UCcl03pzB+88YUQtCM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceConfirma
+ tionDialogOperation.class
+SHA1-Digest: OBOPWLOvo3n2oExEdd6R6CoNUFM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/CurrentChildNod
+ eStore.class
+SHA1-Digest: E8gVMCfJCkC8MRDeXAEAXYTUBGQ=
+
+Name: icons/palette/ICEfaces/small/GMapGeoXml_C16.png
+SHA1-Digest: k5eEs/ztnQEVGsfoHCvpN7f07Qs=
+
+Name: icons/palette/ICEfaces/ice/small/PanelBorder_C16.png
+SHA1-Digest: Z2g5a2KBE+H6rW4rEuTF9vB4qJ0=
+
+Name: css/rime/css-images/connect_caution.gif
+SHA1-Digest: QRcCRshS02cXinOGDtewfg5XbTk=
+
+Name: css/rime/css-images/Tab_MidMid_bullet_over.gif
+SHA1-Digest: rXJQqt7+R0flh3kan0mE9+EtS9k=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit$DataTableResizePolicy.class
+SHA1-Digest: 255v0n8CJmr3rdk/m9KkgTr0z+4=
+
+Name: icons/palette/ICEfaces/mobi/small/CommandButtonGroup_C16.png
+SHA1-Digest: 0hNibxRPwqAxUlWWirYzfPH6Cjw=
+
+Name: icons/palette/ICEfaces/small/PanelDivider_C16.png
+SHA1-Digest: 90e6xMxo2gjXMlaqnTsB4Zm/CZw=
+
+Name: icons/palette/ICEfaces/small/SingleSubmit_C16.png
+SHA1-Digest: Yvfby+Ej/cPSkSAp5xutDel2Es0=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelDivide
+ rOperation.class
+SHA1-Digest: ChK0KfmKViZx+Rw8K+DJyERP0RY=
+
+Name: css/ace/themes/sam/images/ui-bg_flat_0_aaaaaa_40x100.png
+SHA1-Digest: 2hyb9FvTZEwt3/zU9jEQjYDmpvI=
+
+Name: icons/palette/ICEfaces/ice/small/CommandSortHeader_C16.png
+SHA1-Digest: xoeXGDLfA0s1SZkoaoE3N6bII9U=
+
+Name: css/rime/css-images/tree_line_middle_node.gif
+SHA1-Digest: HmgDm9lzB65oJBn2vE57JCvVqhk=
+
+Name: icons/palette/ICEfaces/small/LinkButton_C16.png
+SHA1-Digest: 5msRWzSwn7QkKmdMCbCcTEmzmEI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/celleditors/ICEfacesAttrib
+ uteCellEditorFactory.class
+SHA1-Digest: 25VbUpDO5TYRmdKbK/pcHmd3Soo=
+
+Name: css/rime/css-images/column_sort_asc.gif
+SHA1-Digest: mcvmaSuZ5vkL0ibH2t8jJv6UYxI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AcePanelOpe
+ ration.class
+SHA1-Digest: uEOTfG+tm4yRpzPYT2dITkLSB9w=
+
+Name: icons/palette/ICEfaces/ace/small/Ajax_C16.png
+SHA1-Digest: 5i654D0Xj6ymIFdHTbGUzoSBCiY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection$1.class
+SHA1-Digest: gDATgbg7vHT41FtgH/k6zgXDHHA=
+
+Name: css/rime/rime.css
+SHA1-Digest: rdZnexCJLbflB1ODlPpDM/quOqQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelTabSet
+ Operation.class
+SHA1-Digest: Je6m0JKFthxb7QND8j8EQVjjjEY=
+
+Name: css/mobi/ipad/list/list-arrow.png
+SHA1-Digest: Afix0+8diZEtWTna6p83oCLTeQ4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceColumnGr
+ oupOperation.class
+SHA1-Digest: FAgYE0jm2mwOOSt3nKogPKu0Ahg=
+
+Name: icons/palette/ICEfaces/ace/small/ExpansionToggler_C16.png
+SHA1-Digest: alvtSAm5NV5Wwg4sTsd55J67e0c=
+
+Name: icons/palette/ICEfaces/core/small/SingleSubmit_C16.png
+SHA1-Digest: PJ/xQoBqSyPzpRWqKFG0wQM1m/Q=
+
+Name: icons/palette/ICEfaces/ace/small/ColumnGroup_C16.png
+SHA1-Digest: hwS1XlrtVJzuqDCRt829w0n8AkQ=
+
+Name: css/rime/css-images/arrow-ff-dis.gif
+SHA1-Digest: 3PtsXEhRd8iGAKWdlLdSP6r+q54=
+
+Name: css/rime/css-images/bottom_menu_btn_bg_on.png
+SHA1-Digest: sWyx/QuVAkuirJ5Hux+vata8ySo=
+
+Name: css/rime/css-images/Tab_Btm_LftMid_off.gif
+SHA1-Digest: sF9A4OYhDTzMCCmb/UH8kZHLdpg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/GMapElementEdi
+ t$1.class
+SHA1-Digest: IHBjY3QZw34fX12CEzC9kyXpRug=
+
+Name: icons/palette/ICEfaces/small/GMapControl_C16.png
+SHA1-Digest: gxrI/gfSvg4/xaptQorrEge2QaU=
+
+Name: css/mobi/ipad/datespinner/pinstripes.png
+SHA1-Digest: rJeKbR4/TjtnkwIXkVjFhKd3woc=
+
+Name: css/ace/checkboxbutton/background-disabled.gif
+SHA1-Digest: 2zTQrACupf/Zy3w8uZENYm5D60A=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/SelectInput
+ DateOperation.class
+SHA1-Digest: xrVVXd1+9Y2zUT/5iUedXj+zF44=
+
+Name: css/ace/tab/images/Tab_MidMid_bullet.gif
+SHA1-Digest: IB17L32v9QI251nSJUa44kv1pqs=
+
+Name: icons/images/datatable_paginator_backward.png
+SHA1-Digest: /yARD6hUz+iEfLzy6HVmF6Fqsqw=
+
+Name: icons/palette/ICEfaces/mobi/small/DateSpinner_C16.png
+SHA1-Digest: l2R09/yj+LE/YM6FAkJuzMXF9LI=
+
+Name: metadata/icemobile_mobi_pi.xml
+SHA1-Digest: GHa2CpRXnDl2sz0zku6mGPQ96qk=
+
+Name: icons/palette/ICEfaces/ice/small/OutputConnectionStatus_C16.png
+SHA1-Digest: KniDPnVuiHAIFm3ppvoZrTC8uKg=
+
+Name: icons/palette/ICEfaces/ice/small/SelectOneMenu_C16.png
+SHA1-Digest: En+3rgpE5pxq3amuNjgJ29tMnno=
+
+Name: css/mobi/ipad/timespinner/btn-time.png
+SHA1-Digest: 1wupSpNdYjI8xsPObKexOTBhnHI=
+
+Name: icons/palette/ICEfaces/mobi/small/OutputListItem_C16.png
+SHA1-Digest: eewlMOg698xo5kw8djZ5Lt9ixWE=
+
+Name: icons/palette/ICEfaces/ace/small/CheckboxButton_C16.png
+SHA1-Digest: JzDjlnk+aZ4yq5rgyZOxnxC6ZPU=
+
+Name: icons/palette/ICEfaces/ice/small/Column_C16.gif
+SHA1-Digest: DNiYEjGeR9KiwzooC6xl5PoVu1s=
+
+Name: icons/palette/ICEfaces/ice/small/PanelConfirmation_C16.png
+SHA1-Digest: wXSnqhTE2U5n6sl4/B209jOGTOA=
+
+Name: icons/palette/ICEfaces/small/InputTextarea_C16.png
+SHA1-Digest: UTgti2u3Oe33CMXDNmHuWFLNJb0=
+
+Name: icons/palette/ICEfaces/ice/small/GMapLatLng_C16.png
+SHA1-Digest: Z87LkCUblyGCBWGd1E70EXmObdg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelPopupO
+ peration.class
+SHA1-Digest: zFW29tdDN4lMSgMHv65NyFrpknM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/CommandUtils.clas
+ s
+SHA1-Digest: vxm0J7t7EfqMeKuOiXUgMxaCo1w=
+
+Name: icons/palette/ICEfaces/ice/small/OutputStyle_C16.png
+SHA1-Digest: zTzFic4lX4m7WMwMo9WiZQ/KpWA=
+
+Name: css/rime/css-images/tree_open.gif
+SHA1-Digest: LL+ycbUbnm2zNrEHoioIWvELEfo=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/OutputMedia
+ Operation.class
+SHA1-Digest: UaWxU6oST8EvRZm05hNKNA5ZCms=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/dtresourceprovider/IceDTRe
+ sourceProvider.class
+SHA1-Digest: 4MMOZrBwgZt07bSBZJn4vyL2AkU=
+
+Name: css/rime/css-images/tree_line_last_node.gif
+SHA1-Digest: WwKUO+ZLpI1w4yyOiQPva/3J0oQ=
+
+Name: icons/palette/ICEfaces/mobi/small/GraphicImage_C16.png
+SHA1-Digest: JzbS3xZOsEEQ7VM3qmzha3Uh6rg=
+
+Name: icons/palette/ICEfaces/ice/small/PanelStack_C16.png
+SHA1-Digest: uJNOUDRb90OxSmV3nMfVdX7q7FI=
+
+Name: icons/palette/ICEfaces/small/SelectInputText_C16.png
+SHA1-Digest: Lgom6yg7I13epbIMWYa3Z1vr/z8=
+
+Name: icons/palette/ICEfaces/small/MenuItemCheckbox_C16.png
+SHA1-Digest: 11vbiqgUdBF0ex9pRpgnmpsCDxE=
+
+Name: metadata/icefaces_core.xml
+SHA1-Digest: yOK1WLDV72HUN6SfxcgugZgVp1w=
+
+Name: css/rime/css-images/arrow-first.gif
+SHA1-Digest: mEo32agiGam5efCyOXWV6sA0ukw=
+
+Name: icons/palette/ICEfaces/icefaces32.png
+SHA1-Digest: GHEslurKty8B6QoAYf2B1MYNnEI=
+
+Name: icons/palette/ICEfaces/ace/small/DateTimeEntry_C16.png
+SHA1-Digest: x98DpG7XJKEcakuoYKOWh9IE7LU=
+
+Name: css/rime/css-images/Tab_MidMid_bullet.gif
+SHA1-Digest: IB17L32v9QI251nSJUa44kv1pqs=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/OutputChart
+ Operation.class
+SHA1-Digest: 710prqaamAaeHveqbQASF0Rb1lg=
+
+Name: css/mobi/ipad/datespinner/decrement.png
+SHA1-Digest: H0yawiUuRxIPSxY58M35DMor10s=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceColumnOp
+ eration.class
+SHA1-Digest: Y+0605he3L0ELjdiRI+1a+V0juk=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiFlipsw
+ itchOperation.class
+SHA1-Digest: 23qXlA86qmL3VSmTyL/AgDsAWXg=
+
+Name: css/ace/themes/sam/images/ui-icons_cd0a0a_256x240.png
+SHA1-Digest: gckxNsaONSUaALAvaWrWi9yuWA4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/CSS_DEFAULT
+ .class
+SHA1-Digest: MT+kM2Pmjq8vglsvDKDKTXwDZXo=
+
+Name: css/rime/css-images/cal_arrow_left.gif
+SHA1-Digest: iVWnOTxILglvHj0xoDc2OI9exCQ=
+
+Name: css/rime/css-images/theme_bg.gif
+SHA1-Digest: mJh/9ekb4jcVgQM7JTQ56Lwl/jc=
+
+Name: icons/palette/ICEfaces/ice/small/PanelGroup_C16.png
+SHA1-Digest: QFIEevIxEpo/r5YlAnEhOL7n5qo=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/PanelGridEleme
+ ntEdit$3.class
+SHA1-Digest: VRi5lcONt3YUR3nArv5FlWn0nhQ=
+
+Name: css/rime/css-images/Tab_Btm_MidMid_off.gif
+SHA1-Digest: Vry9tIvNknD0XmBFYvDPKuDFy04=
+
+Name: css/ace/linkbutton/background-focus.png
+SHA1-Digest: fI6Q09fJWObsC6rEPeWy8ReVXaY=
+
+Name: icons/images/expansionToggler.png
+SHA1-Digest: sAfupAW11LulZkpBNSdmL4ov0mo=
+
+Name: css/rime/css-images/Tab_Btm_RtMid.gif
+SHA1-Digest: Oxjun6hDyK4xnaJaZP7ylTprKPA=
+
+Name: icons/palette/ICEfaces/ice/small/OutputLabel_C16.png
+SHA1-Digest: dJxC0lhV0+zmeOBvXkmSMPQwNF8=
+
+Name: icons/palette/ICEfaces/small/SelectManyListbox_C16.png
+SHA1-Digest: xISrzzzbDPqaQ8SBdf98TTrq+cs=
+
+Name: icons/palette/ICEfaces/small/PanelPositioned_C16.png
+SHA1-Digest: NoLpaOemC+JMy9uBY4ZeauXfdOg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/support/ICEfacesConstants.
+ class
+SHA1-Digest: sHSIey39MfWMX6VsvTtLs8cBi4k=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/AddSortHeaderComm
+ and.class
+SHA1-Digest: OfsulK8E33b4xizDwX5v8csXALw=
+
+Name: icons/palette/ICEfaces/ice/small/PanelTab_C16.png
+SHA1-Digest: 8391sLvbdyh2aRgRHni0mpSq+3A=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/ICEfacesElemen
+ tEditFactory.class
+SHA1-Digest: GdDS55/9O+6wXAcDsFRQmNUe7eg=
+
+Name: icons/palette/ICEfaces/ace/small/Panel_C16.png
+SHA1-Digest: Xhohb1JUoAi9d2SioXZ5AjZZE74=
+
+Name: css/rime/css-images/Tab_Btm_MidBtm.gif
+SHA1-Digest: 7RsVWwYDH0nLb/XuFE7z2N+enAw=
+
+Name: icons/palette/ICEfaces/mobi/small/VideoPlayer_C16.png
+SHA1-Digest: /ol3gsaOp7bTzT07RhAYAOfMQ1c=
+
+Name: css/rime/css-images/cal_button.gif
+SHA1-Digest: oWoTxkqdlRTxXkZ5TE+zeZf6/QE=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelSeries
+ Operation.class
+SHA1-Digest: WHtY8tEQyT1HnCw5tQHo3TgxEgk=
+
+Name: css/rime/css-images/tree_folder_closed.gif
+SHA1-Digest: XBm0gEH7M1EfchoFy4ek1Dw1gU4=
+
+Name: css/rime/css-images/PnlHdr_bgslice.gif
+SHA1-Digest: 6KAxMLVanXwGaniwWtM6aYUZDk0=
+
+Name: icons/palette/ICEfaces/ace/small/TabPane_C16.png
+SHA1-Digest: 8391sLvbdyh2aRgRHni0mpSq+3A=
+
+Name: css/rime/css-images/cal_off.gif
+SHA1-Digest: rqB0L2KJP2q/84hsRH6SUJm11g0=
+
+Name: icons/palette/ICEfaces/small/PanelGroup_C16.png
+SHA1-Digest: QFIEevIxEpo/r5YlAnEhOL7n5qo=
+
+Name: icons/palette/ICEfaces/ice/small/OutputResource_C16.png
+SHA1-Digest: k+3Tkq06+LnLu2LG6eM/YznhrhA=
+
+Name: css/mobi/ipad/panelstack/header.png
+SHA1-Digest: 6NTI+u1SVrgyXLyWmG4KUE2COkQ=
+
+Name: metadata/icemobile_mobi.xml
+SHA1-Digest: OeVZT8xvyhH+twYI1G6SdThcaJg=
+
+Name: css/rime/css-images/arrow-next-dis.gif
+SHA1-Digest: TsNlY6CB8PO7fMDgxayRmtXLUrk=
+
+Name: icons/palette/ICEfaces/small/DataPaginator_C16.png
+SHA1-Digest: IgVE/8AblPkHQPGb9jtKDCOsskg=
+
+Name: css/rime/css-images/arrow-fr-dis.gif
+SHA1-Digest: Q29ZWeWS4x0jSlxZM+6PNViAKEg=
+
+Name: icons/palette/ICEfaces/small/SelectOneRadio_C16.png
+SHA1-Digest: U6e6TyUSDQUXAhtWAA27OCVWWNs=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/actions/ICEfacesOutputLink
+ Creator.class
+SHA1-Digest: QMAv36OMQK6qKGxmiAqKl52QAIo=
+
+Name: icons/palette/ICEfaces/ice/small/ColumnGroup_C16.png
+SHA1-Digest: hwS1XlrtVJzuqDCRt829w0n8AkQ=
+
+Name: css/ace/linkbutton/background.png
+SHA1-Digest: Y93TQiyhU1aPeT9vVQ2UTADzEt8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceDataExpo
+ rterOperation.class
+SHA1-Digest: VxZTvLZAraTuQi57jn1Dx4ixrvA=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/PanelGridInsertHe
+ aderCommand.class
+SHA1-Digest: H47ujyXk3x8149Gg4LtpU+zyKV0=
+
+Name: icons/palette/ICEfaces/ice/small/PanelGrid_C16.png
+SHA1-Digest: wc/A4DJlTHo4Ch4RvkhNKVQ5TlQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AbstractAce
+ TableOperation.class
+SHA1-Digest: G6nsHG5Ehl058rdCOP6t1GjVshY=
+
+Name: icons/palette/ICEfaces/small/OutputProgress_C16.png
+SHA1-Digest: ehfwxDN3fk+eHgrvNVhRdCe+tUw=
+
+Name: css/rime/css-images/off-right-bot.gif
+SHA1-Digest: E4tzgQrWi95wUHWhSvdSEq9Q4NM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/OutputProgr
+ essOperation.class
+SHA1-Digest: nXceisUSw/7RS9A5d2uAldlc1jU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/DataTableInsertCo
+ lumnHeaderCommand.class
+SHA1-Digest: Zj5lIIMqMUCXibFKVfBCT459UA0=
+
+Name: css/mobi/ipad/button/back-button-bg.png
+SHA1-Digest: qKpgWYRsVPuregf3eMVtwlg8GGw=
+
+Name: icons/palette/ICEfaces/small/PanelPopup_C16.png
+SHA1-Digest: gStJsNA1+Cdn0SU+lkYr03Y+gcE=
+
+Name: css/rime/css-images/Tab_LftTop_off.gif
+SHA1-Digest: x2im5HGbuEunHAmDSpAtneD4mgw=
+
+Name: css/rime/css-images/connect_disconnected.gif
+SHA1-Digest: oCLIjoJxIhkk7t/CWciXqsd4mVk=
+
+Name: css/mobi/ipad/datespinner/clock_header.png
+SHA1-Digest: W0F1hQbs6C90rY+OHzZzxatfRE0=
+
+Name: icons/palette/ICEfaces/ice/small/Portlet_C16.png
+SHA1-Digest: CKyMh1mhtuWRXL+qZT+dGlTLzPE=
+
+Name: icons/palette/ICEfaces/small/SelectOneMenu_C16.png
+SHA1-Digest: En+3rgpE5pxq3amuNjgJ29tMnno=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AbstractAce
+ ComponentOperation.class
+SHA1-Digest: VZLijoCSIoKw8rFYQvGTc+zaRB4=
+
+Name: icons/palette/ICEfaces/core/small/Push_C16.png
+SHA1-Digest: TQyvu5mDotLlWqXNMXRqsma5oSg=
+
+Name: icons/palette/ICEfaces/ice/small/GMapGeoXml_C16.png
+SHA1-Digest: k5eEs/ztnQEVGsfoHCvpN7f07Qs=
+
+Name: icons/palette/ICEfaces/ace/small/MenuItem_C16.png
+SHA1-Digest: M4PavwBcNkahVzfjrEiyNatzk2M=
+
+Name: css/rime/css-images/tree_nav_bottom_close.gif
+SHA1-Digest: HfU6y+NoEyHoQosb8e3PBazla8s=
+
+Name: css/rime/css-images/table_col_header_dis.gif
+SHA1-Digest: uN7o23oQjpiEQIJo2m1GSQ0GQps=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit$2.class
+SHA1-Digest: H33YP+Yo6cCmD/nW7ChFf+prWvE=
+
+Name: css/rime/css-images/column_sort_desc.gif
+SHA1-Digest: Vk7dhbLGWSZ1kIy8Y0xJHi/XnPc=
+
+Name: css/ace/checkboxbutton/background-highlight.png
+SHA1-Digest: OItxtg0AO86uAqcVCiM0/8QqrbE=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/MenuPopupOp
+ eration.class
+SHA1-Digest: gnrv7mRcyAL7uSbfmaKorVM46Fc=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/GMapMarkerO
+ peration.class
+SHA1-Digest: 5u2Di5lkVT5Wvwjs4k9uurvTKt8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiFields
+ etRowOperation.class
+SHA1-Digest: Ak6ZzPQwx/gNT4bOiCztKcvmF2c=
+
+Name: icons/palette/ICEfaces/ace/small/Printer_C16.png
+SHA1-Digest: YekBMul28LuApvxa19ZqheIvCOg=
+
+Name: css/mobi/ipad/stylesheet/iphone.png
+SHA1-Digest: GuCGsWm1ZGT9jV5eHKtbmTAzRXA=
+
+Name: icons/palette/ICEfaces/small/SelectManyMenu_C16.png
+SHA1-Digest: 9hc2mkTrTE87cMk7RFehX47utjM=
+
+Name: metadata/icefaces_component.xml
+SHA1-Digest: BvbX0M+r99tZcW85MbKAFie0xAc=
+
+Name: css/ace/calendar/calendar_icon.png
+SHA1-Digest: /+zHue8wMEgPYJpnwD5uF7XnCNA=
+
+Name: icons/palette/ICEfaces/small/MenuItemRadio_C16.png
+SHA1-Digest: 11vbiqgUdBF0ex9pRpgnmpsCDxE=
+
+Name: icons/palette/ICEfaces/ace/small/PanelExpansion_C16.png
+SHA1-Digest: 90e6xMxo2gjXMlaqnTsB4Zm/CZw=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ICEfacesTransfo
+ rmUtil.class
+SHA1-Digest: uzwlGL4Yj6l6f9Gk67Apay1ulm4=
+
+Name: icons/palette/ICEfaces/ace/small/DataExporter_C16.png
+SHA1-Digest: k+3Tkq06+LnLu2LG6eM/YznhrhA=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/TabElementEdit
+ .class
+SHA1-Digest: 30TSuZpiK3cgYAzNo679TOWdi34=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelLayout
+ Operation.class
+SHA1-Digest: D3UmPJ52kiImb/eEq66tbfEz5sU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiTimeSp
+ innerOperation.class
+SHA1-Digest: bi9cxrbwEM/mBrWZPshLgNU0Yng=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceDialogOp
+ eration.class
+SHA1-Digest: Hkz0GjoCfNd7DHIjQXA2COUKhus=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/InputRichTe
+ xtOperation.class
+SHA1-Digest: m+Vjv4TWh9igtdF2lyNfmlL3U90=
+
+Name: icons/palette/ICEfaces/ace/small/PushButton_C16.png
+SHA1-Digest: Yvfby+Ej/cPSkSAp5xutDel2Es0=
+
+Name: icons/palette/ICEfaces/ice/small/MenuPopup_C16.png
+SHA1-Digest: qXYOPOvDUmBnH677u/lLwkKuM/A=
+
+Name: css/rime/css-images/tree_nav_top_open_no_siblings.gif
+SHA1-Digest: y3vZH0PEdMpMhlMveAAVbjRgw5M=
+
+Name: icons/palette/ICEfaces/small/TreeNode_C16.png
+SHA1-Digest: 6Dw7p2TMylK1i4+DPpKVzhb4WDg=
+
+Name: icons/palette/ICEfaces/ice/small/MenuItemCheckbox_C16.png
+SHA1-Digest: mhXX8EELygwVzgVnPaD3uecY0jo=
+
+Name: css/rime/css-images/Tab_LftTop.gif
+SHA1-Digest: YmxBh01WIyAu+dLl/nbhf8QZLhk=
+
+Name: css/rime/css-images/ProgFill_bg.gif
+SHA1-Digest: FsNDGmeQfqHnqZdhgA9bBbdktfs=
+
+Name: icons/palette/ICEfaces/ice/small/SelectManyMenu_C16.png
+SHA1-Digest: 9hc2mkTrTE87cMk7RFehX47utjM=
+
+Name: css/mobi/ipad/timespinner/pinstripes.png
+SHA1-Digest: rJeKbR4/TjtnkwIXkVjFhKd3woc=
+
+Name: icons/palette/ICEfaces/ice/small/InputRichText_C16.png
+SHA1-Digest: xc7okq2gi4KoNTDUcmbXNlMRpMU=
+
+Name: icons/palette/ICEfaces/small/HeaderRow_C16.png
+SHA1-Digest: ElXYzv+D0dd5roi6aXEjVSG47j4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/PanelGridInsertFo
+ oterCommand.class
+SHA1-Digest: TTG1q8RZC1hJsKDOjhcPigI0lZQ=
+
+Name: icons/palette/ICEfaces/ace/small/ConfirmationDialog_C16.png
+SHA1-Digest: wXSnqhTE2U5n6sl4/B209jOGTOA=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection$4.class
+SHA1-Digest: G1SOfLaFdy31gHlCKoZ15H2Q2GE=
+
+Name: icons/palette/ICEfaces/ace/small/SliderEntry_C16.png
+SHA1-Digest: ehfwxDN3fk+eHgrvNVhRdCe+tUw=
+
+Name: css/rime/css-images/tree_line_blank.gif
+SHA1-Digest: yxRb6BszEk1T5WNVhRaeTM7LdQY=
+
+Name: css/rime/css-images/contentContainer_bg.gif
+SHA1-Digest: jnmQBv6/ck6RdRb744qm0GGYE5Q=
+
+Name: css/rime/css-images/arrow-last-dis.gif
+SHA1-Digest: wVd+vuf2YwiqNJOmetljqAUP8BU=
+
+Name: css/ace/combined.css
+SHA1-Digest: c0izaNkUaTfkaTWv6g8zZpSrhZY=
+
+Name: icons/images/datatable_paginator_first.png
+SHA1-Digest: OrcpoiRaKebaSyQHIXZ585dg20E=
+
+Name: icons/palette/ICEfaces/small/SelectInputDate_C16.png
+SHA1-Digest: x98DpG7XJKEcakuoYKOWh9IE7LU=
+
+Name: css/rime/css-images/arrow-last.gif
+SHA1-Digest: vcUGC1P6/FSOTpN1Xw4N81phiaI=
+
+Name: icons/palette/ICEfaces/ice/small/CommandButton_C16.png
+SHA1-Digest: Yvfby+Ej/cPSkSAp5xutDel2Es0=
+
+Name: icons/palette/ICEfaces/small/MenuBar_C16.png
+SHA1-Digest: xzHZePeVWBiXB8KAnvNE/8R5YCs=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/OutputConne
+ ctionStatusOperation.class
+SHA1-Digest: N836xsSNUVq9DbmKAwp05jSaRvc=
+
+Name: css/ace/themes/sam/images/sprite.png
+SHA1-Digest: 6bKmYvuxodiKThEGEL++E1lq4BY=
+
+Name: css/ace/checkboxbutton/background-focus.png
+SHA1-Digest: fI6Q09fJWObsC6rEPeWy8ReVXaY=
+
+Name: css/rime/css-images/off-left-bot.gif
+SHA1-Digest: lDLTC4osN1kk0jGfUvYvBsxk178=
+
+Name: icons/palette/ICEfaces/small/OutputStyle_C16.png
+SHA1-Digest: zTzFic4lX4m7WMwMo9WiZQ/KpWA=
+
+Name: icons/palette/ICEfaces/small/Animation_C16.png
+SHA1-Digest: olOm+epvtUbPrClDpR8jVuCpx7w=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelCollap
+ sibleOperation.class
+SHA1-Digest: IP68vY3wEh44IBlTV8iiym+fJh0=
+
+Name: css/rime/css-images/arrow-first-dis.gif
+SHA1-Digest: TQZNXr10wbBf/b+682Ic2YF3axY=
+
+Name: icons/palette/ICEfaces/mobi/small/FlipSwitch_C16.png
+SHA1-Digest: OUkFYz/Fjj5qUHM6+v1OHFIMdfk=
+
+Name: icons/palette/ICEfaces/mobi/small/QrCode_C16.png
+SHA1-Digest: ADZzoGD6q/fwgZkRWypN4SXQpL0=
+
+Name: css/ace/themes/sam/images/ui-icons_454545_256x240.png
+SHA1-Digest: AOTwJv9qngD5XySdhX2M1aWE8mY=
+
+Name: css/rime/css-images/Tab_RtMid_off.gif
+SHA1-Digest: xVAh0r4Os95SzPIFprgEdF52aS0=
+
+Name: css/rime/css-images/Tab_Btm_LftBtm.gif
+SHA1-Digest: vLcaVR+ISbVhqO5zR2iOHAnQorU=
+
+Name: icons/palette/ICEfaces/small/ColumnGroup_C16.png
+SHA1-Digest: hwS1XlrtVJzuqDCRt829w0n8AkQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/TabCommand.class
+SHA1-Digest: mtrsGJr9gbNVTumUR5NPbbwwszI=
+
+Name: metadata/icefaces_component_dti.xml
+SHA1-Digest: SejtTglbSI6SSTTnYeNKLL4C45w=
+
+Name: icons/palette/ICEfaces/mobi/small/Camera_C16.png
+SHA1-Digest: IzNUQR42NTS4TsLSq5S/kH180G0=
+
+Name: css/rime/css-images/tree_close.gif
+SHA1-Digest: 1XbuPm2KFxbd3HE8A8kaVYZGIpk=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ResolveResource
+ AttributeOperation.class
+SHA1-Digest: /pHU6VR1CaI9JhcHoSwe8YVvGcU=
+
+Name: css/mobi/ipad/button/back-arraow.png
+SHA1-Digest: 8WuHC3Xclduse53NmGoLvlC32jg=
+
+Name: icons/palette/ICEfaces/small/GMapLatLng_C16.png
+SHA1-Digest: Z87LkCUblyGCBWGd1E70EXmObdg=
+
+Name: icons/palette/ICEfaces/ace/small/TableConfigPanel_C16.png
+SHA1-Digest: aXI8HWT/VUh0tktWUb5KgreCjF4=
+
+Name: css/rime/css-images/tree_nav_top_close.gif
+SHA1-Digest: gp3shJXEfTLFqjYU+TWsL7z75BU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiOutput
+ ListOperation.class
+SHA1-Digest: fWZlie8j6lrN9g+H8km4NUqKWKY=
+
+Name: css/rime/css-images/Tab_Btm_RtBtm_off.gif
+SHA1-Digest: jE1xZIsBzluEEtIXiTw3cCS0QTQ=
+
+Name: icons/palette/ICEfaces/ice/small/InputTextarea_C16.png
+SHA1-Digest: UTgti2u3Oe33CMXDNmHuWFLNJb0=
+
+Name: icons/palette/ICEfaces/ice/small/PanelTooltip_C16.png
+SHA1-Digest: tJu1ZGo6681xTH62Q2M55p9CWRw=
+
+Name: icons/palette/ICEfaces/small/CommandButton_C16.png
+SHA1-Digest: Yvfby+Ej/cPSkSAp5xutDel2Es0=
+
+Name: icons/palette/ICEfaces/small/Messages_C16.png
+SHA1-Digest: KT4fdQ8I/yJIXC2cYu/ZU8gTHRY=
+
+Name: icons/palette/ICEfaces/ice/small/InputHidden_C16.png
+SHA1-Digest: yBITc8LqQWU3tr5oP9l5i6m9gdU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/DataPaginat
+ orOperation.class
+SHA1-Digest: VgiGl4MmIgb+l1XZtMIxPFm07mI=
+
+Name: metadata/icefaces_component_pi.xml
+SHA1-Digest: fCs9hHuOpot0cdM0KZQECJdliWQ=
+
+Name: icons/palette/ICEfaces/small/GraphicImage_C16.png
+SHA1-Digest: JzbS3xZOsEEQ7VM3qmzha3Uh6rg=
+
+Name: icons/palette/ICEfaces/small/RowSelector_C16.png
+SHA1-Digest: 4QMh6FbZjk3YA5hmetpaHqkAFy0=
+
+Name: css/rime/css-images/Tab_MidMid_bullet_off.gif
+SHA1-Digest: aWEJC7LktzqnZHbxmi9zxUMhXGg=
+
+Name: icons/palette/ICEfaces/small/CommandLink_C16.png
+SHA1-Digest: 5msRWzSwn7QkKmdMCbCcTEmzmEI=
+
+Name: css/rime/css-images/contentContainer_bg_up.gif
+SHA1-Digest: 82G8bzdR9gM/ouCGEY2zid2H46g=
+
+Name: icons/palette/ICEfaces/ice/small/SelectManyListbox_C16.png
+SHA1-Digest: xISrzzzbDPqaQ8SBdf98TTrq+cs=
+
+Name: css/rime/css-images/ProgFill_Indet_Bg_inactive.gif
+SHA1-Digest: WLsQb7vdZ1vxTIFfbKeDqJ43Ss0=
+
+Name: icons/palette/ICEfaces/ice/small/MenuItem_C16.png
+SHA1-Digest: M4PavwBcNkahVzfjrEiyNatzk2M=
+
+Name: icons/palette/ICEfaces/ice/small/HeaderRow_C16.png
+SHA1-Digest: ElXYzv+D0dd5roi6aXEjVSG47j4=
+
+Name: icons/palette/ICEfaces/ice/small/SelectOneListbox_C16.png
+SHA1-Digest: mNKNCqH/hAdGbOkJNQlDs+glFv0=
+
+Name: icons/palette/ICEfaces/mobi/small/OutputList_C16.png
+SHA1-Digest: jJRfTNpYK4G7bgGn8adzaMaaDs8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection$ColumnCotentLabelProvider.class
+SHA1-Digest: zV2DV3Jx5MyA2yy5+sDMLe891N8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AcePanelExp
+ ansionOperation.class
+SHA1-Digest: qvVELQaJvs7FM+h0k0tdy4/HRa4=
+
+Name: css/rime/css-images/arrow-next.gif
+SHA1-Digest: BqNTIf4DTizA4A4jSFtuJitRUzk=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiThumbn
+ ailOperation.class
+SHA1-Digest: jUfiVa9X6+ci3ptPz1jGp7Mfc8M=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiCamcor
+ derOperation.class
+SHA1-Digest: zMNtUPoavx0c9v84lFvX5KMEPv4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/MenuItemSep
+ aratorOperation.class
+SHA1-Digest: YJGh8oy7tf+b2e2k0+T4AJB4d0k=
+
+Name: icons/palette/ICEfaces/small/OutputText_C16.png
+SHA1-Digest: Rq+Dzlb+P+DPsU6JhETgmxCdBRM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection.class
+SHA1-Digest: ueSbJj4jGRbxHdIyAYM9QAQcT/c=
+
+Name: icons/palette/ICEfaces/mobi/small/CommandButton_C16.png
+SHA1-Digest: Yvfby+Ej/cPSkSAp5xutDel2Es0=
+
+Name: metadata/icemobile_mobi_dti.xml
+SHA1-Digest: aZEa68Y50+i5X02SDjaLt/EXw2U=
+
+Name: metadata/icefaces_ace.xml
+SHA1-Digest: nGY63pUwA9nV2CKkBugHAmfzB98=
+
+Name: css/ace/tab/images/Tab_MidMid_bullet_over.gif
+SHA1-Digest: rXJQqt7+R0flh3kan0mE9+EtS9k=
+
+Name: icons/palette/ICEfaces/small/Portlet_C16.png
+SHA1-Digest: CKyMh1mhtuWRXL+qZT+dGlTLzPE=
+
+Name: icons/images/outputchart_image.png
+SHA1-Digest: KOJmBjHVRV5pptYVLrmoMvCdIP4=
+
+Name: icons/palette/ICEfaces/small/Message_C16.png
+SHA1-Digest: iCjPnMrSDy0m+mTyiMrNkSmrf+M=
+
+Name: metadata/icefaces_component.properties
+SHA1-Digest: s+/KxPjZVWIdu9LmwrT6zQP5MbM=
+
+Name: css/rime/css-images/bullet.gif
+SHA1-Digest: IlI72rHeOIhTBEu4YtcR68DssKI=
+
+Name: css/rime/css-images/tree_folder_open.gif
+SHA1-Digest: m0pyHydpm1S4F2xf3psSmPVh3i4=
+
+Name: icons/palette/ICEfaces/ace/small/Draggable_C16.png
+SHA1-Digest: Mbv87Q/cXjs6aeNBg7QqD3Wh8Vc=
+
+Name: css/rime/css-images/cal_arrow_right_dis.gif
+SHA1-Digest: HwS+FxFNYeF8eULc/68OGe/jqq0=
+
+Name: icons/palette/ICEfaces/small/PanelStack_C16.png
+SHA1-Digest: uJNOUDRb90OxSmV3nMfVdX7q7FI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiIcemob
+ ilesxOperation.class
+SHA1-Digest: dB23T8F2tn/AilKfuZ5aHwvYje8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/TabElementEdit
+ $1.class
+SHA1-Digest: fLjk0uhLQxQDVgrQPrV/05963hg=
+
+Name: css/mobi/ipad/timespinner/decrement.png
+SHA1-Digest: H0yawiUuRxIPSxY58M35DMor10s=
+
+Name: css/rime/css-images/tree_nav_top_open.gif
+SHA1-Digest: 7tnO1W2VqpIAZD2IoPJfHiiljtY=
+
+Name: css/rime/css-images/theme_change_bg.gif
+SHA1-Digest: vV0g7wUWCLkzQabjNMwuMls9YDM=
+
+Name: css/rime/css-images/arrow-previous.gif
+SHA1-Digest: J3u49tfDsvpQwltEDF6cj3c2nRI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/dtresourceprovider/MobiDTR
+ esourceProvider.class
+SHA1-Digest: notP6CauXceO/qcyoRsj6M6mWSQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/actions/ICEfacesCommandLin
+ kCreator.class
+SHA1-Digest: KMk/cuPG4UUROEONRA+3PKqMUrg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelStackO
+ peration.class
+SHA1-Digest: vsLP7OxBg+Tx43MSWzZrIkLdGFk=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/ICEfacesDTResources.proper
+ ties
+SHA1-Digest: SNYNnKUmItliL8gtGtJ57GCQ064=
+
+Name: icons/palette/ICEfaces/ice/small/SelectInputText_C16.png
+SHA1-Digest: Lgom6yg7I13epbIMWYa3Z1vr/z8=
+
+Name: icons/palette/ICEfaces/ace/small/TabSetProxy_C16.png
+SHA1-Digest: alvtSAm5NV5Wwg4sTsd55J67e0c=
+
+Name: icons/palette/ICEfaces/ice/small/GMapControl_C16.png
+SHA1-Digest: gxrI/gfSvg4/xaptQorrEge2QaU=
+
+Name: icons/palette/ICEfaces/ace/small/MenuBar_C16.png
+SHA1-Digest: /FvN1yuwJRCL8mzZ8B1UWETzmwM=
+
+Name: css/ace/pushbutton/background-active.png
+SHA1-Digest: 5oPnra9Zs3SG1pkM1dC1lxe0wxc=
+
+Name: icons/palette/ICEfaces/ice/small/SelectOneRadio_C16.png
+SHA1-Digest: U6e6TyUSDQUXAhtWAA27OCVWWNs=
+
+Name: icons/palette/ICEfaces/ice/small/OutputProgress_C16.png
+SHA1-Digest: ehfwxDN3fk+eHgrvNVhRdCe+tUw=
+
+Name: icons/palette/ICEfaces/small/DataTable_C16.png
+SHA1-Digest: bMtzv0SdB8RwBEx4oCD8N5GF7wc=
+
+Name: icons/palette/ICEfaces/small/GMapDirection_C16.png
+SHA1-Digest: +ruNnHHW2vfEhUckQ1g02fuq4Ms=
+
+Name: icons/palette/ICEfaces/ace/small/AccordionPane_C16.png
+SHA1-Digest: a2vvODEXe4l033sOtJjjhVmA/5U=
+
+Name: icons/palette/ICEfaces/small/MenuItems_C16.png
+SHA1-Digest: ODkpBCuTWZH/qizj3CGd7BK7o0I=
+
+Name: icons/palette/ICEfaces/small/Form_C16.png
+SHA1-Digest: xqILJVJ7VOJDlxVprQZItI60eu4=
+
+Name: icons/palette/ICEfaces/ace/small/Animation_C16.png
+SHA1-Digest: ZmL1A7+tXSz9JwENzedG/G23TXM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/PanelGridDeleteCo
+ lumnCommand.class
+SHA1-Digest: SZFDoo3kFLQ/Xnmz0LhNoUxWWaw=
+
+Name: icons/palette/ICEfaces/ice/small/PanelCollapsible_C16.png
+SHA1-Digest: ++GUTm2Pe45lX+5f9j5lSqvXEL8=
+
+Name: icons/palette/ICEfaces/ice/small/SelectBooleanCheckbox_C16.png
+SHA1-Digest: 7SUd1FWBiXrb6HzmqdyHEoytgkc=
+
+Name: css/rime/css-images/off-mid-bot.gif
+SHA1-Digest: rxcAom+hhHRSzpQgLIgdAvY5MSk=
+
+Name: icons/palette/ICEfaces/small/PanelCollapsible_C16.png
+SHA1-Digest: ++GUTm2Pe45lX+5f9j5lSqvXEL8=
+
+Name: icons/palette/ICEfaces/ace/small/Tooltip_C16.png
+SHA1-Digest: tJu1ZGo6681xTH62Q2M55p9CWRw=
+
+Name: icons/palette/ICEfaces/icefaces16.png
+SHA1-Digest: ZR5bxdvJnvcnCqvKO6nFVxp79cs=
+
+Name: css/ace/themes/sam/images/ui-bg_glass_95_fef1ec_1x400.png
+SHA1-Digest: YUB5nDOPn6XMzk+yk0ZRKAZGKmA=
+
+Name: css/rime/css-images/Tab_Btm_MidMid.gif
+SHA1-Digest: wiHyZXzFlT0712ZnQMi6evwM77I=
+
+Name: css/ace/themes/sam/images/ui-bg_glass_75_e6e6e6_1x400.png
+SHA1-Digest: yB6m+6TbiX31mWcMa/OztXZNTlQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceSliderEn
+ tryOperation.class
+SHA1-Digest: RU2687jdhnOdTFvXgPjNy+PtJV4=
+
+Name: icons/palette/ICEfaces/small/MenuItem_C16.png
+SHA1-Digest: M4PavwBcNkahVzfjrEiyNatzk2M=
+
+Name: icons/palette/ICEfaces/ice/small/Message_C16.png
+SHA1-Digest: iCjPnMrSDy0m+mTyiMrNkSmrf+M=
+
+Name: icons/palette/ICEfaces/mobi/small/InputText_C16.png
+SHA1-Digest: jnPbSbuBYBiQfEynRLbqaRcZiBU=
+
+Name: css/rime/css-images/PnlHdr_collapsed_dis.gif
+SHA1-Digest: PDytQho00AE/yCui/o2sWLkd1Tk=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceDateTime
+ EntryOperation.class
+SHA1-Digest: CuOurvzt4iZhJxEeQMNwHle2jls=
+
+Name: css/rime/css-images/Tab_MidTop_off.gif
+SHA1-Digest: HTjfr0sEciEEXraL+wbocNPXXOk=
+
+Name: css/ace/themes/sam/images/ui-icons_222222_256x240.png
+SHA1-Digest: HxK6xximJ1gj2YBcvmv2gYg4qow=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceTabSetOp
+ eration.class
+SHA1-Digest: TyTOnq3uue5fsjMXsJqVk8UtNaU=
+
+Name: css/rime/css-images/tree_line_vertical.gif
+SHA1-Digest: LLBe4mSGKB30b5di7zYvWfZVE0o=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/PanelGridInsertCo
+ lumnCommand.class
+SHA1-Digest: yqQR5cSx26jXexn5eCELqL2jr0s=
+
+Name: icons/palette/ICEfaces/small/SelectOneListbox_C16.png
+SHA1-Digest: mNKNCqH/hAdGbOkJNQlDs+glFv0=
+
+Name: css/rime/css-images/PnlClpsblCnt_bullet.gif
+SHA1-Digest: pbT+O2Zs3y/14MCJscFXSzLdVbU=
+
+Name: icons/palette/ICEfaces/ice/small/MenuItemRadio_C16.png
+SHA1-Digest: 4ZtvLDz4tfagSywtvN84mf2NGa4=
+
+Name: icons/palette/ICEfaces/small/PanelSeries_C16.png
+SHA1-Digest: jJRfTNpYK4G7bgGn8adzaMaaDs8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/TabElementEdit
+ $2.class
+SHA1-Digest: rv1XgHvrOA6RYkhX90ja0pXzvXQ=
+
+Name: css/ace/themes/sam/images/ui-default.png
+SHA1-Digest: 2KhGV6APoZoJ5VZc33H7yYXBAe4=
+
+Name: icons/palette/ICEfaces/ice/small/PanelPositioned_C16.png
+SHA1-Digest: NoLpaOemC+JMy9uBY4ZeauXfdOg=
+
+Name: css/rime/css-images/Tab_RtTop_off.gif
+SHA1-Digest: uUhTTQX/eOqwV6+6URwAtGeLJGw=
+
+Name: icons/palette/ICEfaces/mobi/small/Geolocation_C16.png
+SHA1-Digest: 4OqEic0zmNa8jqg5sxCO+kduztc=
+
+Name: css/mobi/ipad/datespinner/header.png
+SHA1-Digest: 6NTI+u1SVrgyXLyWmG4KUE2COkQ=
+
+Name: icons/palette/ICEfaces/ace/small/Accordion_C16.png
+SHA1-Digest: vSTrkzpDt/DL/vVAAxGlE+HtMGk=
+
+Name: css/mobi/ipad.css
+SHA1-Digest: ze5OsebQW2sOcX3scE5bpejoWR8=
+
+Name: css/rime/css-images/tree_nav_top_close_no_siblings.gif
+SHA1-Digest: iVxwYvec/Sh5keXm3yMLSWZwaDg=
+
+Name: css/rime/css-images/tree_folder_close.gif
+SHA1-Digest: 4XTf899vCsuFDIdYsBMKdLzCs0s=
+
+Name: icons/palette/ICEfaces/ice/small/TreeNode_C16.png
+SHA1-Digest: 6Dw7p2TMylK1i4+DPpKVzhb4WDg=
+
+Name: icons/palette/ICEfaces/small/OutputFormat_C16.png
+SHA1-Digest: L6+x7Z0RngpnvPx2FtG5mHMYe4Q=
+
+Name: icons/palette/ICEfaces/small/PanelGrid_C16.png
+SHA1-Digest: wc/A4DJlTHo4Ch4RvkhNKVQ5TlQ=
+
+Name: icons/palette/ICEfaces/ice/small/TreeDataModel_C16.png
+SHA1-Digest: 6Dw7p2TMylK1i4+DPpKVzhb4WDg=
+
+Name: icons/palette/ICEfaces/small/OutputChart_C16.png
+SHA1-Digest: 1TewFsLhhzfzRWH0rXvRFwkPqxE=
+
+Name: css/rime/css-images/PnlHdr_down_dis.gif
+SHA1-Digest: UJHyFOZJ/UDFVghFM/XQ01vDyVM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceRowOpera
+ tion.class
+SHA1-Digest: yDIY5RBMSTkKOmTHNr34SxPTomY=
+
+Name: css/rime/css-images/table-border.gif
+SHA1-Digest: XQLyslH4IPXJCo5nhzIrZLah+kk=
+
+Name: icons/palette/ICEfaces/ice/small/DataPaginator_C16.png
+SHA1-Digest: IgVE/8AblPkHQPGb9jtKDCOsskg=
+
+Name: icons/palette/ICEfaces/core/small/Config_C16.png
+SHA1-Digest: iOzSV0M9RntB3G88J69QBirhccI=
+
+Name: icons/palette/ICEfaces/mobi/small/FieldsetRow_C16.png
+SHA1-Digest: eewlMOg698xo5kw8djZ5Lt9ixWE=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiAudioO
+ peration.class
+SHA1-Digest: QVBr547hfpfT6ectx038/DW21uc=
+
+Name: icons/palette/ICEfaces/ice/small/InputText_C16.png
+SHA1-Digest: jnPbSbuBYBiQfEynRLbqaRcZiBU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/AddRowSelectorCom
+ mand.class
+SHA1-Digest: zfiZZEf1xVAJSeJbMJM2jclKYqc=
+
+Name: icons/palette/ICEfaces/mobi/small/DeviceStylesheet_C16.png
+SHA1-Digest: jLS7rY+Ec/wLc3lTpiD/ZW4Y97k=
+
+Name: icons/palette/ICEfaces/ace/small/Submenu_C16.png
+SHA1-Digest: ncW8UoRsDpc/n+AyjBiEBcq0c30=
+
+Name: css/rime/css-images/Tab_Btm_MidBtm_off.gif
+SHA1-Digest: qWkgnU0hcgaxAgGzFnE6H7/+EnU=
+
+Name: css/rime/css-images/Tab_RtMid.gif
+SHA1-Digest: C4rc6X8sjrAaGSc+serqDz4i45I=
+
+Name: css/mobi/ipad/timespinner/increment.png
+SHA1-Digest: vQ7QqYqLebZmV7HIT+RK8HdlzpY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/MenuBarOper
+ ation.class
+SHA1-Digest: djbGjLNSm8iIbCNTwgN539eLyZQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DefaultICEface
+ sElementEdit.class
+SHA1-Digest: TToLAx9ocLh7C98FU1s7uS5bHAg=
+
+Name: metadata/icefaces_ace_dti.xml
+SHA1-Digest: oCRlWvn4cdkOTvll4T7TErDZt2Q=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceExpansio
+ nTogglerOperation.class
+SHA1-Digest: IKtBP9RFrSzaAsmDbo2XmVD0CGM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/InputFileOp
+ eration.class
+SHA1-Digest: HbxsbF2q42XWwxODChz7qMsgOak=
+
+Name: icons/palette/ICEfaces/ice/small/TabSet_C16.png
+SHA1-Digest: 3XaMNfS/qYrly+lm7sB8jwEPPx4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiComman
+ dButtonOperation.class
+SHA1-Digest: zaROCNeU/nrfrqSkk5RVOlquMRE=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/PanelGridDeleteRo
+ wCommand.class
+SHA1-Digest: jJE4S4n5VUL14VkFJkqe/+HG5WQ=
+
+Name: icons/images/gmap_image.png
+SHA1-Digest: G65Ug7W8kB8rZjExS9xdGjmQdp4=
+
+Name: css/rime/css-images/off-mid-top-dis.gif
+SHA1-Digest: qWIjDcvjd9q63As2LZa0DSKUCK0=
+
+Name: icons/palette/ICEfaces/small/OutputDeclaration_C16.png
+SHA1-Digest: 9KEs4kF10UCcl03pzB+88YUQtCM=
+
+Name: icons/palette/ICEfaces/ace/small/Menu_C16.png
+SHA1-Digest: xzHZePeVWBiXB8KAnvNE/8R5YCs=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiInputT
+ extOperation.class
+SHA1-Digest: tH/F0/FJHwrBcD8kSRQdEmalF0o=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelPositi
+ onedOperation.class
+SHA1-Digest: ZsJH+a3QKURRO1opYSURVI0e/tc=
+
+Name: icons/palette/ICEfaces/small/TabSet_C16.png
+SHA1-Digest: 3XaMNfS/qYrly+lm7sB8jwEPPx4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/Activator.class
+SHA1-Digest: bkmnQZtN5MAyrsIPJCyuBrqOBMU=
+
+Name: css/rime/css-images/cal_arrow_right.gif
+SHA1-Digest: 14QF5j4zwG9Drq9VlS+9hkI/jU0=
+
+Name: css/mobi/ipad/stylesheet/icefaces.png
+SHA1-Digest: iUpEfF/m4a/+G1XVZBG/NyP0/H4=
+
+Name: icons/palette/ICEfaces/small/InputRichText_C16.png
+SHA1-Digest: xc7okq2gi4KoNTDUcmbXNlMRpMU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceTabPaneO
+ peration.class
+SHA1-Digest: enOiSDugBwjhZ7kDAeVDNXvgcuI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/CopyChildrenIgn
+ orFacetOperation.class
+SHA1-Digest: Iy+B0tknRrSUeTB2WCN9v4B1fyM=
+
+Name: css/ace/themes/sam/images/ui-bg_flat_75_ffffff_40x100.png
+SHA1-Digest: qbsTHErP8NB/p7fyG+8FF5wo0Ts=
+
+Name: icons/palette/ICEfaces/ace/small/DataTable_C16.png
+SHA1-Digest: bMtzv0SdB8RwBEx4oCD8N5GF7wc=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiCamera
+ Operation.class
+SHA1-Digest: GG81XjY/5Iv0KLr8BS7lWBwL2/A=
+
+Name: metadata/icefaces_ace_pi.xml
+SHA1-Digest: RQMteyDgGTJUBF4c4Sp38ww+f8Q=
+
+Name: css/rime/css-images/tree_nav_middle_close.gif
+SHA1-Digest: Lx6wrhmhThKFlgVUUopAl4/Qfq4=
+
+Name: icons/palette/ICEfaces/ice/small/Messages_C16.png
+SHA1-Digest: KT4fdQ8I/yJIXC2cYu/ZU8gTHRY=
+
+Name: icons/palette/ICEfaces/small/TabPane_C16.png
+SHA1-Digest: 8391sLvbdyh2aRgRHni0mpSq+3A=
+
+Name: css/rime/css-images/Tab_MidTop.gif
+SHA1-Digest: uRi1Nc7dOb7i075/yASXlEXTaaE=
+
+Name: icons/palette/ICEfaces/ace/small/Dialog_C16.png
+SHA1-Digest: cLy8NKwsUGSo0GfiUMVL6co2KYE=
+
+Name: icons/palette/ICEfaces/ace/small/ProgressBar_C16.png
+SHA1-Digest: ehfwxDN3fk+eHgrvNVhRdCe+tUw=
+
+Name: css/rime/css-images/Tab_LftMid.gif
+SHA1-Digest: 9lVahBb4KrJ1//P92G2d4fA92NQ=
+
+Name: icons/palette/ICEfaces/mobi/small/Thumbnail_C16.png
+SHA1-Digest: MDHM9vdm3uzL1lpAtnfh8YXVWlk=
+
+Name: icons/palette/ICEfaces/ice/small/PushButton_C16.png
+SHA1-Digest: Yvfby+Ej/cPSkSAp5xutDel2Es0=
+
+Name: css/rime/css-images/PnlHdr_down.gif
+SHA1-Digest: IB17L32v9QI251nSJUa44kv1pqs=
+
+Name: metadata/icefaces_hidden_component.xml
+SHA1-Digest: 4zkB40G+unXJ8fbPmfeO5bnyY6I=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceAccordio
+ nOperation.class
+SHA1-Digest: Lb8sUtY5kCD/Xvy16YIyn/QC62g=
+
+Name: css/rime/css-images/off-right-top-dis.gif
+SHA1-Digest: J7GexSYn3eCDqUm7xdDtQjXZBsA=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit$MyDragMoveEditPolicy$OnlyColumnsAndFacetsRule.class
+SHA1-Digest: 7pNts1XXyUNY0ETQ4EwuJWbSLRU=
+
+Name: icons/palette/ICEfaces/small/CheckboxButton_C16.png
+SHA1-Digest: JzDjlnk+aZ4yq5rgyZOxnxC6ZPU=
+
+Name: icons/palette/ICEfaces/small/OutputLabel_C16.png
+SHA1-Digest: dJxC0lhV0+zmeOBvXkmSMPQwNF8=
+
+Name: css/rime/css-images/arrow-ff.gif
+SHA1-Digest: 7XVslBoWKTq4nziZkEh0j7c+zQA=
+
+Name: icons/palette/ICEfaces/ice/small/PanelDivider_C16.png
+SHA1-Digest: 90e6xMxo2gjXMlaqnTsB4Zm/CZw=
+
+Name: icons/palette/ICEfaces/ice/small/LinkButton_C16.png
+SHA1-Digest: 5msRWzSwn7QkKmdMCbCcTEmzmEI=
+
+Name: css/rime/css-images/tree_nav_bottom_open.gif
+SHA1-Digest: WaHFNK2rOaJkK7KDYaaw/TKXL1c=
+
+Name: icons/palette/ICEfaces/ice/small/InputSecret_C16.png
+SHA1-Digest: J9/+H77OcZkVVzSLMKYRU3iXrOQ=
+
+Name: icons/palette/ICEfaces/ice/small/GMapDirection_C16.png
+SHA1-Digest: +ruNnHHW2vfEhUckQ1g02fuq4Ms=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceRowExpan
+ sionOperation.class
+SHA1-Digest: e5solphIX9jP1/iRU+Vrn4P0P14=
+
+Name: icons/palette/ICEfaces/ice/small/OutputLink_C16.png
+SHA1-Digest: yjuJGZKPwPvl0LgMAh1HJKZwQmY=
+
+Name: icons/palette/ICEfaces/ice/small/RowSelector_C16.png
+SHA1-Digest: 4QMh6FbZjk3YA5hmetpaHqkAFy0=
+
+Name: icons/palette/ICEfaces/ice/small/SelectManyCheckbox_C16.png
+SHA1-Digest: qrpyaWNxo0R6VVG8Mh9SxYlw3SE=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiScanOp
+ eration.class
+SHA1-Digest: zvviloQSu6oImt/jzSigmAIg5xk=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/TabContainerOpe
+ ration.class
+SHA1-Digest: ODNRsKjmdqoHbd3PoPsrsxEjdnk=
+
+Name: icons/palette/ICEfaces/small/DateTimeEntry_C16.png
+SHA1-Digest: x98DpG7XJKEcakuoYKOWh9IE7LU=
+
+Name: css/mobi/ipad/timespinner/header.png
+SHA1-Digest: 6NTI+u1SVrgyXLyWmG4KUE2COkQ=
+
+Name: icons/palette/ICEfaces/ace/small/ContextMenu_C16.png
+SHA1-Digest: qXYOPOvDUmBnH677u/lLwkKuM/A=
+
+Name: css/rime/css-images/tree_document.gif
+SHA1-Digest: 6CdOzQi2UTVBQrLNB6gXYicpEzo=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection$5.class
+SHA1-Digest: XEAIHUrDgZjjmh1TfLDe8dEOMlQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/datatableedit/AddRowSelect
+ orRequest.class
+SHA1-Digest: DjgcKJ9clZ5WCWGcjVn+7ZeHqDs=
+
+Name: icons/palette/ICEfaces/small/TabSetProxy_C16.png
+SHA1-Digest: alvtSAm5NV5Wwg4sTsd55J67e0c=
+
+Name: icons/palette/ICEfaces/ace/small/TabSet_C16.png
+SHA1-Digest: 3XaMNfS/qYrly+lm7sB8jwEPPx4=
+
+Name: icons/palette/ICEfaces/mobi/small/Carousel_C16.png
+SHA1-Digest: tUc0zeYrDl2bifPXN3s1eiBKz9E=
+
+Name: icons/palette/ICEfaces/ice/small/CommandLink_C16.png
+SHA1-Digest: 5msRWzSwn7QkKmdMCbCcTEmzmEI=
+
+Name: metadata/icefaces_eclipse_vm.xml
+SHA1-Digest: h9sJ3F7MmoeOQwCzShzRy5Hji98=
+
+Name: icons/palette/ICEfaces/small/PanelTab_C16.png
+SHA1-Digest: 8391sLvbdyh2aRgRHni0mpSq+3A=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceProgress
+ BarOperation.class
+SHA1-Digest: ra0ABEhtpx+4LW6Pkny6UcJm2AY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceMenuItem
+ Operation.class
+SHA1-Digest: XGKg6IucymKG+7Fj58qDEjC0M74=
+
+Name: icons/palette/ICEfaces/ice/small/GMapMarker_C16.png
+SHA1-Digest: 1tN5vF519MSFg40GMRLCbmWyraI=
+
+Name: icons/palette/ICEfaces/small/PushButton_C16.png
+SHA1-Digest: Yvfby+Ej/cPSkSAp5xutDel2Es0=
+
+Name: css/ace/linkbutton/background-active.png
+SHA1-Digest: 5oPnra9Zs3SG1pkM1dC1lxe0wxc=
+
+Name: icons/palette/ICEfaces/ace/small/RowExpansion_C16.png
+SHA1-Digest: 6Dw7p2TMylK1i4+DPpKVzhb4WDg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceNotifica
+ tionPanelOperation.class
+SHA1-Digest: V4XXdiWeHEaqZ5F3yH0iEYUVNk4=
+
+Name: css/rime/css-images/ProgFill_Indet_Bg_active.gif
+SHA1-Digest: U/IqPmpkkKo9eQMl+i7CO7LdsiA=
+
+Name: css/rime/css-images/Tab_Btm_LftMid.gif
+SHA1-Digest: mpUd4dugvAK2pVBlWrWuzvFzhGs=
+
+Name: icons/palette/ICEfaces/ice/small/MenuItems_C16.png
+SHA1-Digest: ODkpBCuTWZH/qizj3CGd7BK7o0I=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/dtresourceprovider/ICEface
+ sDTResourceProvider.class
+SHA1-Digest: 766aTLOgpOMAACk8oo7YPg+53n0=
+
+Name: icons/palette/ICEfaces/small/OutputLink_C16.png
+SHA1-Digest: yjuJGZKPwPvl0LgMAh1HJKZwQmY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/MenuItemOpe
+ ration.class
+SHA1-Digest: fvYCR4VuXAq+akzltG1z9bNzuhY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/datatableedit/AddRowSelect
+ orAction.class
+SHA1-Digest: K8UkpCS1/MaNozfc46U6dzqEZsw=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/GMapElementEdi
+ t$2.class
+SHA1-Digest: noWvw21Yq+5u6+uVeDMvY5ituSw=
+
+Name: icons/palette/ICEfaces/mobi/small/OutputListItems_C16.png
+SHA1-Digest: LBoZt5EsGcJis5q6zWy2eg0/dJ8=
+
+Name: css/rime/css-images/tree_folder_doc.gif
+SHA1-Digest: PpPY9n2jr0XdoA6jCfRNJUkf0q4=
+
+Name: css/ace/pushbutton/background-highlight.png
+SHA1-Digest: OItxtg0AO86uAqcVCiM0/8QqrbE=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiComman
+ dButtonGroupOperation.class
+SHA1-Digest: UNjfCxM8r92XTEyEn3H0DEATyvE=
+
+Name: css/ace/themes/sam/images/ui-icons_2e83ff_256x240.png
+SHA1-Digest: r2AINT2aIwXl0ln6K9s4avMDmJw=
+
+Name: icons/palette/ICEfaces/ice/small/OutputText_C16.png
+SHA1-Digest: Rq+Dzlb+P+DPsU6JhETgmxCdBRM=
+
+Name: css/rime/css-images/Tab_Btm_RtBtm.gif
+SHA1-Digest: GtK4ghk00Ro0qQPJlf2S8505TcQ=
+
+Name: icons/palette/ICEfaces/small/SetEventPhase_C16.png
+SHA1-Digest: ImJdD+sr5WEiQ4E17QHgs1zOMKQ=
+
+Name: icons/palette/ICEfaces/ice/small/PanelTabSet_C16.png
+SHA1-Digest: 3XaMNfS/qYrly+lm7sB8jwEPPx4=
+
+Name: icons/palette/ICEfaces/mobi/small/Camcorder_C16.png
+SHA1-Digest: bncVGlBahvl1IHWJ1Y1tiNmftjg=
+
+Name: icons/palette/ICEfaces/ice/small/MenuBar_C16.png
+SHA1-Digest: xzHZePeVWBiXB8KAnvNE/8R5YCs=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/GMapOperati
+ on.class
+SHA1-Digest: BUUdY8K9qzVIiJabls+8W5fEDiU=
+
+Name: icons/palette/ICEfaces/mobi/small/FieldsetGroup_C16.png
+SHA1-Digest: QFIEevIxEpo/r5YlAnEhOL7n5qo=
+
+Name: icons/palette/ICEfaces/small/MenuPopup_C16.png
+SHA1-Digest: qXYOPOvDUmBnH677u/lLwkKuM/A=
+
+Name: css/mobi/ipad/sprite.png
+SHA1-Digest: 6MIEYsGC/ruMuCvy9HcCKSGA1Vk=
+
+Name: icons/palette/ICEfaces/small/Tree_C16.png
+SHA1-Digest: Jn9f1K69C3TXd27E6ESCC6xK2zc=
+
+Name: css/rime/rime-portlet.css
+SHA1-Digest: rLKO2dk/QKvqE3dua5K3jQNBtt8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit$DataTableResizePolicy$1.class
+SHA1-Digest: vnA9Md5JXeP/g0Zr5IACsLN8fLg=
+
+Name: css/ace/themes/sam/images/ui-icons_888888_256x240.png
+SHA1-Digest: /7PZz9hCv54j8Sap3PZUan38VwE=
+
+Name: css/mobi/ipad/panelstack/pinstripes.png
+SHA1-Digest: rJeKbR4/TjtnkwIXkVjFhKd3woc=
+
+Name: css/ace/calendar/calendar_icon_disabled.png
+SHA1-Digest: DOPEka0zv4RhN1hmAho6EmR+c8g=
+
+Name: icons/icefaces.gif
+SHA1-Digest: wChVWLNefi53BrgiLlnZpmeaua0=
+
+Name: icons/images/datatable_sort_icon.png
+SHA1-Digest: sZvuoP80XtQA9H+8RSgL/JX1DJ0=
+
+Name: icons/palette/ICEfaces/ice/small/InputFile_C16.png
+SHA1-Digest: 7+q0kRwrgerhefmR6+jIDMT9yY8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/tabedit/TabDeleteRequest.c
+ lass
+SHA1-Digest: 8ZRsEh8jYQ8BH4Xjdn6V29r5EWg=
+
+Name: css/rime/css-images/PnlHdr_file.gif
+SHA1-Digest: qPJxseXRrnkWZS1U+iyh2hagqVA=
+
+Name: css/ace/linkbutton/background-disabled.gif
+SHA1-Digest: 2zTQrACupf/Zy3w8uZENYm5D60A=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection$6.class
+SHA1-Digest: RE9qPlkxB3g0APP001PDPRMTbD4=
+
+Name: css/rime/css-images/Tab_Btm_RtMid_off.gif
+SHA1-Digest: p9ZYVcHIQpAL1VB7u8DLwSb78HY=
+
+Name: icons/palette/ICEfaces/small/OutputResource_C16.png
+SHA1-Digest: k+3Tkq06+LnLu2LG6eM/YznhrhA=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/GMapElementEdi
+ t.class
+SHA1-Digest: EMbyASFyIIH63Leu4tMr9vV+YrU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/DataTableDeleteCo
+ lumnCommand.class
+SHA1-Digest: lb/1+3uRNvu6HnNYQBup5I3AXWA=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/AddGMapChildAc
+ tion.class
+SHA1-Digest: Od5m8rUmIrByk249CMbt/SwbrlY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/PanelGridInsertRo
+ wCommand.class
+SHA1-Digest: vZ43ALqZG4bgXoX5h2dr+cZsnX4=
+
+Name: icons/palette/ICEfaces/ice/small/DataExporter_C16.png
+SHA1-Digest: k+3Tkq06+LnLu2LG6eM/YznhrhA=
+
+Name: icons/palette/ICEfaces/small/SliderEntry_C16.png
+SHA1-Digest: ehfwxDN3fk+eHgrvNVhRdCe+tUw=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit$1.class
+SHA1-Digest: TlyI4LUDOqR8/a66rZD1JptTE3g=
+
+Name: icons/palette/ICEfaces/small/FileEntry_C16.png
+SHA1-Digest: 7+q0kRwrgerhefmR6+jIDMT9yY8=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/dtresourceprovider/AceDTRe
+ sourceProvider.class
+SHA1-Digest: P2L3R9FjgBLuHCBFLR+6Udgaoyg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit$MyDragMoveEditPolicy.class
+SHA1-Digest: hFa6Dc6/1VjsQNc3XinIfWjajrY=
+
+Name: icons/palette/ICEfaces/small/PanelTooltip_C16.png
+SHA1-Digest: tJu1ZGo6681xTH62Q2M55p9CWRw=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/PanelGridEleme
+ ntEdit$1.class
+SHA1-Digest: FjGSxG2YQgSMUlsYOIFikAR58U0=
+
+Name: icons/palette/ICEfaces/ice/small/GMap_C16.png
+SHA1-Digest: +Dl4K1p9p9mZIyYbvdCPg1u/7FU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/DataTableDeleteCo
+ lumnHeaderCommand.class
+SHA1-Digest: mSLyXo5cxGNPc9Q+g/8RvK9FSrc=
+
+Name: css/ace/tab/images/Tab_MidMid_bullet_off.gif
+SHA1-Digest: aWEJC7LktzqnZHbxmi9zxUMhXGg=
+
+Name: icons/palette/ICEfaces/ice/small/SetEventPhase_C16.png
+SHA1-Digest: ImJdD+sr5WEiQ4E17QHgs1zOMKQ=
+
+Name: css/rime/css-images/Tab_MidMid_off.gif
+SHA1-Digest: 4LJ7Ggbr3YByY9zxG5iZ3OB98m4=
+
+Name: icons/palette/ICEfaces/mobi/small/Microphone_C16.png
+SHA1-Digest: WrAEr11bcLNv+rLEyBLucmNOf+o=
+
+Name: icons/palette/ICEfaces/small/CommandSortHeader_C16.png
+SHA1-Digest: xoeXGDLfA0s1SZkoaoE3N6bII9U=
+
+Name: plugin.xml
+SHA1-Digest: 5s5htkLIuQyWInSbJjSOrug6geM=
+
+Name: icons/palette/ICEfaces/ace/small/Resizable_C16.png
+SHA1-Digest: NoLpaOemC+JMy9uBY4ZeauXfdOg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiCarous
+ elOperation.class
+SHA1-Digest: 5DzLPWcop/6k29lwdSlkX5fUWlw=
+
+Name: icons/palette/ICEfaces/small/TreeDataModel_C16.png
+SHA1-Digest: 6Dw7p2TMylK1i4+DPpKVzhb4WDg=
+
+Name: icons/palette/ICEfaces/small/InputFile_C16.png
+SHA1-Digest: 7+q0kRwrgerhefmR6+jIDMT9yY8=
+
+Name: icons/palette/ICEfaces/ice/small/TabSetProxy_C16.png
+SHA1-Digest: alvtSAm5NV5Wwg4sTsd55J67e0c=
+
+Name: css/rime/css-images/submenu.gif
+SHA1-Digest: OMFUvIxVJpjzbV4sd5hErF8BmSU=
+
+Name: icons/palette/ICEfaces/ice/small/PanelLayout_C16.png
+SHA1-Digest: vhe6h6pK+F6SZ2z69Z7HPjoY8/w=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/tabedit/TabDeleteAction.cl
+ ass
+SHA1-Digest: HohmN+961bNGYx5W0YbJO/DO3bo=
+
+Name: css/rime/css-images/connect_active.gif
+SHA1-Digest: ZV2hNGLpwrx3B0+TTBrzA91KQi0=
+
+Name: icons/palette/ICEfaces/small/GMapMarker_C16.png
+SHA1-Digest: 1tN5vF519MSFg40GMRLCbmWyraI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/datatableedit/AddSortHeade
+ rAction.class
+SHA1-Digest: +hqKXVpkngRQko8K1cFW60ihnqg=
+
+Name: css/ace/themes/sam/images/ui-bg_glass_55_fbf9ee_1x400.png
+SHA1-Digest: SWYVP1JgzItbnqOv1b1rDe5bx7E=
+
+Name: css/rime/css-images/off-left-top-dis.gif
+SHA1-Digest: LOVAsD9yLQBM7LptUdZdu23TlpI=
+
+Name: css/ace/pushbutton/background-focus.png
+SHA1-Digest: fI6Q09fJWObsC6rEPeWy8ReVXaY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/PanelGridEleme
+ ntEdit.class
+SHA1-Digest: 8xmGGR4/XFQiLwL3ZSKtgxRBX1w=
+
+Name: icons/palette/ICEfaces/ace/small/NotificationPanel_C16.png
+SHA1-Digest: gStJsNA1+Cdn0SU+lkYr03Y+gcE=
+
+Name: icons/palette/ICEfaces/small/GMap_C16.png
+SHA1-Digest: hv0hHXBeD3xhM/Ydplcc5JTAbek=
+
+Name: icons/palette/ICEfaces/ice/small/GraphicImage_C16.png
+SHA1-Digest: JzbS3xZOsEEQ7VM3qmzha3Uh6rg=
+
+Name: css/rime/css-images/Tab_RtTop.gif
+SHA1-Digest: Gj+hycZYIoxYI1S02c67NcbvAHI=
+
+Name: css/rime/css-images/table_col_header.gif
+SHA1-Digest: WfozfFKlyL29xpLiCCpCxbFs2rA=
+
+Name: css/rime/css-images/arrow-previous-dis.gif
+SHA1-Digest: hPQ5h5+U7l++OfoNHP/us1NJS8k=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection$2.class
+SHA1-Digest: Qgjqp6h5UUYKmkctWbytFoiyn3o=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/ColumnElementE
+ dit$MyDropLocationStrategy.class
+SHA1-Digest: dHVEVuR+x8jhOqpW5hqFppPKHyc=
+
+Name: icons/palette/ICEfaces/ice/small/OutputChart_C16.png
+SHA1-Digest: 1TewFsLhhzfzRWH0rXvRFwkPqxE=
+
+Name: icons/palette/ICEfaces/small/PanelBorder_C16.png
+SHA1-Digest: Z2g5a2KBE+H6rW4rEuTF9vB4qJ0=
+
+Name: icons/palette/ICEfaces/small/PanelTabSet_C16.png
+SHA1-Digest: 3XaMNfS/qYrly+lm7sB8jwEPPx4=
+
+Name: css/rime/css-images/cal_arrow_left_dis.gif
+SHA1-Digest: N5E6PSyvSfUkEnd4bLyBQiQtIeI=
+
+Name: icons/palette/ICEfaces/small/InputHidden_C16.png
+SHA1-Digest: yBITc8LqQWU3tr5oP9l5i6m9gdU=
+
+Name: license.html
+SHA1-Digest: cmJVmmT5R+qdeVh+LybvV7C7oi4=
+
+Name: css/rime/css-images/PnlHdr_collapsed.gif
+SHA1-Digest: yb+NIQ+XatERyeqmbToKiCwOrRQ=
+
+Name: css/rime/css-images/Tab_Btm_LftBtm_off.gif
+SHA1-Digest: abP21Jvv1JejJa3TAcGs7cYm+V0=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/ColumnElementE
+ dit.class
+SHA1-Digest: LdjuohPa27wM9qI5a40SCshrRcY=
+
+Name: css/rime/css-images/Tab_LftMid_off.gif
+SHA1-Digest: IB0WEHJbYWI/Td3RZ90do3cDwb4=
+
+Name: icons/palette/ICEfaces/ice/small/Tree_C16.png
+SHA1-Digest: Jn9f1K69C3TXd27E6ESCC6xK2zc=
+
+Name: css/ace/themes/sam/images/ui-bg_highlight-soft_75_cccccc_1x100.p
+ ng
+SHA1-Digest: U7UJmcTJg4oqKhkLVCA6ucasuyE=
+
+Name: css/rime/css-images/arrow-fr.gif
+SHA1-Digest: k9XKFLrm3PTK7ax4nLkWhZL6TkU=
+
+Name: icons/palette/ICEfaces/ace/small/Droppable_C16.png
+SHA1-Digest: txLxRKRG+mgcnQ6/jXnM9tK0e68=
+
+Name: icons/palette/ICEfaces/ice/small/MenuItemSeparator_C16.png
+SHA1-Digest: v64GmSslR5ZjtQGdaC3htD/O9EU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/PanelGridEleme
+ ntEdit$PanelGridResizePolicy.class
+SHA1-Digest: OVBuqfFkGwm1eQzU7ksLoOfdO2g=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit$3.class
+SHA1-Digest: l91e+3Hb5A0MjwVaQkXuPKviMkM=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DataTableEleme
+ ntEdit.class
+SHA1-Digest: aBWUG+ZwzJQTXIjto+sfY021bxE=
+
+Name: icons/palette/ICEfaces/ice/small/PanelPopup_C16.png
+SHA1-Digest: gStJsNA1+Cdn0SU+lkYr03Y+gcE=
+
+Name: icons/palette/ICEfaces/ace/small/FileEntry_C16.png
+SHA1-Digest: 7+q0kRwrgerhefmR6+jIDMT9yY8=
+
+Name: icons/palette/ICEfaces/small/SelectBooleanCheckbox_C16.png
+SHA1-Digest: 7SUd1FWBiXrb6HzmqdyHEoytgkc=
+
+Name: icons/palette/ICEfaces/small/PanelLayout_C16.png
+SHA1-Digest: vhe6h6pK+F6SZ2z69Z7HPjoY8/w=
+
+Name: css/rime/css-images/Tab_MidMid.gif
+SHA1-Digest: fsxpq0mT2HNKyi2u99dWx9ISGCI=
+
+Name: icons/palette/ICEfaces/ice/small/DataTable_C16.png
+SHA1-Digest: bMtzv0SdB8RwBEx4oCD8N5GF7wc=
+
+Name: icons/palette/ICEfaces/ice/small/SelectInputDate_C16.png
+SHA1-Digest: x98DpG7XJKEcakuoYKOWh9IE7LU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/TabElementEdit
+ $TabResizePolicy.class
+SHA1-Digest: zX1fJV9ImmJyhhmlyBPBU/csvZU=
+
+Name: css/mobi/ipad/datespinner/increment.png
+SHA1-Digest: vQ7QqYqLebZmV7HIT+RK8HdlzpY=
+
+Name: css/ace/checkboxbutton/background.png
+SHA1-Digest: Y93TQiyhU1aPeT9vVQ2UTADzEt8=
+
+Name: icons/palette/ICEfaces/small/InputSecret_C16.png
+SHA1-Digest: J9/+H77OcZkVVzSLMKYRU3iXrOQ=
+
+Name: css/ace/pushbutton/background.png
+SHA1-Digest: Y93TQiyhU1aPeT9vVQ2UTADzEt8=
+
+Name: icons/palette/ICEfaces/mobi/small/Audio_C16.png
+SHA1-Digest: 0mddxH4XQtDUAbUvTFc75xMqx5E=
+
+Name: css/rime/css-images/submenu_on.gif
+SHA1-Digest: E7ddYGmEPJj0AyanC/UKGdXZmUk=
+
+Name: css/rime/css-images/bottom_menu_bg.png
+SHA1-Digest: mNCO3uuvBYvupCf9DHPZ95zAVZA=
+
+Name: css/mobi/ipad/datespinner/btn-calendar.png
+SHA1-Digest: LSh2idw/dipKmLXhsLl4nnf0LpU=
+
+Name: icons/palette/ICEfaces/ice/small/OutputMedia_C16.png
+SHA1-Digest: LQeqNPQkN6hG9TMTgvkbWoxem18=
+
+Name: icons/palette/ICEfaces/small/InputText_C16.png
+SHA1-Digest: jnPbSbuBYBiQfEynRLbqaRcZiBU=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiFields
+ etGroupOperation.class
+SHA1-Digest: SWtMcGpKGlgO/zFfmbo4h42a7LI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/TreeOperati
+ on.class
+SHA1-Digest: uWIHPlzvq96QQra/dS3wuf3KlQA=
+
+Name: icons/palette/ICEfaces/ace/small/MaskedEntry_C16.png
+SHA1-Digest: J9/+H77OcZkVVzSLMKYRU3iXrOQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/DataTableInsertHe
+ aderCommand.class
+SHA1-Digest: UC9t+B/NivVarTYl3focgnucAWE=
+
+Name: css/ace/themes/sam/images/ui-bg_glass_75_dadada_1x400.png
+SHA1-Digest: EentWn24PPhgNAaOT23kwvJz8ME=
+
+Name: icons/palette/ICEfaces/mobi/small/Icemobilesx_C16.png
+SHA1-Digest: S9zFv4bS/NZlLIC2y/raGEuFtfg=
+
+Name: icons/palette/ICEfaces/small/PanelConfirmation_C16.png
+SHA1-Digest: wXSnqhTE2U5n6sl4/B209jOGTOA=
+
+Name: css/mobi/ipad/thumbnail/thumbnail_spacer.png
+SHA1-Digest: oLN0147iofJYdRM4G37NhFn7rvk=
+
+Name: icons/images/datatable_paginator_forward.png
+SHA1-Digest: UmeKuYIjHiSwuDKxjtOW/bLxWeU=
+
+Name: css/rime/css-images/tree_nav_middle_open.gif
+SHA1-Digest: HDrYl/kMVay5OHvboF4U48zXbIY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/DataTableInsertCo
+ lumnCommand.class
+SHA1-Digest: 05ZJKFAsSl8FIuYmjcP7ZPlKRnY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/PanelGridEleme
+ ntEdit$2.class
+SHA1-Digest: dXewwiHzKeCnj95piLxrMVaLI7o=
+
+Name: css/ace/themes/sam/images/ui-bg_glass_65_ffffff_1x400.png
+SHA1-Digest: flyZ6fARO6a2PCu0CLg0cZExbNo=
+
+Name: icons/palette/ICEfaces/small/Column_C16.gif
+SHA1-Digest: DNiYEjGeR9KiwzooC6xl5PoVu1s=
+
+Name: css/ace/pushbutton/background-disabled.gif
+SHA1-Digest: 2zTQrACupf/Zy3w8uZENYm5D60A=
+
+Name: css/ace/checkboxbutton/background-active.png
+SHA1-Digest: 5oPnra9Zs3SG1pkM1dC1lxe0wxc=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiDateSp
+ innerOperation.class
+SHA1-Digest: OzuENYC8NmHZ6gJ3P47KgeOrMVs=
+
+Name: icons/images/datatable_paginator_last.png
+SHA1-Digest: cx2EbDAbhRKmiyWF9sAgJptTIVE=
+
+Name: icons/palette/ICEfaces/small/MenuItemSeparator_C16.png
+SHA1-Digest: v64GmSslR5ZjtQGdaC3htD/O9EU=
+
+Name: icons/palette/ICEfaces/ice/small/OutputFormat_C16.png
+SHA1-Digest: L6+x7Z0RngpnvPx2FtG5mHMYe4Q=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/elementedit/DefaultICEface
+ sElementEdit$ICEfacesCoreSupport.class
+SHA1-Digest: zFS+/7hOJtRabvUVICATOa0gKdQ=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiOutput
+ ListItemOperation.class
+SHA1-Digest: yhqWYyZuayCzkWJOiuhJM4NOnWw=
+
+Name: css/ace/linkbutton/background-highlight.png
+SHA1-Digest: OItxtg0AO86uAqcVCiM0/8QqrbE=
+
+Name: icons/palette/ICEfaces/small/OutputConnectionStatus_C16.png
+SHA1-Digest: KniDPnVuiHAIFm3ppvoZrTC8uKg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/mobi/MobiVideoP
+ layerOperation.class
+SHA1-Digest: 97bnERlGv/yhV0SDw8gevFikPpg=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/commands/DataTableDeleteHe
+ aderCommand.class
+SHA1-Digest: tINpWcDKqnRuc5Qo9kZ/529BXNM=
+
+Name: icons/palette/ICEfaces/small/OutputMedia_C16.png
+SHA1-Digest: LQeqNPQkN6hG9TMTgvkbWoxem18=
+
+Name: icons/palette/ICEfaces/small/SelectManyCheckbox_C16.png
+SHA1-Digest: qrpyaWNxo0R6VVG8Mh9SxYlw3SE=
+
+Name: icons/palette/ICEfaces/ace/small/MenuButton_C16.png
+SHA1-Digest: 11vbiqgUdBF0ex9pRpgnmpsCDxE=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/datatableedit/AddSortHeade
+ rRequest.class
+SHA1-Digest: NGCikUh57QYOonI+lID42yWkmOY=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelBorder
+ Operation.class
+SHA1-Digest: jj2/1HcEw7cTNHSpS3m5ZWAkeic=
+
+Name: icons/palette/ICEfaces/mobi/small/TimeSpinner_C16.png
+SHA1-Digest: MYR1EjfCfjUa31suAIOMtxjdYGk=
+
+Name: icons/palette/ICEfaces/ice/small/PanelSeries_C16.png
+SHA1-Digest: jJRfTNpYK4G7bgGn8adzaMaaDs8=
+
+Name: icons/palette/ICEfaces/ace/small/Column_C16.png
+SHA1-Digest: QHEzs11AjW62jCx3W8HhOk3Wj7Y=
+
+Name: css/rime/css-images/connect_idle.gif
+SHA1-Digest: rAL1HgPGNMNhC4yOFDJjnoDSvwA=
+
+Name: icons/palette/ICEfaces/ace/small/LinkButton_C16.png
+SHA1-Digest: 5msRWzSwn7QkKmdMCbCcTEmzmEI=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ace/AceDataTabl
+ eOperation.class
+SHA1-Digest: BRbaw+iO07idamPd98pBHuF/Emg=
+
+Name: css/mobi/ipad/button/back-button-border.png
+SHA1-Digest: 3Wb7MN6/aadXuIGB6Fcv1ktOhno=
+
+Name: icons/palette/ICEfaces/ace/small/Row_C16.png
+SHA1-Digest: aXI8HWT/VUh0tktWUb5KgreCjF4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/sections/ICEfacesDataTable
+ ColumnsSection$3.class
+SHA1-Digest: 7psUHyyVa+RH7iDpye73bv16ms4=
+
+Name: org/icefaces/eclipse/jst/pagedesigner/operations/ice/PanelTabOpe
+ ration.class
+SHA1-Digest: +QOdAYmhUiesUfMB+D9JDSW13nM=
+

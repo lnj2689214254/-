@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.m2e.feature" label="%featureName" plugin="org.eclipse.m2e.core" provider-name="%providerName" version="1.0.0.me201206141911">
+   <install-handler/>
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.emf.ecore.edit"/>
+      <import plugin="org.eclipse.wst.common.emf"/>
+      <import plugin="org.eclipse.wst.sse.core"/>
+      <import plugin="org.eclipse.wst.xml.core"/>
+      <import plugin="org.eclipse.jem.util"/>
+      <import feature="org.eclipse.platform" match="greaterOrEqual" version="3.4.0"/>
+      <import feature="org.eclipse.rcp" match="greaterOrEqual" version="3.4.0"/>
+      <import feature="org.eclipse.jdt" match="greaterOrEqual" version="3.4.0"/>
+   </requires>
+
+   <plugin download-size="0" id="org.eclipse.m2e.archetype.common" install-size="0" version="1.0.0.20110607-2117"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.maven.indexer" install-size="0" version="1.0.0.20110607-2117"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.model.edit" install-size="0" unpack="false" version="1.0.0.20110607-2117"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.core" install-size="0" unpack="false" version="1.0.0.me201205290158"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.launching" install-size="0" unpack="false" version="1.0.0.me201110311918"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.jdt" install-size="0" unpack="false" version="1.0.0.me201205290158"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.editor" install-size="0" unpack="false" version="1.0.0.me201202021926"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.editor.xml" install-size="0" unpack="false" version="1.0.0.me201108251618"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.maven.runtime" install-size="0" version="1.0.0.me201109061757"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.refactoring" install-size="0" unpack="false" version="1.0.0.me201109222040"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.lifecyclemapping.defaults" install-size="0" version="1.0.0.20110607-2117"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.discovery" install-size="0" unpack="false" version="1.0.0.me201108021509"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.core.ui" install-size="0" unpack="false" version="1.0.0.me201205290158"/>
+
+   <plugin download-size="0" id="org.eclipse.m2e.scm" install-size="0" unpack="false" version="1.0.0.me201201191844"/>
+
+   <plugin download-size="0" id="com.ning.async-http-client" install-size="0" unpack="false" version="1.6.3.me201108091322"/>
+
+   <plugin download-size="0" id="org.jboss.netty" install-size="0" unpack="false" version="3.2.4.Final-201106072137"/>
+
+</feature>

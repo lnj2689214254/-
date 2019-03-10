@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.jpt.jpa.feature" label="%featureName" plugin="org.eclipse.jpt.jpa.branding" provider-name="%providerName" version="3.0.0.me201206141911">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jpt.common.feature" version="1.0.0"/>
+      <import feature="org.eclipse.datatools.enablement.feature" version="1.8.0"/>
+      <import feature="org.eclipse.datatools.sqldevtools.feature" version="1.8.0"/>
+      <import feature="org.eclipse.datatools.connectivity.feature" version="1.8.0"/>
+   </requires>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.core" install-size="0" unpack="false" version="3.0.0.me201206101641"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.db" install-size="0" unpack="false" version="2.0.0.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.db.ui" install-size="0" unpack="false" version="2.0.0.v201104110000"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.gen" install-size="0" unpack="false" version="2.0.0.v201105190000"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.ui" install-size="0" unpack="false" version="3.0.0.me201203011739"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.doc.user" install-size="0" unpack="false" version="1.4.1.me201108021509"/>
+
+	<!-- persistence bundles -->
+	<plugin id="org.eclipse.persistence.jpa.jpql" unpack="false" version="1.0.0.v20110604-r9504"/>
+         
+	<plugin id="org.eclipse.persistence.jpa.jpql.source" unpack="false" version="1.0.0.v20110604-r9504"/>
+
+	<!-- apache bundles -->
+   <plugin download-size="0" id="org.apache.commons.collections" install-size="0" unpack="false" version="3.2.0.v201005080500"/>
+
+   <plugin download-size="0" id="org.apache.commons.lang" install-size="0" unpack="false" version="2.1.0.v201005080500"/>
+
+   <plugin download-size="0" id="org.apache.velocity" install-size="0" unpack="false" version="1.5.0.v200905192330"/>
+
+   <plugin download-size="0" id="org.apache.oro" install-size="0" unpack="false" version="2.0.8.v201005080400"/>
+
+   <plugin download-size="0" id="org.jdom" install-size="0" unpack="false" version="1.0.0.v201005080400"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.branding" install-size="0" unpack="false" version="2.4.0.v201103020003"/>
+
+</feature>

@@ -1,0 +1,164 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: LcKjboNhaertxA/elrA2d1WAee8=
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: /qFTQe/ewB0KA+B2il8Bonh265Y=
+
+Name: myeclipse-data/3.1/lib/jgroups-2.2.8.jar
+SHA1-Digest: nbKmgXzYaxia5MXMD0kLAI+1jaA=
+
+Name: lib/annotations/hibernate-search.jar
+SHA1-Digest: cST4KqPQRPpJU6gICfop9KKR6s8=
+
+Name: schema/configurationrepository.exsd
+SHA1-Digest: SiV2KMX8fqlHzJfqw2Dg1k4JpSk=
+
+Name: lib/annotations/hibernate-entitymanager.jar
+SHA1-Digest: 112nGCuJ1KfzHvvt2TnHiRINZa4=
+
+Name: hibernate-log4j.properties
+SHA1-Digest: +j5qYCOMG4jD8OD7PBMCuRDn7gE=
+
+Name: lib/hibernate/log4j-1.2.15.jar
+SHA1-Digest: kY6W22rCsedGPBcjVAZ/kgXItDs=
+
+Name: org.hibernate.eclipse.jar
+SHA1-Digest: YZaPZA/pZa00NyI9q3wtayBoZ5Y=
+
+Name: lib/hibernate/connector.jar
+SHA1-Digest: bDkF404ClgC9194b92T/y9AsC6Y=
+
+Name: myeclipse-data/3.2/lib/c3p0-0.9.1.jar
+SHA1-Digest: Fj9OH3eWi/lATknj4amWbVNBpNI=
+
+Name: myeclipse-data/3.0/lib/jta.jar
+SHA1-Digest: s/USuFFjR7bXohTu4ytDIGDaL2k=
+
+Name: hibernate_icon.gif
+SHA1-Digest: GkH/6r5krQdc97KPvH0Wv1JDpcc=
+
+Name: myeclipse-data/3.0/lib/concurrent-1.3.2.jar
+SHA1-Digest: Te64bVMIcorwomEqP2sTuPDVWQw=
+
+Name: myeclipse-data/3.0/lib/commons-logging-1.0.4.jar
+SHA1-Digest: MF5iKb017TT5omgsMYF8usTyazc=
+
+Name: lib/springhibernate/commons-pool.jar
+SHA1-Digest: JtQ0as1kp0renAlpDa6eMIYybH8=
+
+Name: lib/tools/velocity-1.4.jar
+SHA1-Digest: /NIUHWIUyrYmyiloWclnGSDOrxI=
+
+Name: myeclipse-data/3.0/lib/asm.jar
+SHA1-Digest: Qrsrw8mmwvZoiGiZCl6/Y16EktU=
+
+Name: lib/tools/freemarker.jar
+SHA1-Digest: rtKhiCTRY+hsSdGVSHxSySn5SMA=
+
+Name: myeclipse-data/3.0/lib/commons-collections-2.1.1.jar
+SHA1-Digest: TTjWFMFS/9tGO+oOgj518WNfdXA=
+
+Name: lib/bsh-core-2.0b4.jar
+SHA1-Digest: Z6JNtsTIx0ireqsW5Verb0PzTd0=
+
+Name: plugin.properties
+SHA1-Digest: aIyZ9ArJfUaBOLGSbitNxtPhaZc=
+
+Name: lib/springhibernate/jotm.jar
+SHA1-Digest: tnsu8YdXZ91cy1B88gAqpqEnViU=
+
+Name: myeclipse-data/3.2/lib/ehcache-1.2.3.jar
+SHA1-Digest: rWIYuS3u0wzOE1wiVx2zqJdgvLY=
+
+Name: about.ini
+SHA1-Digest: ES9PCxvfpdvy92U0aOyJArq9tKk=
+
+Name: myeclipse-data/3.2/lib/javassist.jar
+SHA1-Digest: jRVT9rnSe6VnZI/Vlzm8cFp/EGU=
+
+Name: myeclipse-data/3.1/lib/cglib-2.1.3.jar
+SHA1-Digest: FVRerDYuAZuZMSxVURYrO2buMwQ=
+
+Name: myeclipse-data/3.0/lib/oscache-2.1.jar
+SHA1-Digest: G1dTSCf9YdAowuO/FJjwge5l8Ew=
+
+Name: myeclipse-data/3.2/lib/jboss-cache.jar
+SHA1-Digest: 6JyRQFoIor3hi5970aJ0kdv/JP0=
+
+Name: lib/springhibernate/commons-dbcp.jar
+SHA1-Digest: c0xyHka41ieIiwUGt5sfT31N0nw=
+
+Name: myeclipse-data/3.1/lib/dom4j-1.6.1.jar
+SHA1-Digest: TQDcu7e2WARMckRXxBI7y+pP4vc=
+
+Name: myeclipse-data/3.2/lib/antlr-2.7.6.jar
+SHA1-Digest: f3OkHzmI2EM0U9RKMJwh6RNxPm8=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-common.jar
+SHA1-Digest: KKtKKFmox6shkXIpKx1tLbiu9ec=
+
+Name: lib/tools/velocity-tools-generic-1.1.jar
+SHA1-Digest: ilsNlr5Xv/OJvgAlFm+A/syW6lU=
+
+Name: myeclipse-data/3.2/lib/entitymanager/ejb3-persistence.jar
+SHA1-Digest: IAOSyoE3dP6UPuEbkfPcGSom/oU=
+
+Name: lib/hibernate/hibernate3.jar
+SHA1-Digest: y0QAinoScSou20o/MNqrOPpnctM=
+
+Name: about.html
+SHA1-Digest: yP3YvYg7uy6XBqHY80TTWYXaO04=
+
+Name: lib/annotations/hibernate-commons-annotations.jar
+SHA1-Digest: c+ZGwpZGyPRUwhc4T7nmCEusllo=
+
+Name: myeclipse-data/3.2/lib/entitymanager/hibernate-validator.jar
+SHA1-Digest: vD98Y9ujzwt/MDtaI6mDLV4DYGg=
+
+Name: about.mappings
+SHA1-Digest: KygS+EIeOe/1YMVJLut9+wSapII=
+
+Name: lib/annotations/hibernate-annotations.jar
+SHA1-Digest: UGNpB8ScrdEd3Bk0xFQyMPNmsuw=
+
+Name: lib/annotations/lucene-core-2.2.0.jar
+SHA1-Digest: NBCKeZSST+WmnEIgbTs7RwEiWE4=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-system.jar
+SHA1-Digest: ghJsBVnQjh7FQr9hDJFkH13xB0U=
+
+Name: myeclipse-data/3.0/lib/proxool-0.8.3.jar
+SHA1-Digest: d35YYsn2UULpW4JNO8Rz3QeOaaM=
+
+Name: myeclipse-data/3.0/lib/swarmcache-1.0rc2.jar
+SHA1-Digest: MOyUIuSIUfyJHlILl9xQqMNBStw=
+
+Name: myeclipse-data/3.0/lib/optional/jboss-jmx.jar
+SHA1-Digest: mj23TbrXeBPk8YyRC6UPZtB2ahA=
+
+Name: lib/tools/jtidy-r8-20060801.jar
+SHA1-Digest: K6dCpyPxpqYStvjohxSOTYygH/s=
+
+Name: myeclipse-data/3.0/lib/jdbc2_0-stdext.jar
+SHA1-Digest: M4wGsp35i7Z1KFi56Zbsydz6SL0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: HNV4kj6djm1nVGsjpfE9c78L3/s=
+
+Name: myeclipse-data/3.0/lib/jaas.jar
+SHA1-Digest: KpCRcdmsjBUThat01RXiA2rPOwE=
+
+Name: lib/tools/hibernate-tools.jar
+SHA1-Digest: 2J7V/6Sqr6Mh0sfbLY+K3PMfqD4=
+
+Name: about.properties
+SHA1-Digest: xGj6eI+qcIazTEPjFb22tohQVJw=
+
+Name: plugin.xml
+SHA1-Digest: AOS/8k7StknO+PdRJ+L+P742hxY=
+
+Name: lib/springhibernate/spring.jar
+SHA1-Digest: W24kA7O1uu0K8KI761nyJ00jUZY=
+
+Name: myeclipse-data/3.0/lib/asm-attrs.jar
+SHA1-Digest: BTia+6jXfvAbAOd47lMrirAOkuk=
+

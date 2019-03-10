@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+
+  <extension point="org.eclipse.wst.sse.ui.editorConfiguration">
+	<contentOutlineConfiguration
+			class="com.genuitec.eclipse.springframework.outline.SpringContentOutlineConfiguration"
+			target="com.genuitec.eclipse.springframework.springconfigeditor"/>
+  </extension>
+	
+ 
+
+  <!-- Library Selection Container Pages-->
+<!--
+  <extension
+         point="org.eclipse.jdt.ui.classpathContainerPage">
+      <classpathContainerPage
+            name="MyEclipse Libraries"
+            class="com.genuitec.eclipse.springframework.classpath.SpringCoreLibraryWizardPage"
+            id="melibrary.com.genuitec.eclipse.springframework.MYECLIPSE_SPRING12_CORE">
+      </classpathContainerPage>
+  </extension>
+-->
+   
+ <extension
+         id="com.genuitec.eclipse.springframework.preferencepageextension"
+         name="Spring Preferences"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="%page.SpringModulesPreferencePage.name"
+            category="com.genuitec.eclipse.j2ee.capabilities.preferencepage"
+            class="com.genuitec.eclipse.springframework.preference.SpringModulesPreferencePage"
+            id="com.genuitec.eclipse.springframework.preference.SpringModulesPreferencePage">
+      </page>
+  </extension>
+  
+  
+<!-- Add Spring Capabilities -->
+  <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="%actionSet.MyEclipse-SpringTools.label"
+            visible="true"
+            id="com.genuitec.myeclipse.actions.springtools">           
+         <!-- This menu is replicated exactly in each plugin that
+              contributes to it to ensure that it is available when
+              the plugins load.  Without this replication, Eclipse 3.3
+              will often throw errors about "invalid menu path" and
+              refuse to load the contributed actions. -->
+         <menu
+               label="%menu.myeclipse.menu.label"
+               id="com.genuitec.myeclipse.menu">
+           <separator
+                  name="capabilitiesSeparator">
+            </separator>
+            <separator
+                  name="configurationSeparator">
+            </separator>
+            <separator
+                  name="utilitiesSeparator">
+            </separator>
+            <separator
+                  name="supportSeparator">
+            </separator>
+         </menu>
+          <menu
+               id="capabilities"
+               label="%menu.myeclipse.submenu.capabilities.label"
+               path="com.genuitec.myeclipse.menu/capabilitiesSeparator">
+            <separator name="additions"/>
+         </menu>
+         <action
+               label="%action.AddSpringCapabilitiesActionDelegate.label"
+               class="com.genuitec.eclipse.springframework.action.AddSpringCapabilitiesActionDelegate"
+               menubarPath="com.genuitec.myeclipse.menu/capabilities/capabilitiesSeparator"
+               enablesFor="1"
+               id="com.genuitec.myeclipse.webproject.action.springconvert">
+         </action>
+      </actionSet>
+   </extension>
+
+<!-- Popup Menus -->
+   <extension
+         id="de.bb.bejy.eclipse.PopupMenu"
+         name="PopupMenu"
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="de.bb.bejy.eclipse.PopupMenuObject">
+         <visibility>
+            <and>
+               <objectState
+                     name="nature"
+                     value="org.eclipse.jdt.core.javanature">
+               </objectState> 
+               <not>
+                  <or>
+                  <objectState
+                        name="nature"
+                        value="org.springframework.ide.eclipse.core.springnature">
+                  </objectState>
+	                  <objectState
+	                        name="nature"
+	                        value="com.genuitec.eclipse.springframework.springnature">
+	                  </objectState>
+                  </or>
+               </not>
+            </and>
+         </visibility>
+         <action
+               label="%action.AddSpringCapabilitiesActionDelegate1.label"
+               class="com.genuitec.eclipse.springframework.action.AddSpringCapabilitiesActionDelegate"
+               menubarPath="de.bb.bejy.eclipse.PopupMenu/onoff"
+               enablesFor="1"
+               id="de.bb.bejy.eclipse.action6">
+         </action>
+      </objectContribution>
+   </extension>
+   
+<!--   
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Hibernate"
+            parentCategory="com.genuitec.eclipse.myeclipse"
+            id="com.genuitec.eclipse.hibernate">
+      </category>
+      <wizard
+            icon="icons/obj16/New_Hibernate_Config_Wizard.gif"
+            class="com.genuitec.eclipse.springframework.wizards.NewSpringSupportConfigWizard"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.hibernate"
+            name="Hibernate Configuration File"
+            id="com.genuitec.eclipse.hibernate.newconfigwizard">
+         <description>
+            Create Hibernate XML Configuration File
+         </description>
+      </wizard>
+   </extension>   
+-->
+<!--   
+   <extension
+         point="org.eclipse.core.runtime.contentTypes">
+         <content-type
+               priority="high"
+               name="Spring Config File Content Type"
+               id="springconfig"
+               file-extensions="xml"
+               base-type="com.ibm.sse.model.xml.xmlsource"
+			   default-charset="UTF-8">
+			<describer 	class="com.ibm.sse.model.xml.contenttype.MEXMLRootElementContentDescriber" 
+						plugin="com.ibm.sse.model.xml">
+        		<parameter name="element" value="beans"/>
+       		</describer>
+		</content-type>
+   </extension> -->
+   
+      <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.genuitec.eclipse.springframework.editor.SpringConfigEditor"
+            contributorClass="com.genuitec.eclipse.springframework.action.SpringMultiPageEditorActionBarContributor"
+            default="true"
+            filenames="applicationContext.xml"
+            icon="icons/obj16/spring_obj.gif"
+            id="com.genuitec.eclipse.springframework.springconfigeditor"
+            name="%editor.XMLMultiPageEditorPart.name">
+         <contentTypeBinding contentTypeId="org.springframework.ide.eclipse.beans.ui.editor.beansConfig"/>
+         <contentTypeBinding
+               contentTypeId="org.springframework.ide.eclipse.beans.mylyn.beansConfig">
+         </contentTypeBinding>
+      </editor>
+      
+      <editor
+            class="com.genuitec.eclipse.springframework.editor.SpringWebFlowEditor"
+            contributorClass="org.springframework.ide.eclipse.webflow.ui.graph.actions.WebflowActionBarContributor"
+            default="false"
+            icon="icons/obj16/spring_webflow_obj.gif"
+            id="com.genuitec.eclipse.springframework.webfloweditor"
+            name="%editor.webfloweditor.name">
+         <contentTypeBinding contentTypeId="org.springframework.ide.eclipse.webflow.ui.editor.webflowConfig"/>
+      </editor>
+   </extension>
+
+      <!-- <extension
+            point="com.genuitec.org.springframework.ide.eclipse.core.builders">
+         <run class="com.genuitec.eclipse.springframework.builder.AllConfigsValidator"/>
+      </extension> -->
+      <extension
+            point="org.eclipse.ui.popupMenus">
+         <objectContribution
+               adaptable="false"
+               id="com.genuitec.org.springframework.ide.eclipse.beans.ui.model.confignodecontribution"
+               objectClass="org.springframework.ide.eclipse.beans.core.model.IProfileAwareBeansComponent">
+            <action
+                  class="com.genuitec.eclipse.springframework.action.NewSpringDataSourceAction"
+                  icon="icons/obj16/Spring_DataSource_action.gif"
+                  id="com.genuitec.eclipse.springframework.action.newspringdatasourceaction"
+                  label="%action.NewSpringDataSourceAction.label"
+                  tooltip="%action.NewSpringDataSourceAction.tooltip"/>
+			<action
+         class="com.genuitec.eclipse.springframework.action.NewSpringSessionFactoryAction"
+         icon="icons/obj16/Spring_Hibernate_SessionFactory_action.gif"
+         id="com.genuitec.eclipse.springframework.action.newspringsessionfactoryaction"
+         label="%action.NewSpringSessionFactoryAction.label"
+         tooltip="%action.NewSpringSessionFactoryAction.tooltip"/>                  
+           	<action
+                  class="com.genuitec.eclipse.springframework.action.NewSpringDSSFAction"
+                  icon="icons/obj16/Spring_DSSF_action.gif"
+                  id="com.genuitec.eclipse.springframework.action.newspringdssfaction"
+                  label="%action.NewSpringDSSFAction.label"
+                  tooltip="%action.NewSpringDSSFAction.tooltip"/>
+        	<action
+               class="com.genuitec.eclipse.springframework.action.NewSpringBeanAction"
+               icon="icons/obj16/Spring_Bean_action.gif"
+               id="com.genuitec.eclipse.springframework.action.newspringbeanaction"
+               label="%action.NewSpringBeanAction.label"
+               tooltip="%action.NewSpringBeanAction.tooltip"/>
+         </objectContribution>
+		 <objectContribution
+				adaptable="false"
+              	id="org.springframework.ide.eclipse.beans.ui.model.confignodecontribution"
+              	objectClass="org.springframework.ide.eclipse.beans.core.model.IBean">
+            <action
+                  class="com.genuitec.eclipse.springframework.action.NewPropertyAction"
+                  icon="icons/obj16/Java_Hibernate_property.gif"
+                  id="com.genuitec.eclipse.springframework.action.newpropertyaction"
+                  label="%action.NewPropertyAction.label"
+                  tooltip="%action.NewPropertyAction.tooltip"/>
+         </objectContribution>
+         <objectContribution
+				adaptable="false"
+              	id="org.springframework.ide.eclipse.beans.ui.model.confignodecontribution"
+              	objectClass="org.springframework.ide.eclipse.beans.core.model.IBean">
+            <action
+                  class="com.genuitec.eclipse.springframework.action.EditBeanAction"
+                  icon="icons/obj16/edit_action.gif"
+                  id="com.genuitec.eclipse.springframework.action.editbeanaction"
+                  label="%action.EditBeanAction.label"
+                  tooltip="%action.EditBeanAction.tooltip"/>
+            <filter name = "spring2Config" value = "false"/>
+		 </objectContribution>
+		 <objectContribution
+				adaptable="false"
+              	id="com.genuitec.org.springframework.ide.eclipse.beans.ui.model.confignodecontribution"
+              	objectClass="org.springframework.ide.eclipse.beans.core.model.IBeanProperty">            
+            <action
+                  class="com.genuitec.eclipse.springframework.action.EditBeanAction"
+                  icon="icons/obj16/edit_action.gif"
+                  id="com.genuitec.eclipse.springframework.action.editbeanaction"
+                  label="%action.EditBeanAction1.label"
+                  tooltip="%action.EditBeanAction1.tooltip"/>
+            <filter name = "spring2Config" value = "false"/>
+		 </objectContribution>
+		 <!--
+		 <objectContribution
+				adaptable="false"
+              	id="org.springframework.ide.eclipse.beans.ui.model.confignodecontribution"
+              	objectClass="org.springframework.ide.eclipse.beans.ui.model.ConstructorArgumentNode">            
+            <action
+	              class="com.genuitec.eclipse.springframework.action.EditBeanAction"
+	              id="com.genuitec.eclipse.springframework.action.editbeanaction"
+	              label="Edit"
+	              tooltip="Edit this Constructor argument"/>
+		 </objectContribution> -->
+      </extension>   
+   <extension
+         point="org.eclipse.wst.sse.ui.dropTargetTransfers">
+      <dropTargetContribution
+            targetID="com.genuitec.eclipse.springframework.springconfigeditor"
+            id="com.ibm.sed.edit.extention.ExtendedTransfers">
+         <transfer
+               priority="high"
+               singleton="true"
+               class="org.eclipse.ui.part.ResourceTransfer"
+               method="getInstance"
+               id="org.eclipse.ui.part.ResourceTransfer">
+         </transfer>
+         <dropAction
+               class="com.genuitec.eclipse.springframework.editor.FileDropAction"
+               id="com.genuitec.eclipse.springframework.editor.FileDropAction_Resource"
+			transferID="org.eclipse.ui.part.ResourceTransfer"
+               priority="high">
+         </dropAction>
+      </dropTargetContribution>
+   </extension>
+   
+   <!-- template processing -->
+<!--
+    <extension point="org.eclipse.ui.editors.templates">
+		<contextType
+			name="Root"
+			class="org.springframework.ide.eclipse.beans.ui.editor.templates.BeansTemplateContextType"
+			id="com.genuitec.eclipse.springframework.templates.contextType.all">
+		</contextType>
+		<contextType
+			name="Bean"
+			class="org.springframework.ide.eclipse.beans.ui.editor.templates.BeansTemplateContextType"
+			id="com.genuitec.eclipse.springframework.templates.contextType.bean">
+		</contextType>
+		<contextType
+			name="Property"
+			class="org.springframework.ide.eclipse.beans.ui.editor.templates.BeansTemplateContextType"
+			id="com.genuitec.eclipse.springframework.templates.contextType.property">
+		</contextType>
+  		<include
+          file="templates/templates.xml"
+          translations="templates/templates.properties"/>
+	</extension>
+-->
+
+<!-- Bug Fix #3695 - Remove duplicate preference page
+	<extension point="org.eclipse.ui.preferencePages">
+		<page
+			name="Spring Beans XML Templates"
+            category="com.genuitec.eclipse.viper.preferencepage.editor"
+			class="com.genuitec.eclipse.springframework.port.BeanTemplatePreferencePage"
+			id="com.genuitec.eclipse.springframework.templates">
+		</page>
+	</extension>
+-->
+<!--
+ <extension
+       point="org.eclipse.wst.sse.ui.extendedEditorActions">
+       <action
+            label="%popupMenus.showInView.label"
+            icon="icons/etool16/show_in_view.gif"
+            definitionId="org.springframework.ide.eclipse.beans.ui.commands.showinview"
+			class="com.genuitec.eclipse.springframework.action.ShowInViewAction"
+            popupmenuPath="additions"
+            id="org.springframework.ide.eclipse.beans.ui.actions.showInView">
+       </action>
+ </extension> 
+ -->
+<!--
+ <extension
+       point="org.eclipse.wst.sse.ui.extendedEditorActions">
+    <editorContribution
+            targetID="org.eclipse.wst.sse.ui.StructuredTextEditor"
+			id="org.springframework.ide.eclipse.beans.ui.editor.actions.context">  
+       <action
+		         class="org.springframework.ide.eclipse.beans.ui.editor.actions.RefactorPropertyElementAction"
+		         icon="icons/obj16/spring_obj.gif"
+		         id="org.springframework.ide.eclipse.beans.ui.editor.actions.refactorPropertyElementAction"
+		         label="Refactor Property Element"
+		         popupmenuPath="additions">
+		</action>
+	</editorContribution> 
+ </extension> 
+ 
+ 
+ <extension
+       point="org.eclipse.ui.popupMenus">
+    <viewerContribution
+          id="com.genuitec.eclipse.springframework.editorPopup"
+          targetID="org.eclipse.core.runtime.xml.source.EditorContext">
+       <action
+             class="org.springframework.ide.eclipse.beans.ui.actions.ShowInView"
+             definitionId="org.springframework.ide.eclipse.beans.ui.commands.showinview"
+             icon="icons/etool16/show_in_view.gif"
+             id="org.springframework.ide.eclipse.beans.ui.actions.showInView"
+             label="%popupMenus.showInView.label"
+             menubarPath="additions">
+       </action>
+	 </viewerContribution>
+ </extension>
+ -->
+  
+      <extension
+         id="springnature"
+         name="%springNature"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="com.genuitec.eclipse.springframework.SpringProjectNature">
+         </run>
+      </runtime>
+      <builder
+            id="com.genuitec.eclipse.springframework.springbuilder">
+      </builder>
+   </extension>
+   
+      <extension
+         id="springbuilder"
+         name="%springBuilder"
+         point="org.eclipse.core.resources.builders">
+      <builder
+            hasNature="true">
+         <run
+               class="org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager">
+         </run>
+      </builder>
+   </extension>
+   
+   <extension point="org.eclipse.core.runtime.contentTypes"> 
+	  <file-association
+         content-type="org.eclipse.core.runtime.xml"
+         file-names=".springBeans"/>
+   </extension> 
+   
+<!-- Genuitec: 2779 - replaced with custom ME decorator.
+      <extension
+         point="org.eclipse.ui.ide.projectNatureImages">
+      <image
+            icon="icons/full/ovr16/spring_ovr.gif"
+            id="com.genuitec.eclipse.springframework.springnatureimage"
+            natureId="com.genuitec.eclipse.springframework.springnature"/>
+   </extension>
+-->    
+    
+  <!-- PR-3924: moved to com.genuitec.myeclipse.perspective plugin -->
+  <extension
+         point="org.eclipse.ui.propertyPages">
+      <page
+            objectClass="org.eclipse.core.resources.IProject"
+            adaptable="true"
+            id="com.genuitec.eclipse.springframework.properties.projectPropertyPage"
+            name="%page.projectPropertyPage.name"
+            class="com.genuitec.eclipse.springframework.preference.SpringProjectPropertiesPage"
+            category="myeclipse.root">
+         <filter
+               name="nature"
+               value="com.genuitec.eclipse.springframework.springnature">
+         </filter>
+          <keywordReference
+               id="org.springframework.ide.eclipse.ui.keywords">
+         </keywordReference>
+      </page>
+      <page
+            id="com.genuitec.eclipse.springframework.properties.beans.projectPropertyPage"
+            name="%page.beans.projectPropertyPage.name"
+            class="org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage"
+            category = "com.genuitec.eclipse.springframework.properties.projectPropertyPage"
+            adaptable="true"
+            objectClass="org.eclipse.core.resources.IProject">
+         <filter
+               name="nature"
+               value="com.genuitec.eclipse.springframework.springnature">
+         </filter>
+         <keywordReference
+               id="org.springframework.ide.eclipse.beans.ui.propertykeywords">
+         </keywordReference>
+      </page>
+      <page
+            id="com.genuitec.eclipse.springframework.properties.webflow.projectPropertyPage"
+            name="%page.webflow.projectPropertyPage.name"
+            class="org.springframework.ide.eclipse.webflow.ui.properties.WebflowPropertyPage"
+            category="com.genuitec.eclipse.springframework.properties.projectPropertyPage"
+            objectClass="org.eclipse.core.resources.IProject"
+            adaptable="true">
+         <filter
+               name="nature"
+               value="com.genuitec.eclipse.springframework.springnature">
+         </filter>
+         <keywordReference
+               id="org.springframework.ide.eclipse.webflow.ui.keywords">
+         </keywordReference>
+      </page>
+      <page
+            id="com.genuitec.eclipse.springframework.beans.ui.namespaces.projectPropertyPage"
+            name="%namespaceProjectPropertyPage.label"
+            class="org.springframework.ide.eclipse.beans.ui.preferences.NamespaceVersionPreferencePage"
+            adaptable="true"
+            objectClass="org.eclipse.core.resources.IProject"
+            category="com.genuitec.eclipse.springframework.properties.projectPropertyPage">
+         <filter
+               name="nature"
+               value="com.genuitec.eclipse.springframework.springnature">
+         </filter>
+         <keywordReference
+               id="org.springframework.ide.eclipse.beans.ui.namespaces.keywords">
+         </keywordReference>
+      </page>
+   </extension>
+   
+   <!-- Redefinition from  from SpringIDE -->
+   <extension point="org.eclipse.ui.editorActions">
+		<editorContribution
+			id="org.springframework.ide.eclipse.beans.ui.editor.actions"
+			targetID="com.genuitec.eclipse.springframework.springconfigeditor">
+			<menu id="org.eclipse.search.menu" label="%menu.search.label"
+				path="navigate">
+				<groupMarker name="internalDialogGroup" />
+				<groupMarker name="dialogGroup" />
+				<separator name="contextMenuActionsGroup" />
+				<separator name="internalOccurrencesGroup" />
+			</menu>
+			<action
+				id="com.genuitec.eclipse.springframework.springconfigeditor.actions.searchBeanReferencesAction"
+				label="%action.searchBeanReferencesAction.label"
+				definitionId="org.springframework.ide.eclipse.beans.ui.editor.commands.searchBeanReferences"
+				icon="icons/obj16/ref.gif"
+				menubarPath="org.eclipse.search.menu/contextMenuActionsGroup"
+				class="org.springframework.ide.eclipse.beans.ui.editor.actions.SearchBeanReferencesAction">
+			</action>
+		</editorContribution>
+		<editorContribution
+			id="com.genuitec.eclipse.springframework.refactoring.actions"
+			targetID="com.genuitec.eclipse.springframework.springconfigeditor">
+			<menu label="%menu.refactoring.label" path="additions"
+				id="com.genuitec.eclipse.springframework.menu.refactoring">
+				<groupMarker name="sourceGroup"></groupMarker>
+			</menu>
+			<action
+				id="com.genuitec.eclipse.springframework.refactoring.refactorBeanClassAction"
+				label="%action.refactorBeanClassAction.label"
+				definitionId="org.springframework.ide.eclipse.beans.ui.refactoring.commands.refactorBeanClassAction"
+				menubarPath="com.genuitec.eclipse.springframework.menu.refactoring/sourceGroup"
+				class="org.springframework.ide.eclipse.beans.ui.refactoring.actions.BeansRenameRefactorAction">
+			</action>
+			<action
+				id="com.genuitec.eclipse.springframework.refactoring.moveBeanClassAction"
+				label="%action.moveBeanClassAction.label"
+				definitionId="org.springframework.ide.eclipse.beans.ui.refactoring.commands.moveBeanClassAction"
+				menubarPath="com.genuitec.eclipse.springframework.menu.refactoring/sourceGroup"
+				class="org.springframework.ide.eclipse.beans.ui.refactoring.actions.BeansMoveRefactorAction">
+			</action>
+		</editorContribution>
+	</extension>
+   <!--<extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.search.menu">
+         <command
+               commandId="org.springframework.ide.eclipse.beans.ui.editor.commands.searchBeanReferences"
+               icon="icons/obj16/ref.gif"
+               id="com.genuitec.eclipse.springframework.springconfigeditor.actions.searchBeanReferencesAction"
+               label="%action.searchBeanReferencesAction.label"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>-->
+   
+   
+   <extension point="org.eclipse.wst.xml.core.catalogContributions">
+		<catalogContribution>
+			<!-- Bean namespace -->
+			<public 
+				publicId="-//SPRING//DTD BEAN//EN"
+				uri="$nl$/catalog-dtd/spring-beans.dtd"
+				webURL="http://www.springframework.org/dtd/spring-beans.dtd" />
+			<public 
+				publicId="-//SPRING//DTD BEAN 2.0//EN"
+				uri="$nl$/catalog-dtd/spring-beans-2.0.dtd"
+				webURL="http://www.springframework.org/dtd/spring-beans-2.0.dtd" />			
+		</catalogContribution>
+	</extension>
+	
+	<extension
+         point="org.eclipse.ui.views">     
+      <view
+            id="org.springframework.ide.eclipse.ui.navigator.springExplorer"
+            name="%view.springExplorer.name"
+            icon="icons/obj16/spring_obj.gif"
+            category="com.genuitec.eclipse.views.myEclipseJEECategory"
+            class="com.genuitec.eclipse.springframework.view.MEFilteredNavigator">
+      </view>
+      <!-- Fixes bug #8218: Spring Bean view removed
+      <view
+            category="com.genuitec.eclipse.views.myEclipseJEECategory"
+            class="com.genuitec.eclipse.springframework.view.TransitionalSpringBeansView"
+            icon="icons/obj16/spring_obj.gif"
+            id="com.genuitec.org.springframework.ide.eclipse.beans.ui.views.beansView"
+            name="%view.beansView.name">
+      </view>-->
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="%category.springframework.wizard.name"
+            parentCategory="com.genuitec.eclipse.myeclipse"
+            id="com.genuitec.eclipse.springframework.wizard.category">
+      </category>
+      <wizard
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.springframework.wizard.category"
+            class="com.genuitec.eclipse.springframework.wizards.NewSpringBeansConfigFileWizard"
+            hasPages="true"
+            icon="icons/obj16/newconfig_wiz.gif"
+            id="com.genuitec.eclipse.springframework.wizard.newBeansConfig"
+            name="%wizard.newBeansConfig.name"
+            project="false">
+         <description>
+            %description.newBeansConfig
+         </description>
+         <selection
+               class="org.eclipse.core.resources.IResource">
+         </selection>
+      </wizard>
+      <wizard
+            id="com.genuitec.eclipse.springframework.wizard.newWebflowConfig"
+            name="%wizard.newWebflowConfig.name"
+            class="com.genuitec.eclipse.springframework.wizards.NewSpringWebflowConfigWizard"
+            category="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.springframework.wizard.category"
+            icon="icons/obj16/spring_webflow_obj.gif">
+         <description>
+            %wizard.newWebflowConfig.description
+         </description>
+         <selection
+               class="org.eclipse.core.resources.IResource">
+         </selection>
+       </wizard>
+   </extension>
+   <extension point="org.eclipse.ui.activities">
+   		<!-- Locate Spring at Standard / Spring in the capabilities list -->
+	  <activity id="com.genuitec.eclipse.capability.standard.spring"
+	   description="%activity.spring.description"
+	   name="%activity.spring.name" />
+	   
+	  <!-- Put the Spring activity in the Standard category -->
+	  <categoryActivityBinding activityId="com.genuitec.eclipse.capability.standard.spring"
+	   categoryId="com.genuitec.eclipse.capability.standard" />
+	   
+	  <!-- Bind all contributions from the Spring plugin to the capability  -->
+	  <activityPatternBinding activityId="com.genuitec.eclipse.capability.standard.spring"
+	   pattern="com\.genuitec\.eclipse\.spring.*/.*" />
+	  <activityPatternBinding activityId="com.genuitec.eclipse.capability.standard.spring"
+	   pattern="org\.springframework\.ide\.eclipse*/.*" />
+	   
+	  <!-- Spring activity should be enabled by default -->
+	  <defaultEnablement id="com.genuitec.eclipse.capability.standard.spring" />	  
+	</extension>
+	<!--   <extension
+         point="org.eclipse.wst.common.uriresolver.resolverExtensions">
+      <resolverExtension
+            class="com.genuitec.eclipse.springframework.resolver.DefaultSchemaResolver"
+            stage="postnormalization">
+      </resolverExtension>
+   </extension> -->
+    <extension
+          point="com.genuitec.eclipse.springhibernate.springsupport">
+          <support id = "springframework" class = "com.genuitec.eclipse.springframework.SpringIDESupport"/>
+    </extension>
+    <extension
+          point="org.eclipse.ui.contexts">
+       <context
+             description="Spring framework context"
+             id="com.genuitec.eclipse.springframework.config.context"
+             name="Spring framework context"
+             parentId="org.eclipse.wst.sse.ui.structuredTextEditorScope">
+       </context>
+    </extension>   
+</plugin>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:metadatamodel
+	xmlns:md="http://org.eclipse.jst.jsf.common.metadata/metadata.ecore"
+	xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+	xmlns:mdt="http://org.eclipse.jst.jsf.common.metadata/metadataTraitTypes.ecore"
+	xmlns:pi="http://org.eclipse.jsf.pagedesigner/paletteInfos.ecore"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	id="http://www.icesoft.com/icefaces/mobile/component"
+	type="tagFile">
+	<trait id="is-jsf-component-library">
+		<value xsi:type="mdt:BooleanValue">true</value>
+	</trait>
+	<trait id="images-base-path">
+		<value xsi:type="mdt:StringValue">/icons/palette/ICEfaces/mobi/</value>
+	</trait>
+	<trait id="display-label">
+		<value xsi:type="mdt:StringValue">ICEMobile Components</value>
+	</trait>
+	<trait id="description">
+		<value xsi:type="mdt:StringValue">ICEMobile Components</value>
+	</trait>
+	<trait id="default-prefix">
+		<value xsi:type="mdt:StringValue">mobi</value>
+	</trait>
+	<trait id="paletteInfos">
+		<value xsi:type="pi:PaletteInfos">
+			<item id="audio" />
+			<item id="commandButtonGroup" />
+			<item id="commandButton" />
+			<item id="camera" />
+			<item id="geolocation" />
+			<item id="carousel" />
+			<item id="dateSpinner" />
+			<item id="fieldsetGroup" />
+			<item id="fieldsetRow" />
+			<item id="flipswitch" />
+			<item id="graphicImage" />
+			<item id="inputText" />
+			<item id="icemobilesx" />
+			<item id="outputListItem" />
+			<item id="outputListItems" />
+			<item id="outputList" />
+			<item id="microphone" />
+			<item id="qrcode" />
+			<item id="scan" />
+			<item id="deviceStylesheet" />
+			<item id="thumbnail" />
+			<item id="timeSpinner" />
+			<item id="uploadhelper" hidden="true" />
+			<item id="camcorder" />
+			<item id="videoPlayer" />
+		</value>
+	</trait>
+	<entity id="audio" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Audio_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="value" value="yourMediaFile" />
+				<attribute id="controls" value="true" />
+			</value>
+		</trait>        
+	</entity>
+	<entity id="commandButtonGroup" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/CommandButtonGroup_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[
+                    <commandButton selected="false"
+                        _uri_="http://www.icesoft.com/icefaces/mobile/component" />
+                    Yes</commandButton>
+                    <commandButton selected="true"
+                        _uri_="http://www.icesoft.com/icefaces/mobile/component" />
+                    No</commandButton>
+				]]></template>
+				<attribute id="orientation" value="horizontal" />
+			</value>
+		</trait> 
+	</entity>
+	<entity id="commandButton" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/CommandButton_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="selected" value="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="camera" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Camera_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="value" value="A_Map_Object" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="geolocation" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Geolocation_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="latitude" value="latitude" />
+				<attribute id="longitude" value="longitude" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="carousel" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Carousel_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="value" value="#{yourBean.list}" />
+				<attribute id="var" value="listItem" />				
+			</value>
+		</trait>		
+	</entity>
+	<entity id="dateSpinner" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/DateSpinner_C16.png</value>
+		</trait>
+		
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[ 
+				<convertDateTime type="date" pattern="yyyy-mm-dd" _uri_="http://java.sun.com/jsf/core" />
+				]]></template>
+				<attribute id="value" value="#{yourBean.date}" />
+				<attribute id="useNative" value="true" />				
+			</value>
+		</trait>		
+	</entity>
+	<entity id="fieldsetGroup" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/FieldsetGroup_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<template><![CDATA[ 
+				<fieldsetRow _uri_="http://www.icesoft.com/icefaces/mobile/component" />
+					<outputLabel _uri_="http://java.sun.com/jsf/html"> Label </outputLabel>
+				</fieldsetRow>
+				]]></template>
+				<attribute id="inset" value="true" />				
+			</value>
+		</trait>		
+	</entity>
+	<entity id="fieldsetRow" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/FieldsetRow_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="flipswitch" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Flipswitch_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="graphicImage" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/GraphicImage_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="inputText" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/InputText_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="icemobilesx" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Icemobilesx_C16.png</value>
+		</trait>
+	</entity>	
+	<entity id="outputListItem" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/OutputListItem_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="outputListItems" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/OutputListItems_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="outputList" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/OutputList_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="microphone" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Microphone_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="qrcode" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Qrcode_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="scan" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Scan_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="deviceStylesheet" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/DeviceStylesheet_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="thumbnail" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Thumbnail_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="timeSpinner" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/TimeSpinner_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="value" value="#{yourBean.time}" />
+				<attribute id="timezone" value="MST" />
+				<attribute id="useNative" value="true" />
+			</value>
+		</trait>		
+	</entity>
+	<entity id="camcorder" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Camcorder_C16.png</value>
+		</trait>
+	</entity>
+	<entity id="videoPlayer" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/VideoPlayer_C16.png</value>
+		</trait>
+	</entity>
+</md:metadatamodel>

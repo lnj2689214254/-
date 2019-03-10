@@ -1,0 +1,6 @@
+2019.02.28 at 13:47:29 CST: Beginning audit log for blueprint rb-5513151-1551332781597
+2019.02.28 at 13:47:29 CST: OneInstall-based installer applied changes from InstallProfileProcessor
+2019.02.28 at 13:47:29 CST: Blueprint detected not in the registry; determining installation state
+2019.02.28 at 13:47:29 CST: Installation of software detected; installation time: 2019.02.28 at 13:46:22 CST
+2019.02.28 at 13:47:29 CST: Updated registry state: [install=INSTALLED; profile=com.poweredbypulse.profile-0-rb-5513151-1551332781597; directory=D:\360Downloads\MyEclipse 10]
+2019.02.28 at 13:47:29 CST: Updated registry state: [install=INSTALLED; profile=com.poweredbypulse.profile-0-rb-5513151-1551332781597; directory=D:\360Downloads\MyEclipse 10]

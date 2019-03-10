@@ -1,0 +1,384 @@
+Signature-Version: 1.0
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest-Main-Attributes: pXSnA9caJBTa8Fu3NYMqOXZsLak=
+SHA1-Digest-Manifest: Ck1uUyzaSQdSvHv6ZsH3kxc9aaw=
+
+Name: data/1.8.0/ICEfaces/jxl.jar
+SHA1-Digest: EfDJO+zXhvXvpjBZX4MIEWEuTSM=
+
+Name: data/1.8.1/ICEfaces/commons-beanutils.jar
+SHA1-Digest: /HTVGtE5CBlG119m1MAX3Ifbqk4=
+
+Name: data/org.icefaces/icefaces/3.0/icefaces.jar
+SHA1-Digest: sI3hszMxKhfBNF3RfDoUNnBFqUo=
+
+Name: data/1.6.2/ICEfaces/commons-digester.jar
+SHA1-Digest: L7oEPOfj2z1yDujGcJPysTELkMs=
+
+Name: data/1.7.0/ICEfaces/el-api.jar
+SHA1-Digest: Rth1b61HzmPO7bL6rEyCuoT6oJw=
+
+Name: data/1.8.1/ICEfaces-Facelets/icefaces-facelets.jar
+SHA1-Digest: xlnIcbY8m4AnocLElgV2mmiN6Bs=
+
+Name: data/1.8.1/ICEfaces/icefaces.jar
+SHA1-Digest: BSd79Fv0sqqd/Y4dGH+f2OE481s=
+
+Name: data/1.7.2/ICEfaces/el-ri.jar
+SHA1-Digest: wM1aU0G9lN/71yndWkIFO4UnU+g=
+
+Name: data/1.7.0/ICEfaces/el-ri.jar
+SHA1-Digest: oZmOuz4hTJh1PGqynLihGHHSHUg=
+
+Name: data/1.8.1/ICEfaces/commons-collections.jar
+SHA1-Digest: x02X+0G0BJiRDZuztmw7ZfOsg1o=
+
+Name: data/1.6.1/ICEfaces-Facelets/icefaces-facelets.jar
+SHA1-Digest: 9kNd8l+qtegiOenw/3G7MxwdbgM=
+
+Name: data/1.8.0/ICEfaces/commons-collections.jar
+SHA1-Digest: byDHbZMGFyW/lqS+cRmqCC/MOIc=
+
+Name: data/1.6.1/ICEfaces/xml-apis.jar
+SHA1-Digest: YqXbNrmPbbdSETs2brJh5XzGwFY=
+
+Name: data/1.7.2/ICEfaces/icefaces-comps.jar
+SHA1-Digest: 2eEaWvPzcNkiry0d2xFH9yKobEs=
+
+Name: data/org.icefaces/icefaces-ace/2.0/icefaces-ace.jar
+SHA1-Digest: VuTo6x4eTIQ2FPvKugn33ukz9NQ=
+
+Name: data/1.6.1/versions-licenses.html
+SHA1-Digest: 9M4mBuZb3mTlepIOjZ8yVmPUKY8=
+
+Name: data/1.6.2/ICEfaces/backport-util-concurrent.jar
+SHA1-Digest: C38gmhRrjBhS4XnYW2GNp4y9IFA=
+
+Name: data/1.7.2/ICEfaces/el-api.jar
+SHA1-Digest: VlCYReMW5ssDckdYMCNZnQGoMoM=
+
+Name: data/1.6.1/ICEfaces/el-ri.jar
+SHA1-Digest: ObMCLijyZNlItCF0ISNjtFi5KKk=
+
+Name: data/1.6.2/ICEfaces/xml-apis.jar
+SHA1-Digest: hqfo9TpF/ie1z92S2FtWOm6TGWg=
+
+Name: data/net.sf.jcharts/krysalis-jCharts/1.0.0-alpha-1/krysalis-jCha
+ rts-1.0.0-alpha-1.jar
+SHA1-Digest: +8LbsrLCp2SIctZ4VC1VMeiSLU0=
+
+Name: data/1.8.1/ICEfaces/commons-logging.jar
+SHA1-Digest: SNqhrSZY0XgOBEquaGQeQu+FNe0=
+
+Name: data/1.8.0/ICEfaces/commons-fileupload.jar
+SHA1-Digest: 0SjA5ZDw4wruUsq8sx0G7w7ZNd8=
+
+Name: plugin.xml
+SHA1-Digest: jCkKG14MbE87ZCqB+CHE5BtCTpc=
+
+Name: data/1.7.0/ICEfaces/commons-beanutils.jar
+SHA1-Digest: dnjCsZrrtXJ1lEL2Q7d0aw1FE6E=
+
+Name: data/1.8.1/ICEfaces/jxl.jar
+SHA1-Digest: W4tGZV8qiU/HJF/IbH38JZIq6kQ=
+
+Name: data/1.7.0/ICEfaces/krysalis-jCharts-1.0.0-alpha-1.jar
+SHA1-Digest: XpaaCn6kf8zWJcyy12NRFlSrT88=
+
+Name: data/1.7.1/versions-licenses.html
+SHA1-Digest: jrGsxGwzTVdwNfBf5fiXGWeShSc=
+
+Name: data/1.8.1/ICEfaces/FastInfoset.jar
+SHA1-Digest: 4KnOvHCwzGJC+J0iv5a7yf5t3Eg=
+
+Name: data/1.8.1/ICEfaces/el-api.jar
+SHA1-Digest: DbKgTtOsMUpipTb7xPZR6ffIgh0=
+
+Name: data/1.8.0/ICEfaces/icefaces-comps.jar
+SHA1-Digest: LImjyf/fBOQF5xuaykp9AjdospY=
+
+Name: data/1.7.2/ICEfaces/xml-apis.jar
+SHA1-Digest: qbAa/MhmCI0mBj5M52TqgeeZD8U=
+
+Name: data/1.8.0/ICEfaces/backport-util-concurrent.jar
+SHA1-Digest: 0it+loQoqBKDRZ6AeckDWnAmB60=
+
+Name: data/1.7.1/ICEfaces/commons-fileupload.jar
+SHA1-Digest: KhVwhyTBUhnJJBwREZco5ESsRok=
+
+Name: data/1.7.1/ICEfaces-Facelets/icefaces-facelets.jar
+SHA1-Digest: mHssgnsUSstqSQju9cwjPqU934M=
+
+Name: data/1.6.1/ICEfaces/xercesImpl.jar
+SHA1-Digest: SuyRGvbRkfyoJb+KAw8/nK1CapY=
+
+Name: data/1.6.2/versions-licenses.html
+SHA1-Digest: 5amOF7NMIKm6JVBpCuHrAAkuFiw=
+
+Name: data/org.icepush/icepush/3.0/icepush.jar
+SHA1-Digest: bSI3hZKOK9+/4EcVM+lLkz9f0wM=
+
+Name: preferences.ini
+SHA1-Digest: AQ5OXqIRzcv+T4SqBhej0/xk4G0=
+
+Name: data/1.8.0/ICEfaces/el-ri.jar
+SHA1-Digest: 9KM0pi6pNYvXgKRnfk7lCXTblYU=
+
+Name: data/1.7.2/ICEfaces-Facelets/icefaces-facelets.jar
+SHA1-Digest: cZ79O57v8Atc9dTRmEiAOipsLDk=
+
+Name: data/org.icefaces/icefaces-compat/2.0/icefaces-compat.jar
+SHA1-Digest: dSkZantc+hVkZcYT4H8DClpNc14=
+
+Name: data/1.6.2/ICEfaces/icefaces.jar
+SHA1-Digest: e8jATULQI9SKskWPv7FkXYmfUS0=
+
+Name: plugin.properties
+SHA1-Digest: VRhIujZGCAZqPFFAet02GJLNbQI=
+
+Name: data/1.6.2/ICEfaces/commons-logging.jar
+SHA1-Digest: gveaPEh8vE7LplSmt0PiYHWfDns=
+
+Name: data/org.icefaces/icefaces/2.0/icefaces.jar
+SHA1-Digest: /idEKZ4ap881Mf2nrj2meepXreQ=
+
+Name: data/net.sourceforge.jexcelapi/jxl/2.6.8/jxl.jar
+SHA1-Digest: TAf6j0LiNv6tDh3Z5gV8nHWbimc=
+
+Name: data/1.6.1/ICEfaces/icefaces.jar
+SHA1-Digest: FFyHkLaewgECf5orbSmi1WV8N0c=
+
+Name: data/1.7.1/ICEfaces/icefaces-comps.jar
+SHA1-Digest: lFOWhQRmqVjMhZk5U7+3/5wo68g=
+
+Name: data/1.6.2/ICEfaces/commons-collections.jar
+SHA1-Digest: agthtqcwweWY8KbMSeaZLJADVzA=
+
+Name: data/1.7.2/ICEfaces/xercesImpl.jar
+SHA1-Digest: e6C/dRBT6lB/pZJC3/ErxXCSQBE=
+
+Name: data/1.7.0/versions-licenses.html
+SHA1-Digest: QgUfqcrRzpDHX4muAqSdMcYz6S4=
+
+Name: data/1.6.2/ICEfaces/el-api.jar
+SHA1-Digest: kstWPV4T06nOSyBFovRQgZROS0M=
+
+Name: data/1.6.1/ICEfaces/icefaces-comps.jar
+SHA1-Digest: Rn2khHhjYJwUooFFlszY13iCxBE=
+
+Name: data/1.8.1/ICEfaces/commons-digester.jar
+SHA1-Digest: Vs+Z1627z/Wvv2uy+sD/XZxaQ6Y=
+
+Name: data/1.7.0/ICEfaces/xml-apis.jar
+SHA1-Digest: gTNxES86HvIAAuCxOpNyA4dIN9c=
+
+Name: data/1.8.0/versions-licenses.html
+SHA1-Digest: 0072W8r5l9SvLbB28gh/6XhOTDY=
+
+Name: data/1.7.1/ICEfaces/icefaces.jar
+SHA1-Digest: fmQIHKXLP21XKriAMlpKOG8kQPM=
+
+Name: license.html
+SHA1-Digest: S+SqkwDohlc+7bEEdfhyjfv7If0=
+
+Name: data/1.6.1/ICEfaces/commons-digester.jar
+SHA1-Digest: lp8O+pw99PX+isXcUvF9inX96u4=
+
+Name: data/1.8.0/ICEfaces/xml-apis.jar
+SHA1-Digest: 6GuOuxn0r+CMw6ILCVdI/CKcLow=
+
+Name: data/1.7.2/ICEfaces/commons-collections.jar
+SHA1-Digest: rC4KK3HZKUKjGIjZbjn12vjt628=
+
+Name: data/1.7.0/ICEfaces/icefaces-comps.jar
+SHA1-Digest: Lx7cJ1e0JocL1LtPnuzi1NBIf/U=
+
+Name: icefaces_me.jar
+SHA1-Digest: yMp9g2iKiig4TZhQ8PjkRvdPJvA=
+
+Name: data/1.7.0/ICEfaces/commons-fileupload.jar
+SHA1-Digest: mzbuvmn+IGTu4/5tG+NYC790L70=
+
+Name: data/1.7.1/ICEfaces/xercesImpl.jar
+SHA1-Digest: Pi1EZqO/4CKTMx4vgT/0QqejgLo=
+
+Name: data/1.8.1/ICEfaces/xercesImpl.jar
+SHA1-Digest: sAdA+hFrX7Vxn800dGVpiss1HRg=
+
+Name: data/1.8.1/ICEfaces/krysalis-jCharts-1.0.0-alpha-1.jar
+SHA1-Digest: qomw/x2yq9kIt4v5SurSBFxu1xk=
+
+Name: data/org.icepush/icepush/2.0/icepush.jar
+SHA1-Digest: H9QlkL5Cln1stA8tmu4jRYkk/lU=
+
+Name: data/1.8.1/ICEfaces/backport-util-concurrent.jar
+SHA1-Digest: tFkP5QvvVepwGCnv2wssgTQ4yiM=
+
+Name: data/1.7.0/ICEfaces/xercesImpl.jar
+SHA1-Digest: 0BfRAgJcWUTSfjOEd1aMLuQpTJQ=
+
+Name: data/1.6.1/ICEfaces/commons-beanutils.jar
+SHA1-Digest: 5BKMpjOxp929Zj6mOtV1gOdrch8=
+
+Name: data/1.6.2/ICEfaces/krysalis-jCharts-1.0.0-alpha-1.jar
+SHA1-Digest: KfMBslMbG1Yl/D7OrfzBf9Y/4dI=
+
+Name: data/1.8.0/ICEfaces/commons-digester.jar
+SHA1-Digest: 7XuklY/zyWa/I1+coDjzzjN/Qrs=
+
+Name: data/1.7.2/ICEfaces/commons-digester.jar
+SHA1-Digest: TZRnwz0RXye2x6rwFc/X1cO66pE=
+
+Name: data/org.icefaces/icefaces-ace/3.0/icefaces-ace.jar
+SHA1-Digest: wVy/pvnh7CNfRCx/2t2W3nWERW8=
+
+Name: data/1.8.1/ICEfaces/commons-fileupload.jar
+SHA1-Digest: wxK2txTv7k88Ydz72VbMcYpBgRc=
+
+Name: data/1.8.1/ICEfaces/icefaces-comps.jar
+SHA1-Digest: ofqiR0ffj3dIv4BdsJe4mKsWdyQ=
+
+Name: data/1.6.2/ICEfaces-Facelets/icefaces-facelets.jar
+SHA1-Digest: jxtshJbPhwtRdch2ajN8qSD6hFw=
+
+Name: data/1.7.2/versions-licenses.html
+SHA1-Digest: vtZHD458XbbcwaYNwgr14ZAu2Cc=
+
+Name: data/1.7.1/ICEfaces/backport-util-concurrent.jar
+SHA1-Digest: 2ht2ryx95+JyEzVoMpSAaGFe8x0=
+
+Name: data/1.7.0/ICEfaces/icefaces.jar
+SHA1-Digest: TFmh7jBYZh5KzTOLK2hHsJkBPlQ=
+
+Name: data/1.8.0/ICEfaces/xercesImpl.jar
+SHA1-Digest: M7dr2XC5+ZRXFewwDJ5ajgaOF7s=
+
+Name: data/1.7.1/ICEfaces/commons-collections.jar
+SHA1-Digest: Ux7eS+FV86ZhafiNax5+5aDVmRU=
+
+Name: data/1.7.2/ICEfaces/commons-logging.jar
+SHA1-Digest: rvPToZF0xp6cGV+HVayqmRz+j4U=
+
+Name: data/1.6.2/ICEfaces/commons-fileupload.jar
+SHA1-Digest: gRHaFFs9bq3E1+UrgIBHFXKGLz4=
+
+Name: data/org.icefaces/icefaces-mobi/1.0/icefaces-mobi.jar
+SHA1-Digest: wL39rABIZzXrq/4XlPLtJIuLv6c=
+
+Name: data/1.8.1/ICEfaces/xml-apis.jar
+SHA1-Digest: CFRuuihZVoNBkAIO/3O2JPw2/RA=
+
+Name: data/1.8.0/ICEfaces/krysalis-jCharts-1.0.0-alpha-1.jar
+SHA1-Digest: 5Topt2wgm4T/uUUnBG1D4J7uzRo=
+
+Name: data/1.7.1/ICEfaces/krysalis-jCharts-1.0.0-alpha-1.jar
+SHA1-Digest: tcfmalKmaLayUL4yEICquJy+HgM=
+
+Name: data/1.6.1/ICEfaces/el-api.jar
+SHA1-Digest: alrCL6QtillsN5lLVK2NboT1GxU=
+
+Name: data/1.7.1/ICEfaces/commons-digester.jar
+SHA1-Digest: 4VC36KLg3GstrvEkndCMnjcKcSA=
+
+Name: data/1.7.2/ICEfaces/commons-fileupload.jar
+SHA1-Digest: U3tOhf5P+G0yMegJhQwqEgHNLaU=
+
+Name: data/1.8.0/ICEfaces/commons-logging.jar
+SHA1-Digest: ZbtF7mqkufSIbdV+yi2DPN6me58=
+
+Name: data/1.6.2/ICEfaces/icefaces-comps.jar
+SHA1-Digest: 5eT2P0qXf9Xta3B17CjUZ26+imI=
+
+Name: data/1.8.1/versions-licenses.html
+SHA1-Digest: CzfF1OiPgvCJLNM6tpn4kFHwN0w=
+
+Name: data/org.icefaces/icefaces-compat/3.0/icefaces-compat.jar
+SHA1-Digest: +rVoohzIohre6cKWLi7iWGZYSFU=
+
+Name: data/1.6.1/ICEfaces/backport-util-concurrent.jar
+SHA1-Digest: FhdVhr407tH8YCYloLJInsLotcw=
+
+Name: data/1.7.2/ICEfaces/commons-beanutils.jar
+SHA1-Digest: +5wXxZXLTxadxh6iTpP0lNz7MDQ=
+
+Name: data/1.7.1/ICEfaces/el-api.jar
+SHA1-Digest: IhwjRDJlvbzkhw5rDx7kpuFDY2g=
+
+Name: data/1.7.2/ICEfaces/krysalis-jCharts-1.0.0-alpha-1.jar
+SHA1-Digest: 0ehjnu63rIBaXyD7zK9r6eIYrFs=
+
+Name: data/1.6.1/ICEfaces/commons-logging.jar
+SHA1-Digest: PRH2FpeHJ0+cdYvtP92HKgQa74c=
+
+Name: data/1.7.1/ICEfaces/xml-apis.jar
+SHA1-Digest: CTjOtWGZM2PBdASn4ClZj6Ibpos=
+
+Name: data/1.7.1/ICEfaces/el-ri.jar
+SHA1-Digest: HAgyWvQdLIgEz4EB8L3NDTxXszw=
+
+Name: data/1.8.0/ICEfaces/commons-beanutils.jar
+SHA1-Digest: CygEQRGQmLoUmJY6FiUlBn0J8IM=
+
+Name: data/1.6.1/ICEfaces/commons-collections.jar
+SHA1-Digest: 54zhKwRtK235HplP08xAvXT+CVQ=
+
+Name: data/1.7.0/ICEfaces/commons-collections.jar
+SHA1-Digest: SWMtdM10ecXzbNkq5fcWDI36MLU=
+
+Name: data/commons-logging/1.1.1/commons-logging.jar
+SHA1-Digest: s7pqg+lJnOtcffBko3HI9rm6EeM=
+
+Name: data/1.7.0/ICEfaces/commons-logging.jar
+SHA1-Digest: i1XpJieQVRyiFr211J0JZmXRKaE=
+
+Name: data/1.6.1/ICEfaces/commons-fileupload.jar
+SHA1-Digest: WBl3Fd0y2LnHr+Iu6ShUoHcfr/0=
+
+Name: data/1.7.0/ICEfaces-Facelets/icefaces-facelets.jar
+SHA1-Digest: zWGLBYuqa470WCT/1pGe5SOBsTo=
+
+Name: data/1.8.0/ICEfaces-Facelets/icefaces-facelets.jar
+SHA1-Digest: MqykEsrpwjf/DHe8qgDlujq+580=
+
+Name: data/1.8.0/ICEfaces/el-api.jar
+SHA1-Digest: UGLsqcCVoGPDrSqoR65ZZI9Poo4=
+
+Name: data/1.7.0/ICEfaces/commons-digester.jar
+SHA1-Digest: lRQcCbHRTln+LlO1UuYLgoMIthE=
+
+Name: data/1.8.0/ICEfaces/icefaces.jar
+SHA1-Digest: 7L4/ZwpAiDBxmyaWK7+arZfoLlY=
+
+Name: data/1.7.1/ICEfaces/commons-logging.jar
+SHA1-Digest: g8qqK2PiCQpAcFhj6XjrSoNiXSA=
+
+Name: data/1.7.2/ICEfaces/backport-util-concurrent.jar
+SHA1-Digest: 6KLwYhUcf4w89tztH2r3PiZqosw=
+
+Name: data/1.7.1/ICEfaces/commons-beanutils.jar
+SHA1-Digest: Pr4RRoQuf1SF692D25e7KZN860c=
+
+Name: data/1.7.2/ICEfaces/icefaces.jar
+SHA1-Digest: jRSj2hJgE4dQ2+AH40B0vt3UQ34=
+
+Name: data/1.6.2/ICEfaces/commons-beanutils.jar
+SHA1-Digest: EbAzZgS+9FZiBvzMMaK7QIRcHMQ=
+
+Name: data/1.6.1/ICEfaces/krysalis-jCharts-1.0.0-alpha-1.jar
+SHA1-Digest: Y3e7Hz0CPUIDa4BF1Vuve3LHqYw=
+
+Name: data/1.6.2/ICEfaces/xercesImpl.jar
+SHA1-Digest: NkccvtOvIiizxwD5059UlQO6N2U=
+
+Name: data/1.8.0/ICEfaces/FastInfoset.jar
+SHA1-Digest: SZgUbrjduemcbzUUlDSLde2j6o4=
+
+Name: data/1.6.2/ICEfaces/el-ri.jar
+SHA1-Digest: ktbFUgvss9flIVPlkhdLSxha//k=
+
+Name: data/1.8.1/ICEfaces/el-ri.jar
+SHA1-Digest: I2Yrjm4O33+VTmEb49GiwGVJA/A=
+
+Name: data/1.7.0/ICEfaces/backport-util-concurrent.jar
+SHA1-Digest: dVxGfnINfFlo+rFeG2ygB4qZrmA=
+

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+
+Name: feature.properties
+SHA1-Digest: Q1HwgC0L1ph6+/5982X0/ZF9HtY=
+
+Name: feature.xml
+SHA1-Digest: KZtb2qrfnGPgi+X3EW1KTmv27w4=
+
+Name: eclipse_update_120.jpg
+SHA1-Digest: xstAqMgs/a5AsQXQZSdDQ79veOA=
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.jst.web_ui.feature" label="%featureName" provider-name="%providerName" version="3.3.0.me201206141911">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+
+   <includes id="org.eclipse.wst.ws_ui.feature" version="3.3.0.me201206141911"/>
+
+   <includes id="org.eclipse.jst.web_core.feature" version="3.3.0.me201206141911"/>
+
+   <plugin download-size="0" id="org.eclipse.wst.jsdt.web.support.jsp" install-size="0" unpack="false" version="1.0.400.me201108101919"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.common.annotations.ui" install-size="0" unpack="false" version="1.1.300.v201002081900"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.common.ui" install-size="0" unpack="false" version="1.0.100.v201105030440"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsp.ui" install-size="0" unpack="false" version="1.1.600.me201201120656"/>
+
+   <plugin download-size="0" id="org.eclipse.jst.jsp.ui.infopop" install-size="0" unpack="false" version="1.0.200.v201004150328"/>
+
+</feature>

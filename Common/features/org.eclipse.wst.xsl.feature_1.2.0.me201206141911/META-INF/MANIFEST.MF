@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+
+Name: feature.properties
+SHA1-Digest: k/rT5Gtydigsihjp82rsKXetvDk=
+
+Name: feature.xml
+SHA1-Digest: fPabdHoVkQldjFJ2OoFXuVZ351U=
+

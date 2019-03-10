@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easietomcat7.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,com.genuitec.eclipse.easie.tomcat,org.eclipse.cor
+ e.runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.tomcat7.Tomcat7LauncherPlugin
+Bundle-Version: 9.0.0.me201108091322
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.tomcat7; singleton:=tr
+ ue
+
+Name: preferences.ini
+SHA1-Digest: 3+mi5APpmdpBoUa/b3/kTAi6d7M=
+
+Name: easietomcat7.jar
+SHA1-Digest: cEvqYJUdLBzahczus30ZKK7gzxg=
+
+Name: plugin.xml
+SHA1-Digest: YYiY4VRc7pr0+vPpmy4sXjzq6LI=
+
+Name: license.html
+SHA1-Digest: 7hgCwVAQS4G8M6OmNvhbexr3wSc=
+
+Name: about.html
+SHA1-Digest: MHfKO9/Xx43SekJzDGHMlyjNnCo=
+
+Name: plugin.properties
+SHA1-Digest: TGCQnZr67yXAWQOlohUgxhtcNL0=
+

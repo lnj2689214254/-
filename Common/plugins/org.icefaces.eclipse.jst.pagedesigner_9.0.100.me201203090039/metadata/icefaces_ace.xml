@@ -1,0 +1,3144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:metadatamodel
+	xmlns:md="http://org.eclipse.jst.jsf.common.metadata/metadata.ecore"
+	xmlns:cnst="http://org.eclipse.jst.jsf.core/constraints.ecore"
+	xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+	xmlns:mdt="http://org.eclipse.jst.jsf.common.metadata/metadataTraitTypes.ecore"
+	xmlns:qe="http://org.eclipse.jsf.pagedesigner/QuickEditTabSections.ecore"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="http://www.icefaces.org/icefaces/components"
+	type="tagFile">
+	
+	<entity id="ajax" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="disabled" />
+				<section id="event" />
+				<section id="listener" />
+				<section id="render" />
+			</value>
+		</trait>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+			</trait>
+		</entity>
+		<entity id="event" />
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+			</trait>				
+		</entity>
+		<entity id="async">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+			</trait>				
+		</entity>
+		<entity id="global">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+			</trait>				
+		</entity>				
+		<entity id="listener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>			
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.AjaxBehaviorEvent</value>
+			</trait>	
+		</entity>
+		<entity id="onStart">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>	
+		</entity>
+		<entity id="onComplete">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>			
+		</entity>
+		<entity id="onSuccess">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>			
+		</entity>				
+		<entity id="onError">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>			
+		</entity>
+		<entity id="render">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>			
+		</entity>
+		<entity id="execute">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>			
+		</entity>
+	</entity>
+	
+	<entity id="accordion" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="collapsible" />
+				<section id="autoHeight" />
+			</value>
+		</trait>
+		<entity id="dynamic">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="cache">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="collapsible">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="autoHeight">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="fillSpace">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="effect" />
+		<entity id="activeIndex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="event" />
+		<entity id="onTabChangeUpdate" />
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onTabChange" />
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabChangeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+	</entity>
+
+	<entity id="accordionPane" type="tag">
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="title">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType
+				</value>
+			</trait>
+		</entity>		
+	</entity>	
+	
+	<entity id="animation" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="to" />
+				<section id="from" />
+			</value>
+		</trait>
+		<entity id="event">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ScriptType
+				</value>
+			</trait>
+		</entity>
+		<entity id="to">
+		</entity>
+		<entity id="from">
+		</entity>
+		<entity id="duration">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="easing">
+		</entity>
+	</entity>	
+	<entity id="checkboxButton" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="label" />
+				<section id="value" />
+				<section id="style" />
+				<section id="section.general.outputText.converter" type="SECTION"/>	
+				<section id="section.general.commandButton.listener" type="SECTION"/>
+			</value>
+		</trait>
+		<entity id="validatorMessage" />
+		<entity id="converterMessage" />
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="validator">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:ListOfValues">
+					<item>javax.faces.context.FacesContext</item>
+					<item>javax.faces.component.UIComponent</item>
+					<item>java.lang.Object</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="label" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="requiredMessage" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="valueChangeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.ValueChangeEvent</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="converter">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType
+				</value>
+			</trait>
+			<trait id="config-type">
+				<value xsi:type="mdt:StringValue">javax.faces.convert.Converter</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="required">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="column" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="headerText" />
+				<section id="sortBy" />
+				<section id="filterBy" />
+				<section id="filterMatchMode" />
+			</value>
+		</trait>
+		<entity id="footerText" />
+		<entity id="colspan">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="filterMatchMode" />
+		<entity id="filterEvent" />
+		<entity id="rowspan">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="sortFunction">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="selectionMode" />
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="sortBy" />
+		<entity id="filterOptions" />
+		<entity id="filterStyleClass" >
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+			</entity>		
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="filterStyle" />
+		<entity id="filterBy" />
+		<entity id="headerText" />
+	</entity>
+	<entity id="columnGroup" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="type" />
+			</value>
+		</trait>	
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="type">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>header</item>
+					<item>footer</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="confirmDialog" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="message" />
+				<section id="header" />
+				<section id="severity" />
+				<section id="widgetVar" />
+			</value>
+		</trait>	
+		<entity id="position" />
+		<entity id="width">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="closeOnEscape">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="severity" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="header" />
+		<entity id="hideEffect" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="message" />
+		<entity id="height">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="appendToBody">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="closable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="showEffect" />
+		<entity id="modal">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="draggable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="zindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="contextMenu" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="forValue" />
+				<section id="effect" />
+				<section id="effectDuration" />
+			</value>
+		</trait>		
+		<entity id="forValue" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="model" />
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="effect" />
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="effectDuration">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="zindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	
+	<entity id="dataExporter" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="target"/>
+				<section id="fileName"/>
+				<section id="type"/>						
+			</value>
+		</trait>
+		<entity id="fileName" />		
+		<entity id="type">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>xls</item>
+					<item>pdf</item>
+					<item>csv</item>
+					<item>xml</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="target" />
+		<entity id="pageOnly">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>		
+		</entity>
+		<entity id="excludeColumns">
+		</entity>
+		<entity id="preProcessor">
+		</entity>
+		<entity id="postProcessor">
+		</entity>
+		<entity id="encoding">
+		</entity>
+		<entity id="includeHeaders">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>		
+		</entity>
+		<entity id="includeFooters">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>		
+		</entity>
+		<entity id="selectedRowsOnly">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>		
+		</entity>
+
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+		
+	<entity id="dataTable" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="var" />
+				<section id="value" />
+				<section id="paginator" />
+				<section id="paginatorPosition" />
+				<section id="height" />
+				<section id="scrollable" />
+				<section id="rows" />
+			</value>
+		</trait>	
+		<entity id="dynamic">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="currentPageReportTemplate" />
+		<entity id="resizableColumns">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+        <entity id="var">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="scrollable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="dblClickSelect">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="cellSelection" />
+		<entity id="liveScroll">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="paginator">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rowsPerPageTemplate" />
+		<entity id="height">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="selectionMode" />
+>
+		<entity id="page">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="singleSort">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onSelectComplete" />
+		<entity id="rowSelectListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+		<entity id="rowUnselectListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+		<entity id="paginatorPosition" />
+		<entity id="onExpandStart" />
+		<entity id="paginatorAlwaysVisible">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onRowSelectStart" />
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rowStyleClass" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="stateMap" />
+		<entity id="columnOrdering" />
+		<entity id="rows">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="emptyMessage" />
+		<entity id="pageLinks">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rowIndex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onSelectStart" />
+		<entity id="onRowSelectComplete" />
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="paginatorTemplate" />
+		<entity id="lazy">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="first">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rowIndexVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+	</entity>
+	<entity id="dateTimeEntry" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="value" />
+				<section id="timeZone" />
+				<section id="pattern" />				
+				<section id="renderInputField" />
+				<section id="renderAsPopup" />
+				<section id="section.general.outputText.converter" type="SECTION"/>					
+			</value>
+		</trait>
+		<entity id="selectOtherMonths">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="validatorMessage" />
+		<entity id="minHour">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="minMinute">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disableHoverStyling">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="showWeek">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="locale" />
+		<entity id="validator">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:ListOfValues">
+					<item>javax.faces.context.FacesContext</item>
+					<item>javax.faces.component.UIComponent</item>
+					<item>java.lang.Object</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="timeZone" />
+		<entity id="renderAsPopup">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxMinute">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="valueChangeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.ValueChangeEvent</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>
+		<entity id="showOtherMonths">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="converter">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType
+				</value>
+			</trait>
+			<trait id="config-type">
+				<value xsi:type="mdt:StringValue">javax.faces.convert.Converter</value>
+			</trait>
+		</entity>
+		<entity id="effectDuration" />
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="readOnlyInputText">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="required">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxdate" />
+		<entity id="showButtonPanel">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="leftMonthOffset">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="stepMinute">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="stepHour">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxSecond">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="converterMessage" />
+		<entity id="minSecond">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="pages">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="stepSecond">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="timeOnly">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="mindate" />
+		<entity id="requiredMessage" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="effect" />
+		<entity id="pattern" />
+		<entity id="navigator">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="popupIcon" />
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="showOn" />
+		<entity id="maxHour">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="readonly">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="yearRange" />
+		<entity id="popupIconOnly">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="draggable" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="forValue" />
+				<section id="revert" />
+				<section id="opacity" />
+				<section id="scope" />			
+			</value>
+		</trait>
+		<entity id="axis" />
+		<entity id="scope" />
+		<entity id="cursor" />
+		<entity id="handle" />
+		<entity id="helper" />
+		<entity id="snapMode" />
+		<entity id="snap">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="dragOnly">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="containment" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="forValue" />
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="revert">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="opacity">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="grid" />
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="snapTolerance">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="dashboard" />
+		<entity id="stack" />
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="zindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="droppable" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="tolerance" />
+				<section id="activeStyleClass" />
+				<section id="scope" />			
+			</value>
+		</trait>	
+		<entity id="scope" />
+		<entity id="accept" />
+		<entity id="dropListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+		<entity id="onDrop" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="forValue" />
+		<entity id="activeStyleClass" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="hoverStyleClass" />
+		<entity id="tolerance" />
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onDropUpdate" />
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="datasource" />
+	</entity>
+	<entity id="expansionToggler" type="tag">
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="changeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+		</entity>		
+	</entity>
+	<entity id="fileEntry" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="singleSubmit" />
+				<section id="label" />
+				<section id="maxFileCount" />
+				<section id="useOriginalFilename" />
+			</value>
+		</trait>
+		<entity id="relativePath">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.WebPathType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxFileSizeMessage" />
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxTotalSize">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType
+				</value>
+			</trait>
+		</entity>
+		<entity id="label" />
+		<entity id="absolutePath">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.WebPathType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxFileSize">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.LongType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="requiredMessage" />
+		<entity id="maxTotalSizeMessage" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="results" />
+		<entity id="useSessionSubdir">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxFileCount">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="callback" />
+		<entity id="useOriginalFilename">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="fileEntryListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+		<entity id="required">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxFileCountMessage" />
+	</entity>
+	<entity id="linkButton" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="value" />
+				<section id="section.general.commandLink.listener" type="SECTION"/>
+			</value>
+		</trait>
+		<entity id="actionListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.ActionEvent</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="target" />
+		<entity id="action">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">java.lang.String</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="hrefLang" />
+		<entity id="href" />
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="maskedEntry" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="value" />
+				<section id="mask" />
+                <section id="section.general.inputText.others" type="SECTION"/> 											
+			</value>
+		</trait>	
+		<entity id="validatorMessage" />
+		<entity id="validator">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:ListOfValues">
+					<item>javax.faces.context.FacesContext</item>
+					<item>javax.faces.component.UIComponent</item>
+					<item>java.lang.Object</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="mask" />
+		<entity id="lang" />
+		<entity id="accesskey" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="title" />
+		<entity id="valueChangeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.ValueChangeEvent</value>
+			</trait>
+		</entity>
+		<entity id="maxlength">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="dir" />
+		<entity id="converter">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType
+				</value>
+			</trait>
+			<trait id="config-type">
+				<value xsi:type="mdt:StringValue">javax.faces.convert.Converter</value>
+			</trait>
+		</entity>
+		<entity id="alt" />
+		<entity id="onblur" />
+		<entity id="onmouseup" />
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="required">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onmousemove" />
+		<entity id="converterMessage" />
+		<entity id="ondblclick" />
+		<entity id="onmouseout" />
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabindex" />
+		<entity id="onkeyup" />
+		<entity id="onkeypress" />
+		<entity id="onkeydown" />
+		<entity id="onfocus" />
+		<entity id="label" />
+		<entity id="autocomplete" />
+		<entity id="requiredMessage" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onchange" />
+		<entity id="onmouseover" />
+		<entity id="size">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="placeHolder" />
+		<entity id="onselect" />
+		<entity id="onclick" />
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onmousedown" />
+		<entity id="readonly">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="menu" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="type" />										
+			</value>
+		</trait>	
+		<entity id="position" />
+		<entity id="trigger" />
+		<entity id="model" />
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="at" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="type">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>plain</item>
+					<item>tiered</item>
+					<item>sliding</item>
+				</value>
+			</trait>
+		</entity>	
+		<entity id="my" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="triggerEvent" />
+		<entity id="tiered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="effect" >
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>FADE</item>
+					<item>SLIDE</item>
+					<item>NONE</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="effectDuration">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxHeight">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="backLabel" />
+		<entity id="zindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="menuBar" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="autoSubmenuDisplay" />										
+			</value>
+		</trait>		
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="model" />
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="effect" >
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>FADE</item>
+					<item>SLIDE</item>
+					<item>NONE</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="effectDuration">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="autoSubmenuDisplay">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="menuButton" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="value" />							
+			</value>
+		</trait>		
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="model" />
+		<entity id="effect" >
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>FADE</item>
+					<item>SLIDE</item>
+					<item>NONE</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="effectDuration">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="zindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="menuItem" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="value" />
+				<section id="url" />
+				<section id="icon" />
+				<section id="target" />
+			</value>
+		</trait>
+		<entity id="actionListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.ActionEvent</value>
+			</trait>
+		</entity>
+
+		<entity id="icon" />
+		<entity id="onstart" />
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="global">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="oncomplete" />
+		<entity id="helpText" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="async">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="url" />
+		<entity id="onsuccess" />
+		<entity id="onerror" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="target" />
+		<entity id="action">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">java.lang.String</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onclick" />
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="notificationPanel" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="position" />
+				<section id="widgetVar" />
+				<section id="effect" />
+				<section id="style" />
+			</value>
+		</trait>
+		<entity id="position">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>top</item>
+					<item>bottom</item>
+				</value>
+			</trait>
+		</entity>		
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="effect" >
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>fade</item>
+					<item>slide</item>
+					<item>none</item>
+				</value>
+			</trait>
+		</entity>
+		<entity id="effectSpeed">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.StringType</value>
+			</trait>		
+			<trait id="valid-values">
+				<value xsi:type="mdt:ListOfValues">
+					<item>slow</item>
+					<item>normal</item>
+					<item>fast</item>
+				</value>
+			</trait>
+		</entity>		
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="autoDisplay">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="panel" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="header" />
+				<section id="footer" />
+				<section id="widgetVar" />
+				<section id="closable" />
+				<section id="toggleable" />
+				<section id="collapsed" />
+				<section id="style" />
+			</value>
+		</trait>
+		<entity id="visible">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="closeSpeed">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="header" />
+		<entity id="toggleSpeed">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="collapsed">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="footer" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="closable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="toggleable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="progressBar" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="value" />
+				<section id="widgetVar" />
+				<section id="completeListener" />
+				<section id="onCompleteUpdate" />
+				<section id="cancelListener" />
+				<section id="onCancelUpdate" />
+			</value>
+		</trait>
+		<entity id="interval">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="oncomplete" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onCancelUpdate" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="completeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+		<entity id="cancelListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar">
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onCompleteUpdate" />
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="pushButton" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="label" />
+				<section id="value" />
+			</value>
+		</trait>
+		<entity id="actionListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.ActionEvent</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="label" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="action">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ActionType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">java.lang.String</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="dialog" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="header" />
+				<section id="modal" />
+				<section id="widgetVar" />
+				<section id="closable" />
+				<section id="draggable" />
+				<section id="showEffect" />
+				<section id="hideEffect" />
+			</value>
+		</trait>
+		<entity id="position" />
+		<entity id="visible">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="minWidth">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="width">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="closeOnEscape">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="header" />
+		<entity id="hideEffect" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="minHeight">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="height">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="widgetVar" >
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="closable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="appendToBody">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="showHeader">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="resizable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onShow" />
+		<entity id="showEffect" />
+		<entity id="onHide" />
+		<entity id="modal">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="draggable">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="zindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="resizable" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="animate" />
+				<section id="ghost" />
+				<section id="aspectRatio" />
+				<section id="proxy" />
+				<section id="handles" />
+				<section id="grid" />
+				<section id="onResizeUpdate"/>									
+			</value>
+		</trait>
+		<entity id="animate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="minWidth">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onResize" />
+		<entity id="aspectRatio">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onResizeUpdate" />
+		<entity id="ghost">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="containment">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="forValue" />
+		<entity id="minHeight">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="resizeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+		<entity id="effect" />
+		<entity id="widgetVar" >
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="effectDuration" />
+		<entity id="proxy">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxHeight">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="maxWidth">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="grid">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="onStop" />
+		<entity id="onStart" />
+		<entity id="handles" />
+	</entity>
+	<entity id="row" type="tag">
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="rowExpansion" type="tag">
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="panelExpansion" type="tag">
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="sliderEntry" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="axis" />
+				<section id="min" />
+				<section id="max" />
+				<section id="value" />
+				<section id="submitOn" />
+				<section id="clickableRail" />
+				<section id="length" />
+			</value>
+		</trait>
+		<entity id="axis" />
+		<entity id="min">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="showLabels">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="max">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="stepPercent">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.DoubleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabindex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="valueChangeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+			<trait id="runtime-param-types">
+				<value xsi:type="mdt:StringValue">javax.faces.event.ValueChangeEvent</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="thumbUrl" />
+		<entity id="length" />
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="clickableRail">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="submenu" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="label" />
+				<section id="icon" />
+				<section id="style" />					
+			</value>
+		</trait>		
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="icon" />
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="label" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+
+	<entity id="tabPane" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="label" />
+			</value>
+		</trait>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="label" />
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="tabSet" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="orientation" />
+				<section id="cancelOnInvalid" />
+			</value>
+		</trait>
+		<entity id="orientation" />
+		<entity id="selectedIndex">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="styleClass">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSClassType
+				</value>
+			</trait>
+		</entity>
+		<entity id="cancelOnInvalid">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="visitedTabClientIds" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="immediate">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="style">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.CSSStyleType
+				</value>
+			</trait>
+		</entity>
+		<entity id="clientSide">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="disabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="tabChangeListener">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.MethodBindingType
+				</value>
+			</trait>
+			<trait id="runtime-return-type">
+				<value xsi:type="mdt:StringValue">void</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="tabSetProxy" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="For" />
+			</value>
+		</trait>
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="For">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+	</entity>
+	<entity id="tooltip" type="tag">
+		<trait id="quick-edit-tab">
+			<value xsi:type="qe:QuickEditTabSections">
+				<section id="id" />
+				<section id="global" />
+				<section id="forValue" />
+				<section id="value" />
+				<section id="forElement" />							
+			</value>
+		</trait>	
+		<entity id="position" />
+		<entity id="showDelay">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="hideDelay">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="global">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="rendered">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType
+				</value>
+			</trait>
+		</entity>
+		<entity id="hideEffect" />
+		<entity id="id">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentIDType
+				</value>
+			</trait>
+		</entity>
+		<entity id="hideEvent" />
+		<entity id="forValue" />
+		<entity id="showEvent" />
+		<entity id="widgetVar" >
+            <trait id="contributes-value-binding">
+                <value xsi:type="mdt:BooleanValue">true</value>
+            </trait>
+            <trait id="value-binding-scope">
+                <value xsi:type="mdt:StringValue">request</value>
+            </trait>
+            <trait id="value-binding-symbol-factory">
+                <value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.common.unknownTypeSymbolFactory</value>
+            </trait>
+        </entity>		
+		<entity id="showEffectLength">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="converter">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.FacesConfigConverterIDType
+				</value>
+			</trait>
+			<trait id="config-type">
+				<value xsi:type="mdt:StringValue">javax.faces.convert.Converter</value>
+			</trait>
+		</entity>
+		<entity id="hideEffectLength">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.IntegerType
+				</value>
+			</trait>
+		</entity>
+		<entity id="value">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ValueType
+				</value>
+			</trait>
+		</entity>
+		<entity id="binding">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.ComponentBindingType
+				</value>
+			</trait>
+		</entity>
+		<entity id="forElement" />
+		<entity id="showEffect" />
+		<entity id="targetPosition" />
+	</entity>
+</md:metadatamodel>

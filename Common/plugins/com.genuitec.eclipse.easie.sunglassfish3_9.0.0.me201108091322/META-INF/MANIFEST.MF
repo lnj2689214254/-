@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.easie.sunglassfish3,com.genuitec.
+ eclipse.easie.sunglassfish3.preference
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easiesunglassfish3.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.resources,org.eclipse.debug.core,org.
+ eclipse.swt,org.eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launc
+ hing,org.eclipse.jdt.debug,org.eclipse.core.runtime,com.genuitec.ecli
+ pse.core,com.genuitec.eclipse.core.common,org.eclipse.debug.ui,org.ec
+ lipse.jdt.ui,org.eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core
+ ,com.genuitec.eclipse.wdt.jsp.debug,com.genuitec.eclipse.easie.sun,or
+ g.eclipse.core.runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.sunglassfish3.Glassfish3Launc
+ herPlugin
+Bundle-Version: 9.0.0.me201108091322
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.sunglassfish3;singleto
+ n:=true
+
+Name: icons/glassfish.gif
+SHA1-Digest: j3eEVZ39BziqCgtebAmlLjaUUHc=
+
+Name: preferences.ini
+SHA1-Digest: 4AZpWRNVK+kvjoGdL+fyMrcrHQA=
+
+Name: plugin.xml
+SHA1-Digest: zre5MSLw1X3+ncDvyGs93ZaSEAg=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: about.html
+SHA1-Digest: 0PnFewU54Sz7h4UIDnVu022N3cM=
+
+Name: plugin.properties
+SHA1-Digest: 4eX57C5gzXDqxGcGti2IsEwTDiw=
+
+Name: easiesunglassfish3.jar
+SHA1-Digest: vpqcIIE5OmBcGm4siMv95+Dtw2E=
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.jpt.jpa.eclipselink.feature" label="%featureName" plugin="org.eclipse.jpt.jpa.eclipselink.branding" provider-name="%providerName" version="3.0.0.me201206141911">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jpt.jpa.feature" version="3.0.0"/>
+      <import feature="org.eclipse.jpt.common.eclipselink.feature" version="1.0.0"/>
+   </requires>
+
+	<plugin id="javax.persistence" unpack="false" version="2.0.3.v201010191057"/>
+
+	<plugin id="org.eclipse.persistence.antlr" unpack="false" version="2.3.0.v20110604-r9504"/>
+
+	<plugin id="org.eclipse.persistence.asm" unpack="false" version="2.3.0.v20110604-r9504"/>
+
+	<plugin id="org.eclipse.persistence.core" unpack="false" version="2.3.0.v20110604-r9504"/>
+
+	<plugin id="org.eclipse.persistence.jpa" unpack="false" version="2.3.0.v20110604-r9504"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.eclipselink.core" install-size="0" unpack="false" version="2.0.0.v201105250000"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.eclipselink.ui" install-size="0" unpack="false" version="2.0.0.me201201260654"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.eclipselink.core.ddlgen" install-size="0" unpack="false" version="2.0.0.v201104190000"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpa.eclipselink.branding" install-size="0" unpack="false" version="2.4.0.v201103020003"/>
+
+</feature>

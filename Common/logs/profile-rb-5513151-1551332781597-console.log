@@ -1,0 +1,168 @@
+2019-3-10 15:34:18 com.genuitec.pulse2.client.services.PulseServices initialize
+信息: Initialization of Pulse services is being started with callback com.genuitec.pulse2.client.targetcfg.ui.PulseActivator$InitializeTargetcfgCallback@9b8119a
+2019-3-10 15:34:19 com.genuitec.pulse2.client.properties.PropertyCache readProperties
+信息: Reading properties from disk cache for systemoverride took 329 milliseconds.
+2019-3-10 15:34:19 com.genuitec.pulse2.client.services.internal.PulseInitializer initialize
+信息: Client services user interface initialized
+2019-3-10 15:34:19 com.genuitec.pulse2.common.http.CommunicationsServices setActiveConnectionSettings
+信息: Active connection settings changed to SystemConnectionSettings HttpClientCommunicationsLibrary ServerURI: https://www.poweredbypulse.com:443 using extended timeouts: false
+2019-3-10 15:34:19 com.genuitec.pulse2.common.http.CommunicationsServices initialize
+信息: CommunicationsServices initialized using retrieval factory [org.eclipse.ecf.internal.provider.filetransfer.Activator$2@4b90725e] for retrieval
+2019-3-10 15:34:19 com.genuitec.pulse2.client.services.internal.PulseInitializer initializeCommunicationsWithWizardIfNeeded
+信息: Skipping connection validation; connection already validated
+2019-3-10 15:34:19 com.genuitec.pulse2.client.services.internal.PulseInitializer initializeServerConnection
+信息: Initialized client settings for connectivity to the server
+Redirecting System.out and System.err to D:\360Downloads\Common\logs\explorer-console.log
+2019-3-10 15:34:26 com.genuitec.pulse2.client.launcher.ui.LauncherUIActivator start
+信息: Installed profile with ID (rb-5513151-1551332781597) started
+2019-3-10 15:34:26 com.genuitec.pulse2.client.launcher.ui.LauncherUIActivator logVersion
+信息: Pulse Infrastructure version 4.4.0.v201206121110
+2019-3-10 15:34:26 com.genuitec.pulse2.client.launcher.ui.LauncherUIActivator logVersion
+信息: Pulse Target Config version 4.4.0.v201206131550
+2019-3-10 15:34:26 com.genuitec.pulse.client.common.fileutil.LibraryLoader loadLibrary
+信息: Preparing to load jshortcut from bundle com.genuitec.pulse.client.common.shortcut
+2019-3-10 15:34:26 com.genuitec.pulse.client.common.fileutil.LibraryLoader loadLibrary
+信息: Located concrete library jshortcut_3213 from bundle com.genuitec.pulse.client.common.shortcut for pattern jshortcut*.dll
+2019-3-10 15:34:26 com.genuitec.pulse.client.common.fileutil.LibraryLoader loadLibrary
+信息: Loaded required library jshortcut_3213 from bundle com.genuitec.pulse.client.common.shortcut
+2019-3-10 15:34:26 com.genuitec.pulse.client.common.fileutil.LibraryLoader loadLibrary
+信息: Preparing to load jregistrykey from bundle com.genuitec.pulse.client.common.shortcut
+2019-3-10 15:34:26 com.genuitec.pulse.client.common.fileutil.LibraryLoader loadLibrary
+信息: Located concrete library jregistrykey_3213 from bundle com.genuitec.pulse.client.common.shortcut for pattern jregistrykey*.dll
+2019-3-10 15:34:26 com.genuitec.pulse.client.common.fileutil.LibraryLoader loadLibrary
+信息: Loaded required library jregistrykey_3213 from bundle com.genuitec.pulse.client.common.shortcut
+2019-3-10 15:34:26 com.genuitec.pulse2.client.common.offlineinstaller.OfflineInstallerBundleService <init>
+信息: No offline content available; using live installation of software
+2019-3-10 15:34:27 com.genuitec.pulse2.client.properties.PropertyCache readProperties
+信息: Reading properties from disk cache for systemoverride took 196 milliseconds.
+2019-3-10 15:34:29 com.genuitec.pulse2.client.targetcfg.ui.jobs.InitializeTargetCfgJob run
+严重: Could not perform anonymous login at this time
+org.eclipse.core.runtime.CoreException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at com.genuitec.pulse.client.common.collab.ui.CommonCollabUIServices.loginAnonymousAttempt(Unknown Source)
+	at com.genuitec.pulse.client.common.collab.ui.CommonCollabUIServices.checkAnonymousLogin(Unknown Source)
+	at com.genuitec.pulse2.client.targetcfg.ui.jobs.InitializeTargetCfgJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at org.eclipse.maynstall.client.core.AbstractMaynstallResponse.checkContentType(Unknown Source)
+	at org.eclipse.maynstall.client.core.MaynstallActionResponse.fromWire(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.PulseClient$1.run(Unknown Source)
+	... 1 more
+2019-3-10 15:34:29 com.genuitec.pulse2.client.targetcfg.jdt.UpdateInstalledJREsJob debug
+信息: Updating installed JREs
+2019-3-10 15:34:29 com.genuitec.pulse2.client.targetcfg.jdt.UpdateInstalledJREsJob debug
+信息: Found 1 JREs to update.
+2019-3-10 15:34:29 com.genuitec.pulse2.client.targetcfg.jdt.UpdateInstalledJREsJob debug
+信息: JRE to register: D:\360Downloads\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013
+2019-3-10 15:34:29 com.genuitec.pulse2.client.targetcfg.jdt.UpdateInstalledJREsJob debug
+信息: Updated pulse_com.sun.java.jdk.win32.x86_64_1.6.0.013
+2019-3-10 15:34:29 com.genuitec.pulse2.client.targetcfg.jdt.UpdateInstalledJREsJob debug
+信息: Setting default VM on the container: pulse_com.sun.java.jdk.win32.x86_64_1.6.0.013
+2019-3-10 15:34:29 com.genuitec.pulse2.client.targetcfg.jdt.UpdateInstalledJREsJob debug
+信息: Setting default vm install to pulse_com.sun.java.jdk.win32.x86_64_1.6.0.013
+2019-3-10 15:34:29 com.genuitec.pulse2.client.common.provisioning.internal.services.ClientBlueprintServerLookup syncBlueprint
+信息: Syncing blueprint with server; sending outgoing changes for blueprint rb-5513151-1551332781597 - {PERSONAL=[{addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}, {addition:ClientBlueprintRequiredSoftware}]}
+2019-3-10 15:34:29 com.genuitec.pulse2.client.common.provisioning.internal.services.ClientBlueprintServerLookup sendErrorReport
+严重: Failure syncing blueprint rb-5513151-1551332781597 in realm 451 for user -1
+
+PERSONAL with revision -1:
+ADD: Software [software=4159; range=0.0.0]
+ADD: Software [software=4160; range=0.0.0]
+ADD: Software [software=4161; range=0.0.0]
+ADD: Software [software=4162; range=0.0.0]
+ADD: Software [software=4163; range=0.0.0]
+ADD: Software [software=4164; range=0.0.0]
+ADD: Software [software=4165; range=0.0.0]
+ADD: Software [software=4166; range=0.0.0]
+ADD: Software [software=4167; range=0.0.0]
+ADD: Software [software=4168; range=0.0.0]
+ADD: Software [software=4172; range=0.0.0]
+ADD: Software [software=4173; range=0.0.0]
+ADD: Software [software=4174; range=0.0.0]
+ADD: Software [software=4175; range=0.0.0]
+ADD: Software [software=4176; range=0.0.0]
+ADD: Software [software=4178; range=0.0.0]
+ADD: Software [software=4179; range=0.0.0]
+ADD: Software [software=4180; range=0.0.0]
+ADD: Software [software=4181; range=0.0.0]
+ADD: Software [software=4184; range=0.0.0]
+ADD: Software [software=4185; range=0.0.0]
+ADD: Software [software=4187; range=0.0.0]
+ADD: Software [software=4188; range=0.0.0]
+ADD: Software [software=4189; range=0.0.0]
+ADD: Software [software=4191; range=0.0.0]
+ADD: Software [software=4192; range=0.0.0]
+ADD: Software [software=4193; range=0.0.0]
+ADD: Software [software=4194; range=0.0.0]
+ADD: Software [software=4195; range=0.0.0]
+ADD: Software [software=4196; range=0.0.0]
+ADD: Software [software=4197; range=0.0.0]
+
+java.io.IOException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at org.eclipse.maynstall.client.core.AbstractMaynstallResponse.checkContentType(Unknown Source)
+	at org.eclipse.maynstall.client.core.MaynstallActionResponse.fromWire(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.PulseClient$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2019-3-10 15:34:30 com.genuitec.pulse2.client.properties.PropertyServices fetchProperties
+警告: Could not get properties for scope systemoverride
+java.io.IOException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at org.eclipse.maynstall.client.core.AbstractMaynstallResponse.checkContentType(Unknown Source)
+	at org.eclipse.maynstall.client.core.MaynstallActionResponse.fromWire(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.PulseClient$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2019-3-10 15:34:30 com.genuitec.pulse2.client.properties.PropertyServices fetchProperties
+警告: No response while requesting properties for systemoverride.  Request took 2748 milliseconds.
+2019-3-10 15:34:30 com.genuitec.pulse2.client.common.provisioning.ClientBlueprintServices getBlueprint
+严重: Could not sync blueprint
+org.eclipse.core.runtime.CoreException: IO exception occurred talking to server
+	at com.genuitec.pulse2.client.common.provisioning.internal.services.ClientBlueprintServerLookup.execute(Unknown Source)
+	at com.genuitec.pulse2.client.common.provisioning.internal.services.ClientBlueprintServerLookup.syncBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.common.provisioning.ClientBlueprintServices.getBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.common.provisioning.ClientBlueprintServices.getThisBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.targetcfg.ui.jobs.InitializeTargetCfgJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at org.eclipse.maynstall.client.core.AbstractMaynstallResponse.checkContentType(Unknown Source)
+	at org.eclipse.maynstall.client.core.MaynstallActionResponse.fromWire(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.PulseClient$1.run(Unknown Source)
+	... 1 more
+2019-3-10 15:34:30 com.genuitec.pulse2.client.properties.PropertyCache readProperties
+信息: Reading properties from disk cache for blueprint-5513151 took 101 milliseconds.
+2019-3-10 15:34:30 com.genuitec.pulse2.client.targetcfg.dropins.DropinsProvisioningReport initialize
+信息: Dropins reconciliation has occurred; raw results: Additions: 0 Removals: 0
+2019-3-10 15:34:31 com.genuitec.pulse2.client.properties.PropertyServices fetchProperties
+警告: Could not get properties for scope blueprint-5513151
+java.io.IOException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at org.eclipse.maynstall.client.core.AbstractMaynstallResponse.checkContentType(Unknown Source)
+	at org.eclipse.maynstall.client.core.MaynstallActionResponse.fromWire(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.PulseClient$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2019-3-10 15:34:31 com.genuitec.pulse2.client.properties.PropertyServices fetchProperties
+警告: No response while requesting properties for blueprint-5513151.  Request took 426 milliseconds.
+2019-3-10 15:34:31 com.genuitec.pulse2.client.targetcfg.ui.jobs.InitializeTargetCfgJob run
+信息: Remote service enabled
+2019-3-10 15:34:31 com.genuitec.pulse2.client.targetcfg.ui.servicehost.internal.RemoteServiceListener start
+信息: No remote service implemtors, skipping remote service listening.
+2019-3-10 15:34:32 com.genuitec.pulse.client.targetcfg.collab.ui.jobs.CheckLicensesAndNotifyJob run
+严重: Could not perform anonymous login at this time
+org.eclipse.core.runtime.CoreException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at com.genuitec.pulse.client.common.collab.ui.CommonCollabUIServices.loginAnonymousAttempt(Unknown Source)
+	at com.genuitec.pulse.client.common.collab.ui.CommonCollabUIServices.checkAnonymousLogin(Unknown Source)
+	at com.genuitec.pulse.client.targetcfg.collab.ui.jobs.CheckLicensesAndNotifyJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: Unsupported content type [application/octet-stream] for [org.eclipse.maynstall.client.core.MaynstallActionResponse]
+	at org.eclipse.maynstall.client.core.AbstractMaynstallResponse.checkContentType(Unknown Source)
+	at org.eclipse.maynstall.client.core.MaynstallActionResponse.fromWire(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.common.http.httpclient.ws.internal.HttpClientMaynstallClient.execute(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.PulseClient$1.run(Unknown Source)
+	... 1 more

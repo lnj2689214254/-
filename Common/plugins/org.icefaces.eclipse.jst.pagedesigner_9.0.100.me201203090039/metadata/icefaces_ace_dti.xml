@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:metadatamodel
+	xmlns:md="http://org.eclipse.jst.jsf.common.metadata/metadata.ecore"
+	xmlns:dti="http://org.eclipse.jsf.pagedesigner/dtinfo.ecore"
+	xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="http://www.icefaces.org/icefaces/components" 
+	type="tagFile">
+	<entity id="ajax" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/Ajax_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="accordion" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>													
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AceAcordionOperation"/>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="animation" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/Animation_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="checkboxButton" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="input"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.IfOperation">
+						<parameter value="@label"/>
+						<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="type"/>
+							<parameter value="button"/>
+						</operation>
+						<operation id="org.eclipse.jst.pagedesigner.CreateAttributeFromXPathOperation">
+							<parameter value="value"/>
+							<parameter value="@label"/>
+						</operation>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.IfNotOperation">
+						<parameter value="@label"/>
+						<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="type"/>
+							<parameter value="checkbox"/>
+						</operation>
+					</operation>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+					setNonVisualChildElements="true">
+				    <resolve-attribute-value attributeName="label"/>
+				</tag-decorate-info>
+				<tag-decorate-info id="vpd-decorate-preview">
+					<resolve-attribute-value attributeName="label"/>
+				</tag-decorate-info>
+			</value>
+		</trait>
+	</entity>
+	<entity id="column" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AceColumnOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="columnGroup" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceColumnGroupOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+				/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="confirmationDialog" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceConfirmationDialogOperation" />
+			</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="contextMenu" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="table"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="border"/>
+							<parameter value="1"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellpadding"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellspacing"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="width"/>
+							<parameter value="100"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyChildrenOperation"/>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="dataExporter" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceDataExporterOperation" />
+			</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					needBorderDecorator="true"
+				/>
+			</value>
+		</trait>	
+	</entity>
+	<entity id="dataTable" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AceDataTableOperation" />			
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="dateTimeEntry" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceDateTimeEntryOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="dialog" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AceDialogOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					minHeight="10"
+					minWidth="10"
+					multiLevel="true"
+					needBorderDecorator="true"
+					needTableDecorator="true"
+				/>	
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="draggable" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/Draggable_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="droppable" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/Droppable_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="expansionToggler" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceExpansionTogglerOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					widget="true"
+					setNonVisualChildElements="true"
+				/>
+			</value>
+		</trait>	
+	</entity>
+	<entity id="fileEntry" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="div"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.IfOperation">
+						<parameter value="@styleClass"/>
+						
+						<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+							<parameter value="styleClass"/>
+							<parameter value="class"/>
+						</operation>>
+					</operation>
+					
+					<operation id="org.eclipse.jst.pagedesigner.IfNotOperation">
+						<parameter value="@styleClass"/>
+						<!-- create default type attribute (submit) -->
+						<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="class"/>
+							<parameter value="ice-file-entry"/>
+						</operation>
+					</operation>					
+
+					<operation id="org.eclipse.jst.pagedesigner.AppendChildElementOperation">
+							<parameter value="input"/>
+						</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+						<parameter value="type"/>
+						<parameter value="file"/>
+					</operation>
+					
+					<operation id="org.eclipse.jst.pagedesigner.MakeParentElementCurrentOperation"/>
+									
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+					setNonVisualChildElements="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="linkButton" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="a"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+						<parameter value="href"/>
+						<parameter value="#"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.ConvertAttributeToTextOperation">
+						<parameter value="value"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyChildrenOperation"/>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true">
+					<resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+				<tag-decorate-info id="vpd-decorate-preview"
+					resolveChildText="true">
+					<resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+			</value>
+		</trait>
+	</entity>
+	<entity id="maskedEntry" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="input"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+						<parameter value="type"/>
+						<parameter value="password"/>
+					</operation>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+					setNonVisualChildElements="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview">
+					<resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+				
+				<tag-decorate-info id="vpd-decorate-design">
+                    <resolve-attribute-value attributeName="value"/>
+                </tag-decorate-info>
+			</value>
+		</trait>
+	</entity>
+	<entity id="menu" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="table"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="border"/>
+							<parameter value="1"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellpadding"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellspacing"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="width"/>
+							<parameter value="100"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyChildrenOperation"/>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+					needTableDecorator="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+		<entity id="menuBar" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="table"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="border"/>
+							<parameter value="1"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellpadding"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellspacing"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.AppendChildElementOperation">
+						<parameter value="tr"/>
+					</operation>					
+					<operation id="org.eclipse.jst.pagedesigner.CopyChildrenOperation"/>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+					needTableDecorator="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="menuButton" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="table"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="border"/>
+							<parameter value="1"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellpadding"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="cellspacing"/>
+							<parameter value="0"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="width"/>
+							<parameter value="100"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.AppendChildElementOperation">
+						<parameter value="tr"/>
+					</operation>					
+					<operation id="org.eclipse.jst.pagedesigner.AppendChildElementOperation">
+						<parameter value="th"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.IfOperation">
+							<parameter value="@value"/>
+							<operation id="org.eclipse.jst.pagedesigner.AppendChildTextFromXPathOperation">
+								<parameter value="@value"/>
+							</operation>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.IfNotOperation">
+							<parameter value="@value"/>
+								<operation id="org.eclipse.jst.pagedesigner.AppendChildTextOperation">
+									<parameter value="menuButton"/>
+								</operation>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.MakeParentElementCurrentOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.MakeParentElementCurrentOperation"/>										
+					<operation id="org.eclipse.jst.pagedesigner.CopyChildrenOperation"/>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true">
+					<resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+			</value>
+		</trait>
+	</entity>
+	<entity id="menuItem" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceMenuItemOperation" />					
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+					needTableDecorator="true"/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="notificationPanel" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceNotificationPanelOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					setNonVisualChildElements="true"/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					resolveChildText="true"
+					nonVisual="true"
+				/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="panel" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AcePanelOperation"/>
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					minHeight="10"
+					minWidth="10"
+					multiLevel="true"
+					needBorderDecorator="true"
+				/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="panelExpansion" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AcePanelExpansionOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					 />
+			</value>
+		</trait>
+	</entity>
+	<entity id="progressBar" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AceProgressBarOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="pushButton" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="input"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+						<!-- create default type attribute (submit) -->
+						<operation id="org.eclipse.jst.pagedesigner.CreateAttributeOperation">
+							<parameter value="type"/>
+							<parameter value="submit"/>
+						</operation>
+					
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+					setNonVisualChildElements="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					resolveChildText="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+		<entity id="resizable" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/Resizable_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="row" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceRowOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					setNonVisualChildElements="true"/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					resolveChildText="true"
+				/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="rowExpansion" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceRowExpansionOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="sliderEntry" type="tag">
+	<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.AceSliderEntryOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="submenu" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="tr"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="td"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="div"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.IfOperation">
+							<parameter value="@label"/>
+							<operation id="org.eclipse.jst.pagedesigner.AppendChildTextFromXPathOperation">
+								<parameter value="@label"/>
+							</operation>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.IfNotOperation">
+							<parameter value="@label"/>
+								<operation id="org.eclipse.jst.pagedesigner.AppendChildTextOperation">
+									<parameter value="submenu"/>
+								</operation>
+					</operation>					
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+					needTableDecorator="true"/>	
+			</value>
+		</trait>
+	</entity>
+	<entity id="tableConfigPanel" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/TableConfigPanel_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>	
+	<entity id="tabPane" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AceTabPaneOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="tabSet" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.AceTabSetOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="tabSetProxy" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/TabSetProxy_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="tooltip" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/ace/small/Tooltip_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+		
+</md:metadatamodel>

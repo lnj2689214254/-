@@ -1,0 +1,72 @@
+package com.yychatclient.view;
+  import java.awt.*;
+
+	import javax.swing.*;
+
+	public class FriendList extends JFrame{
+		CardLayout cardLayout;//卡片布局；
+
+		JPanel myFriendPanel;
+		JButton myFriendJButton;
+		
+		JPanel myStrangerBlackListPanel;
+		JButton myStrangerJButton;
+		JButton blackListJButton;
+
+
+		JPanel myStrangerPanel;
+		
+		JPanel myFriendStrangerPanel;
+		JButton  myFriendJButton1;
+		JButton myStrangerJButton1;
+		JButton  blackListJButton1;
+		
+		
+		
+		public FriendList(){
+			myFriendPanel=new JPanel(new BorderLayout());
+			
+		myFriendJButton=new JButton("我的好友");
+		myFriendPanel.add(myFriendJButton,"North");
+		
+		myStrangerBlackListPanel=new JPanel(new GridLayout(2,1));
+		myStrangerJButton=new JButton("我的陌生人");
+		blackListJButton=new JButton("黑名单");
+		myStrangerBlackListPanel.add(myStrangerJButton);
+		myStrangerBlackListPanel.add(blackListJButton);
+		myFriendPanel.add(myStrangerBlackListPanel,"South");
+		
+		myStrangerPanel=new JPanel(new BorderLayout());
+		
+		myFriendStrangerPanel=new JPanel(new GridLayout(2,1));
+		myFriendJButton1=new JButton("我的好友");
+		myStrangerJButton1=new JButton("我的陌生人");
+		myFriendStrangerPanel.add(myFriendJButton1);
+		myFriendStrangerPanel.add(myStrangerJButton1);
+		myStrangerPanel.add(myFriendStrangerPanel,"North");
+		
+		blackListJButton1=new JButton("黑名单");
+		myStrangerPanel.add(blackListJButton1,"South");
+		
+		
+		
+		this.add(myStrangerPanel);
+		this.setSize(150,500);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+	public static void main(String[] args) {
+		FriendList friendList=new FriendList();
+		
+
+	}
+
+}

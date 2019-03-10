@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<software>
+    <response>
+        <catalog>
+            <realmsoftware audience="Eclipse Users" description="Optimized for MyEclipse" epicID="0" id="4151" license="n/a" provider="n/a" software_id="_myeclipse_indigo_stable::eclipse_base370" title="Eclipse Base" updategroup="myeclipse">
+                <icon>R0lGODlhIAAgAOeAAAAJWAsFURIJVgwPXxYMWRkMYRESXBYVXxoVZx0ZZCIcaCUdcCAjbSYncicm
+eCwmbDAjgCoqdiwseCgxezEwfDMsjjgtly82gTQ5hjw4hzs6gTk6lEE+h0FBgz1DikRBikFEkkZD
+jEU+sEhEjklDk0ZGnEtFlUtHkUVKkktKjU9GnUtFsEtIpUpOllRIp1BLsFJKtlFNq09Sm1VQm1RS
+llVMuV9PkVlPqFdOu15Lu1lOwlRXoVlWm1VRy1lZl11Up1xQxV5PzFhbpWdXmWBRzl1dm1tU1mRR
+1l1fqmJfpGJjrmdjqWdmpmdZ7GRprWtnrWlssW9qsYBkpXtktm1xtoJtrHZ0tXN2vH1ztotxrIV7
+vpR2uYKAu3CKv3eMvKZ5tIeIw3eRxpqHwX+UxbCAto6SxoWZyoGezruHuKWSwJWZzoug0cSJvIil
+1Y+j1cmLuqCg0LKbxKal1cmYwq2o08Wjya2w2rq53cm22Nmz1MfK597E3OnL3dzY6uHW6uzg7f//
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////yH5BAEAAA4ALAAAAAAgACAA
+AAj+AB00GUiwoMGDCAcK7MCwIcMQEEeMMEHRRAkVKljEcPGi4wscIFEcccjQQwiTIEiAsIjxhkYX
+G1/UAJlDhw4UTUg2DIGCB48ZFC9edMHCo8yZOHScGPkQYogUTNLUqRNHjJYrWK4w+XHD6EcdIXM6
+/OAjzp49eOioAZOVSpQoSpD84AgSRw0dPU7k9NCwCJ4/fvTcUQvGChUoT5wkEeJjRgwYSHPgEGkS
+Io2/f/oItiMHzFslihnPaHFChV3JQPR28OAhRRw+fvpoHrwWChQlQoTskDEjRQgOpm1OPuI0S549
+epIPhlMGjJIlSJL4oNECxQcOGDJ8Td3kRAgSc/L+5LlDnjYXK4p37G4x4reGCxI24AAyHAQIKXPq
+wKHDH44aLldAMYRPMpDGGgYaUCBBBCvowN0JJHzxRhttnFHhGW6cYcYZGpoRxhhjhOHFiF2U2AUQ
+QIhkAghovCEGGGVwAcZ5USy23gkecPAeBRE8oAADEDioF0VvvKFFVm85sYSNNKSQwgkgZKDBAw9E
+0IACCSiAokgqmFAkhW5QuAaHZJphxhgjhqHmiCT2wN0NJRSJBRRRLLGkEDzYgAKUOiZYJQMJHHCA
+AQa4KdJFaLARoBNOIIFngThycEGCFDQAKAMHDEAAAkAQoRcLKrToxqgUtjHmGWN6CCKaInbhRRj+
+JRp6REZfoLFFoz6NdsIIGvTKo6VYDmoAAAFU0KleMbAgBRpkMKGbDCmgkGMGFFBAJQPBGjCAAAEI
+IEIPPYgEkwtkoFEFD9Th+MGkUwIb6ADbBgAABJ0SkUITHbkwBRtf8BDtCDpO8IAE7gobwMEDiNCp
+ESIZtQUaWewqaYIEXylopsQebEG9njbBkUe1SgECB9U+MAG27xogQMYVEOGyyyLZBYNHW5AhhY6V
+/ojAoPEGMEDLRBjhshF6fVTD0Ti8MMUXWdhwsgKCDjCsvBB8+7LQRMRcF1I15DBFFk130MDFDVSw
+ArhEgCu0EUQ3ARJYW9ukw104gNtpD0EE8bJKy0cEnfURNtXQQ1Jy2zS4mw7iDUQPae/dd9tAgNUD
+3MI5iOLiNu3N9uZH9N2CAyjsGS0IJ0R7wp6nl346CilUh4INJ/TWwuwOBAQAOw==</icon>
+                <required_cap multiple="false" name="org.eclipse.platform.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q,3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q]"/>
+                <required_cap multiple="false" name="org.eclipse.rcp.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272,3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272]"/>
+                <required_cap multiple="false" name="org.eclipse.sdk" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[3.7.2.v201202080800,3.7.2.v201202080800]"/>
+                <required_cap multiple="false" name="org.eclipse.cvs.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C,1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C]"/>
+                <required_cap multiple="false" name="org.eclipse.jdt.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[3.7.2.v20120120-1414-7z8gFcuFMP7BW5XTz0jLTnz0l9B1,3.7.2.v20120120-1414-7z8gFcuFMP7BW5XTz0jLTnz0l9B1]"/>
+                <required_cap multiple="false" name="org.eclipse.pde.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[3.7.2.v20120120-1420-7b7rFUOFEx2Xnqafnpz0E--0,3.7.2.v20120120-1420-7b7rFUOFEx2Xnqafnpz0E--0]"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Optimized for MyEclipse" epicID="0" id="4152" license="n/a" provider="n/a" software_id="_myeclipse_indigo_stable::sun_java_1.5.0_11375" title="Sun JDK for MyEclipse" updategroup="">
+                <icon>R0lGODlhIAAgAPcAAHZ+P3hRQ0ORE0SRHEuZF1OcHkWWJEiRIU+dI1+eM1qaOFSzHUqkKlmmJVyt
+IFunMV26JGSfJ2eZOG2YO2mtLGCmPmGyKmW6IWW+Km2wLWq/IW67KmyyOGq+MnOxOHK5Pn+FSXWW
+TXeZR3yZUXOLZmqvW3mnXHmoU3m6QmqvZX2jaHG1aHi2ZX+9c2bME3TWGWrAI2zKJm/DNXDPKXvJ
+I3PFNHTFOnrFOnnJMXvIPXjdInbISn3HQnzIQneCg4N1P6FoPoBaQ4xnRoplVYh2S5NmSpJqVJt2
+Wop+cJNtYp57Z6BzVLR5SqJ8ZNIB5YuMWYCfTIaMf4iaaJaIf4mgTYmtU4a6UZmnXIOvbo+paoaq
+dIutf5GkZpirdJyweaeEW7yDT7mGWauHa6aGdqKfZKiXdraLa7eRbbqUdK2hb4zbJ4nfNZjePIPG
+RYLEToLJRYbJTInNTIHDUIPNVYzNUo7LWpfBXZPOWZjFVYrIa5rPZJjPapnSY5zSapfjRaPaU6fA
+fKDWbaLUcqbWeaXZdKbYeKjacqrafLDMerTXeqDhSKHnUbXxa8OMXcGNYsSVaceadcyle9Cqf4qJ
+iYyRhpaNhZKZh46Hto+HuZWDsJSMu5OWopqWspmSvp6YuIqwgo69g5CohpGxhJ20hKmNgq2dj6qb
+l7OUh6SNpqOom6Kxgrqkmr+qqbCutZyTxJySyJ+azaSax6GX0qme16qf2aagxqWgzKmhxqujzq6n
+07Sr17u017Wx4IzEgZXHja3agLDAi7LdirfdmbnelLTCpbvBtbbhi7fhk7rilLvimcekhtKti9iz
+ite4lsOppdS2q+C8ksK82cS948PUncLLtsvcptrDpdLEs8bqncn4iMrxl8fmqMzps9nurdjuv9j3
+s+rKpeLBsu7Vqe7UuvDWqPHdsuL6uPTmuMfE2tHL3NXb2cvG5tLL69PN8NjV6dbT8NjtxdvyyeLS
+xuLf7eLe9OP0yuj11vTgwPD8zvD53uro9O325O/x8PHu+/L56ff5+CH5BAEAAE4ALAAAAAAgACAA
+AAj+AJ0IHEiwYMEppa7JW1XJoMOHBVmtOkXKmSmIGB+eSjKEVMaP1kJaa9ZMTBNlzZQpQ3PmY8Fw
+9+6dK0eOHJomzKAxkxTpkRiXA8OdG3pOnM0my5jt7PkTqBNrRGeKu5l0qc+HtnLpwhVrIFSi5aYe
+qcrzasFd7OjRc/eO3a5OTljJLBcW3JmxzJaVbTqQnb5++ualQxctGi9YmZ6NMyrOrpGkyyJBMivQ
+Xb9//wDTe7duVy5bnVA5a5Z3WZMhaCCxNPPlyMBofzFn1qeuWCpLUShNQnJkiREjQQIIEVKkeJEh
+Amvp08dPNj9qXroAq1ZtGiAuT8qoPJ36zBkzYZr+CJRGb97ffvyIdZlWL589fPW+YUN0JU1JI8ok
+T3YkvlM7tubpo143+OSzjz/uxfONNolcQcYXRUAy2SOONOJaJ++gw4479FCTxTYF+oMZgvbAww02
+glBBRISPUOhIGK65wk5h7KSTRSLm2CPiiPvYUw83yfxiBwBCtHjGi2C4pklnu0jTShXZfFPPPrL5
+02M8QP6iBxRCOPJII2GAwcQSTmgizS647GIJHtlg442O/sTZIzzbIDNIHVb88EUYTPQJhBFOuKLL
+LrDcIsUfjBjDTTz27NOjPVhuY4wgclgBQhljZCqGEgO9ssssnoygyCKGJMONN/Gk6g03dR7CBwrY
+KHAB0Su30MKJCGz4cccvw2zDza/bJDPML33UwYEHXWCkiSyahKDGGnDwUUgwxySTjDDBuHqHGw9Q
+4EVGmGhCAg069ADHHXoEQkghg+zBBx1xfIAABap8dIkPGegQwxttvBEHHQDTAUcONjRAQARAbSLB
+Cy7gcEMOPfAgMcE2WCBAARM4NcoGM1ywgQw1hGxDyBYPkIBTAp2wgw0wwKDByxpc4IAAB1SA8kAq
+5DGHDR1gAMECDBiggAk3E6QFKL700sIKKZTAAhZFGxSKKKJ88skWUWf9UEAAADs=</icon>
+                <required_cap multiple="false" name="jdk.sun.1.6" namespace="com.poweredbypulse.software" optional="false" range="[1.6.0.0,1.7.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="MyEclipse Enterprise Workbench" epicID="0" id="4153" license="Commercial" provider="Genuitec, LLC" software_id="_myeclipse_indigo_stable::myeclipse_enterprise_workbench_10" title="MyEclipse Enterprise Workbench" updategroup="myeclipse">
+                <icon>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
+</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.auxiliary.feature.patches.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="1.0.0.v201010091608"/>
+                <required_cap multiple="false" name="pulse.com.genuitec.myeclipse.product.ide.ini.e34" namespace="org.eclipse.equinox.p2.iu" optional="false" range="0.0.0"/>
+                <required_cap multiple="false" name="pulse.com.genuitec.myeclipse.product.ide.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="0.0.0"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.enterprise.workbench.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[9.0.0,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.pulse.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[9.0.0,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.enterprise.workbench.onemeta" namespace="pulse.oneinstall" optional="false" range="0.0.0"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+            </realmsoftware>
+            <realmsoftware audience="Anyone" description="Pulse Services and Extensions" epicID="0" id="4154" license="Commercial" provider="Powered by Pulse" software_id="_myeclipse_indigo_stable::myeclipse_pulse_services" title="Pulse Services and Extensions" updategroup="">
+                <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjQ3RjU1NjhBQTMzMjExRTBCRUEyODBFRjJFODc2RjE3IiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjQ3RjU1NjhCQTMzMjExRTBCRUEyODBFRjJFODc2RjE3Ij4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDdGNTU2ODhBMzMyMTFFMEJFQTI4
+MEVGMkU4NzZGMTciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDdGNTU2ODlBMzMyMTFFMEJF
+QTI4MEVGMkU4NzZGMTciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz643auhAAAJS0lEQVR42sRXaWxU1xX+3jpv1syMl4ExY2Nj
+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</icon>
+                <required_cap multiple="false" name="com.genuitec.pulse2.client.targetcfg.dropins.e37.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="2.5.0"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides advanced tooling for Struts 1.x and 2.x framework in MyEclipse." epicID="0" id="4159" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_struts_module" title="Struts Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.struts.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+                <impliedsoftware id="myeclipse_editor_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides advanced tooling support for the ICEfaces JavaServer Faces-based framework in MyEclipse." epicID="0" id="4160" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_icefaces_feature_module" title="ICEfaces Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.icefaces.feature.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.jsf.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+                <impliedsoftware id="myeclipse_editor_module"/>
+                <impliedsoftware id="myeclipse_jsf_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="(Also compatible with Eclipse) MyEclipse Visual Swing Designer provides an intuitive and powerful drag-and-drop Swing UI design tool based on the award-winning Matisse designer from the NetBeans team." epicID="0" id="4161" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_matisse_module" title="MyEclipse Visual Swing Designer (Windows / Linux Only)" updategroup="myeclipse">
+                <icon>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
+gg==</icon>
+                <required_cap filter="(!(osgi.os=macosx))" multiple="false" name="com.genuitec.myeclipse.matisse.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[8.0.0,11.0.0)"/>
+                <updatesite>http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <category_folder id="software_browse_categories"/>
+                <property key="myeclipse.dashboard.visibility.range">[8.0.0,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="(Also compatible with Eclipse) MyEclipse Database Tools provide DB structure navigation, SQL query editor, table contents viewer and advanced support for Oracle, MS SQL Server, MySQL and Sybase-based databases." epicID="0" id="4162" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_database_module" title="MyEclipse Database Tools" updategroup="myeclipse">
+                <icon>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
+AAAAAElFTkSuQmCC</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.database.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[8.0.0,11.0.0)"/>
+                <updatesite>http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <category_folder id="software_browse_categories"/>
+                <property key="myeclipse.dashboard.visibility.range">[8.0.0,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Geronimo family of application servers in MyEclipse." epicID="0" id="4163" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_geronimo_module" title="Geronimo Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.geronimo.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides advanced tooling support for the Hibernate and JPA frameworks in MyEclipse." epicID="0" id="4164" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_persistence_module" title="Hibernate / JPA Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.database.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.persistence.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+                <impliedsoftware id="myeclipse_editor_module"/>
+                <impliedsoftware id="myeclipse_database_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="(Also compatible with Eclipse) MyEclipse VisualVM Profiler provides a single-click visual profiler for standard Java applications, Java Applets and Eclipse plug-ins as well." epicID="0" id="4165" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_visualvm_module" title="MyEclipse VisualVM Profiler" updategroup="myeclipse">
+                <icon>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
+uZ7/R4ABACJgy8ENy53EAAAAAElFTkSuQmCC</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.visualvm.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[8.0.0,11.0.0)"/>
+                <updatesite>http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <category_folder id="software_browse_categories"/>
+                <property key="myeclipse.dashboard.visibility.range">[8.0.0,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Oracle family of application servers in MyEclipse." epicID="0" id="4166" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_oracle_module" title="Oracle Server Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.oracle.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides support for image editing in MyEclipse." epicID="0" id="4167" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_imageeditor_module" title="Image Editor for MyEclipse (Windows / Linux Only)" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap filter="(!(osgi.os=macosx))" multiple="false" name="com.genuitec.myeclipse.imageeditor.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides support for JavaScript debugging using Microsoft's Internet Explorer (versions 6, 7 or 8) in MyEclipse." epicID="0" id="4168" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_iedebugger_module" title="MyEclipse IE JavaScript Debugger (Windows Only)" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap filter="(osgi.os=win32)" multiple="false" name="com.genuitec.myeclipse.iedebugger.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.200,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="(Also compatible with Eclipse) MyEclipse UML 1/2 Visual Design Tools provide support for reverse-engineering of Java into Class Diagrams, forward-engineering of Java source code from Class diagrams, support for all standard UML 1 and 2 diagram types and much more." epicID="0" id="4172" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_uml_module" title="MyEclipse UML 1 / 2 Visual Design Tools" updategroup="myeclipse">
+                <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAATlSURBVHjavFdbbxtFFP5mdteXNUmcOG7i
+BqVpbsRKBaSkKEgViuClCImCQEh9A6oGqVSAeKjCD6APICIeQGolqj4gqj4gEIVy6QOiFFRAQQ3k
+0oBocJsamzTOzbWd7G2Y2bUdJ03t1E0zyST2zM5+3znfOWdmCB7u6wNvaqjpGDaxpWORl8V/OQce
+ampEKOCDZVl3FZhSilgihRhwTJCQBbhRfy+M5hAmLQbG2N1DJ+KX/6mqhLFoQeUkbA/objeuzOmA
+aW2O/yUKwjHlnATILAELKcDaJAJcBhszT4ADE90ENsD9Xpkg6JXWnBMQ1zMGDJPljXUIMIHNZy12
+u5IiqMqYXzKxxF8qU4J2H0Vi6I81n3epHtQ2tSCWMUGyUA4BcA8IcFZaAr9bQqVr2UL52lXUh+ow
+S922dUzTMX/5nzXXunnwBdvbEE8ZNuZKD4gALCIBJQQNFQq8ievI/DeVH5+LT2F6aAT+1maEOztg
+alpRA4SNAmulB6ysJkUIBH0KlMkI4r+Prjk/PxGBUuGDWrcFJRkIrKzcWQ+w7AAr6vrZyRgkRcG2
+PY+DuhR7PPbTr5DcLgR2hDFtUp7bRgkCWSxWSEAAW2YxfFDOnBk6qCzDIBJGoklUcVJNO+/HnEXx
+d1LnUc4QqKAlwC0HC2y1BKwogRUZwhwXzvOgG9OIDWxHuURKp3IOq1ACthpgPS0LpBvL6zT+edZS
+0Pr0k2suyfBCMJ3SbazcqnwMUD7kkW7tvjm+0Beq5xFsYuaGBlVYmzeKYdFw0mpyJmP39RpgExDg
+Dwa90JLJWy8weXptqXU+G2nUKAXxweMiqkmYSevrrmCsMA3digQtlcbV8xfKK7811Qjs6kYio99e
+GbWNXzWw2Y1uKDgh+f7lmx0YfveBFWM39WUP3DmDvY8s4o2nZHhcOtoaktjVGEaTvx1drQk+puG9
+/Qz9z2Zu0kB2iJMcobJbbaUPh/fswzM7B7Ej1AK/Wm2Pn+8/iOjCBNqDXTh18SS3OOUkQWEMkDv2
+AcGpc2lEZqLY3dKdBxfN566ywaczcbx2Il6gQIEE1PYAKRebp6GF7VsXsdUftIf+mprAc0c/wMC5
+o0iko85e4gngvgYTCn9W4EmFhcjGLvMw1NOr4p3DL6ExuA0u6rIPtS8c/xSD436c5lm9ZHyC/sde
+hUwUnHn9AGILURz6+Bt8P+QvlICUrcHCvInxSJRrSrLbGuNVk9rvFD8zNwzkCq8syZC4B0yTgGYB
+ibr3CCOBOoRrXEhG42WRkD1ubO8CPj/0CncvxdeXfsbbXwyjq83Cwd7daK3u5OXawvMfDuDbX6r4
+/kFBuQYkMeVIYPBvY3Mm/LWhsgiI3TD97zQMS+M7ogdPhHvsXtjE3HjMgM54DefgFnXiwCZgypRf
+CRimlsyyCLgUHR+92MOP+zIGo2N4KNSRLzSi6EdTEYTuacSJA73ofWsUmq6IyF8mYCly7oxYVjP4
+znj2z2s4cnYYgxMKejsu4Ezffntu38n3cfq3CnQ36+jeVs2fdXEoOV8CHQI8OIjsbFHlJIPGXzPw
+nVjpRPaPV9L84ON486uxSqSZih8ug3cGQr22BLkroCwuiOKOlg53OhVxI26+RMajxz+DyktwmlSC
+eOVVRwEG9dKofUOWc1dlQWIjd7mLI9n4KHE9/1+AAQD1RQnORsBF7wAAAABJRU5ErkJggg==</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.uml2.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[8.0.0,11.0.0)"/>
+                <updatesite>http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <category_folder id="software_browse_categories"/>
+                <property key="myeclipse.dashboard.visibility.range">[8.0.0,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Adds support for profiling Web Projects in MyEclipse to the profiler." epicID="0" id="4173" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_visualvm_server_module" title="MyEclipse VisualVM Profiler Server Support" updategroup="myeclipse">
+                <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAXcSURBVHjaxFdrTBRXFP5md3bZ3VlYFBAX
+qUUiBAQrtqiraxvbRKPUqvVV5Y82Nayp9YfGGNNHrJpYa5NqjTZgmyY2wZhqTa0imtbioxRBrRYr
+D1FUYJGwCsu678dM78zs7INHQBLsDWfZx9z7feec79xzL4XpRUUgQ6NPK8ELHM7HD038f1oC16eN
+hz6BAcuyIwosk8nw+KkDj4ESngTNg/vHpsKfrkcry4HjuJFDp/g/8qKLg9/NQkNICBHwxcTgkdUH
+BNgXE3+5DBTBpKUUwOUBbA6AfUEESBoETP6t8EqAKV8AlJ8dtjEyF3bOVyIrqWvw5wmW5KxIgKSd
+4wLg2OczY4YF37ynIYt4oVU58Nm8RZjxslb4zTTHic3z2P7nEiwEpSamAIQVy7N4vhRwZM5G40LE
+yMuhlCcLnmyaMw1piX/j87lrsbfiJCjO1XciKxMwwwR4bF6AQ6yADL0DXXYZWiwy9LhtKDIsENcl
+DkxJyRCMH7XtFqhpOSalULjdJoPHpwhWA3E4KgK89+zQCKiUXhwvMkIfOxYOrwc6VVxYW5QMbaTG
+z90yIzVBg0PLC/HJXAsyk8Yjd1cJGsyxQQKUiBnWACd+wQ1ubo8Cy4svwOZ2YcLocQglk4zjVQ8F
+8GUzx6O6yULIxSI7OR2LDxej0cyE15GwQgT4RYg4hH1gEKPIc+ZONZqfdIR3l+BoJd7rNEocKGvA
+prdzxQr3O9DUTkHORazPYyGSAMsNySiS4y8KGTzcuwzzsqaFvODD/vWZO/iluhntT2zYviIPHs4m
+/KamGdzebkLNDkPfNSUNcBKJwXWP2gd+nFLdxKp8A7RKLU6QsPOer3srEy+RXmK324UnY2hlcAaH
+srpq1NzvCmuMCyeODmuAHQI8cPSSk9gDjNqigCE1H3VtVsHjqrudApHNC8XQx8WIgnN5nfig5Bq6
+e5hei/USIR9eiu3faMoHYzYQz7iEz0tn+7A4dyZROoNJqTqcJ8Lz+D0EPCeCrAigUTLYvSoLOsYR
+XpMLVxwt6YiL1lPU0DA+XN5mwqLiYpT9BaycPhk/3bqCbqcbH84uIOVH9dP4KPz54DZ+b2jE6vx8
+JOka0WOP7owRVRA9aDqAze/G4vVXPFCrvDBmKUj/kGPNrDzok3uw89QVonY1Tt+sx6Pujj5hlcae
+s39gR+lT5G07g3tmVb/O0aGNIbJZyTnMzZ2AvUtX4qa5Ea+lZAvnhBV5RhTkTIHd7UGX6xkMGYlk
+L9Bj5ffFUMgplL5vwo81FSiuqMMx0xKsn2NA2dV/4PYqB4wuHY5HmL3Xq8C67yrR/OVU5KfmRE1g
+FFrBDlwqx8GzVly/vw9nqxnEkjSxazmcq21B1b8KLNhfijgVv/UyA59OJAJ8ACgumuLEZBq0TCyl
+8roq7P61Folk1z1YuATj4pOxZsYslF4sw4UbSpJHCi6XAsY9+3GvXU4+q9Fwf9TAOebdDcJRmsW7
+ObcuiRAQIzA53YEtBVMxPzcPCRqd0GAmfboP91rFPd+0gMOh1UViLZNFzD1tMGw/jY4u+vk6KfFa
+1WMRIyCP0EG8lkNOSqJYKkE1jybfSUpP0KpDETxytRyVTZ145qT6rYQhHRP5CPjix0QpWC4P4NWJ
+DlRs+whKkoa7nc34+GQ56fNa7Fq0AmqlBjda7uCNHZfh8yuGeUCloLB2ihHgcxhZQGyARn2LCu1W
+C9JIx8sck44T6zdEzbe5HUT5HPz+YXoeFKEsdFzuZRsK4gTwyubrsDq7QxPrO5pw9Np5vJk5HRsX
+xvaZN1STylJUDjm19G5GnTYntv58BCW/eZCaVImLWwuJ4KyY/9UFWO0qHKs5QLogn6+4YZ6MI8ow
+QMv6EPjhirRzqYgGVLjW2kAaSwBP3RphVnltfNROMhwCcmk6q6ClM+KA451v28Q3imGKrg+BCP6s
+nAZFU0IljODFLCw+ASrYDfkLIn9Hc2bnEHFQoDDygwfX1N8Rbsi0dFXmSfwf1/P/BBgAxlgA7BPB
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.visualvm.server.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.visualvm.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+                <impliedsoftware id="myeclipse_visualvm_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the WebLogic family of application servers in MyEclipse." epicID="0" id="4174" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_weblogic_module" title="WebLogic Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.weblogic.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Resin family of application servers in MyEclipse." epicID="0" id="4175" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_resin_module" title="Resin Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.resin.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides integration into common desktop features like opening a native folder or sending email (Windows only)." epicID="0" id="4176" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_desktop_module" title="Desktop Utilities for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.desktop.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Orion family of application servers in MyEclipse." epicID="0" id="4178" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_orion_module" title="Orion Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.orion.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Jetty family of application servers in MyEclipse." epicID="0" id="4179" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_jetty_module" title="Jetty Support for MyEclipse" updategroup="myeclipse">
+                <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAXcSURBVHjaxFdrTBRXFP5md3bZ3VlYFBAX
+qUUiBAQrtqiraxvbRKPUqvVV5Y82Nayp9YfGGNNHrJpYa5NqjTZgmyY2wZhqTa0imtbioxRBrRYr
+D1FUYJGwCsu678dM78zs7INHQBLsDWfZx9z7feec79xzL4XpRUUgQ6NPK8ELHM7HD038f1oC16eN
+hz6BAcuyIwosk8nw+KkDj4ESngTNg/vHpsKfrkcry4HjuJFDp/g/8qKLg9/NQkNICBHwxcTgkdUH
+BNgXE3+5DBTBpKUUwOUBbA6AfUEESBoETP6t8EqAKV8AlJ8dtjEyF3bOVyIrqWvw5wmW5KxIgKSd
+4wLg2OczY4YF37ynIYt4oVU58Nm8RZjxslb4zTTHic3z2P7nEiwEpSamAIQVy7N4vhRwZM5G40LE
+yMuhlCcLnmyaMw1piX/j87lrsbfiJCjO1XciKxMwwwR4bF6AQ6yADL0DXXYZWiwy9LhtKDIsENcl
+DkxJyRCMH7XtFqhpOSalULjdJoPHpwhWA3E4KgK89+zQCKiUXhwvMkIfOxYOrwc6VVxYW5QMbaTG
+z90yIzVBg0PLC/HJXAsyk8Yjd1cJGsyxQQKUiBnWACd+wQ1ubo8Cy4svwOZ2YcLocQglk4zjVQ8F
+8GUzx6O6yULIxSI7OR2LDxej0cyE15GwQgT4RYg4hH1gEKPIc+ZONZqfdIR3l+BoJd7rNEocKGvA
+prdzxQr3O9DUTkHORazPYyGSAMsNySiS4y8KGTzcuwzzsqaFvODD/vWZO/iluhntT2zYviIPHs4m
+/KamGdzebkLNDkPfNSUNcBKJwXWP2gd+nFLdxKp8A7RKLU6QsPOer3srEy+RXmK324UnY2hlcAaH
+srpq1NzvCmuMCyeODmuAHQI8cPSSk9gDjNqigCE1H3VtVsHjqrudApHNC8XQx8WIgnN5nfig5Bq6
+e5hei/USIR9eiu3faMoHYzYQz7iEz0tn+7A4dyZROoNJqTqcJ8Lz+D0EPCeCrAigUTLYvSoLOsYR
+XpMLVxwt6YiL1lPU0DA+XN5mwqLiYpT9BaycPhk/3bqCbqcbH84uIOVH9dP4KPz54DZ+b2jE6vx8
+JOka0WOP7owRVRA9aDqAze/G4vVXPFCrvDBmKUj/kGPNrDzok3uw89QVonY1Tt+sx6Pujj5hlcae
+s39gR+lT5G07g3tmVb/O0aGNIbJZyTnMzZ2AvUtX4qa5Ea+lZAvnhBV5RhTkTIHd7UGX6xkMGYlk
+L9Bj5ffFUMgplL5vwo81FSiuqMMx0xKsn2NA2dV/4PYqB4wuHY5HmL3Xq8C67yrR/OVU5KfmRE1g
+FFrBDlwqx8GzVly/vw9nqxnEkjSxazmcq21B1b8KLNhfijgVv/UyA59OJAJ8ACgumuLEZBq0TCyl
+8roq7P61Folk1z1YuATj4pOxZsYslF4sw4UbSpJHCi6XAsY9+3GvXU4+q9Fwf9TAOebdDcJRmsW7
+ObcuiRAQIzA53YEtBVMxPzcPCRqd0GAmfboP91rFPd+0gMOh1UViLZNFzD1tMGw/jY4u+vk6KfFa
+1WMRIyCP0EG8lkNOSqJYKkE1jybfSUpP0KpDETxytRyVTZ145qT6rYQhHRP5CPjix0QpWC4P4NWJ
+DlRs+whKkoa7nc34+GQ56fNa7Fq0AmqlBjda7uCNHZfh8yuGeUCloLB2ihHgcxhZQGyARn2LCu1W
+C9JIx8sck44T6zdEzbe5HUT5HPz+YXoeFKEsdFzuZRsK4gTwyubrsDq7QxPrO5pw9Np5vJk5HRsX
+xvaZN1STylJUDjm19G5GnTYntv58BCW/eZCaVImLWwuJ4KyY/9UFWO0qHKs5QLogn6+4YZ6MI8ow
+QMv6EPjhirRzqYgGVLjW2kAaSwBP3RphVnltfNROMhwCcmk6q6ClM+KA451v28Q3imGKrg+BCP6s
+nAZFU0IljODFLCw+ASrYDfkLIn9Hc2bnEHFQoDDygwfX1N8Rbsi0dFXmSfwf1/P/BBgAxlgA7BPB
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.jetty.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the WebSphere family of application servers in MyEclipse." epicID="0" id="4180" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_websphere_module" title="WebSphere Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.websphere.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.target.edition">myeclipse</property>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the JRun family of application servers in MyEclipse." epicID="0" id="4181" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_jrun_module" title="JRun Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.jrun.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="MyEclipse Required Components" epicID="0" id="4184" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_editor_module" title="MyEclipse Required Components" updategroup="myeclipse">
+                <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAXcSURBVHjaxFdrTBRXFP5md3bZ3VlYFBAX
+qUUiBAQrtqiraxvbRKPUqvVV5Y82Nayp9YfGGNNHrJpYa5NqjTZgmyY2wZhqTa0imtbioxRBrRYr
+D1FUYJGwCsu678dM78zs7INHQBLsDWfZx9z7feec79xzL4XpRUUgQ6NPK8ELHM7HD038f1oC16eN
+hz6BAcuyIwosk8nw+KkDj4ESngTNg/vHpsKfrkcry4HjuJFDp/g/8qKLg9/NQkNICBHwxcTgkdUH
+BNgXE3+5DBTBpKUUwOUBbA6AfUEESBoETP6t8EqAKV8AlJ8dtjEyF3bOVyIrqWvw5wmW5KxIgKSd
+4wLg2OczY4YF37ynIYt4oVU58Nm8RZjxslb4zTTHic3z2P7nEiwEpSamAIQVy7N4vhRwZM5G40LE
+yMuhlCcLnmyaMw1piX/j87lrsbfiJCjO1XciKxMwwwR4bF6AQ6yADL0DXXYZWiwy9LhtKDIsENcl
+DkxJyRCMH7XtFqhpOSalULjdJoPHpwhWA3E4KgK89+zQCKiUXhwvMkIfOxYOrwc6VVxYW5QMbaTG
+z90yIzVBg0PLC/HJXAsyk8Yjd1cJGsyxQQKUiBnWACd+wQ1ubo8Cy4svwOZ2YcLocQglk4zjVQ8F
+8GUzx6O6yULIxSI7OR2LDxej0cyE15GwQgT4RYg4hH1gEKPIc+ZONZqfdIR3l+BoJd7rNEocKGvA
+prdzxQr3O9DUTkHORazPYyGSAMsNySiS4y8KGTzcuwzzsqaFvODD/vWZO/iluhntT2zYviIPHs4m
+/KamGdzebkLNDkPfNSUNcBKJwXWP2gd+nFLdxKp8A7RKLU6QsPOer3srEy+RXmK324UnY2hlcAaH
+srpq1NzvCmuMCyeODmuAHQI8cPSSk9gDjNqigCE1H3VtVsHjqrudApHNC8XQx8WIgnN5nfig5Bq6
+e5hei/USIR9eiu3faMoHYzYQz7iEz0tn+7A4dyZROoNJqTqcJ8Lz+D0EPCeCrAigUTLYvSoLOsYR
+XpMLVxwt6YiL1lPU0DA+XN5mwqLiYpT9BaycPhk/3bqCbqcbH84uIOVH9dP4KPz54DZ+b2jE6vx8
+JOka0WOP7owRVRA9aDqAze/G4vVXPFCrvDBmKUj/kGPNrDzok3uw89QVonY1Tt+sx6Pujj5hlcae
+s39gR+lT5G07g3tmVb/O0aGNIbJZyTnMzZ2AvUtX4qa5Ea+lZAvnhBV5RhTkTIHd7UGX6xkMGYlk
+L9Bj5ffFUMgplL5vwo81FSiuqMMx0xKsn2NA2dV/4PYqB4wuHY5HmL3Xq8C67yrR/OVU5KfmRE1g
+FFrBDlwqx8GzVly/vw9nqxnEkjSxazmcq21B1b8KLNhfijgVv/UyA59OJAJ8ACgumuLEZBq0TCyl
+8roq7P61Folk1z1YuATj4pOxZsYslF4sw4UbSpJHCi6XAsY9+3GvXU4+q9Fwf9TAOebdDcJRmsW7
+ObcuiRAQIzA53YEtBVMxPzcPCRqd0GAmfboP91rFPd+0gMOh1UViLZNFzD1tMGw/jY4u+vk6KfFa
+1WMRIyCP0EG8lkNOSqJYKkE1jybfSUpP0KpDETxytRyVTZ145qT6rYQhHRP5CPjix0QpWC4P4NWJ
+DlRs+whKkoa7nc34+GQ56fNa7Fq0AmqlBjda7uCNHZfh8yuGeUCloLB2ihHgcxhZQGyARn2LCu1W
+C9JIx8sck44T6zdEzbe5HUT5HPz+YXoeFKEsdFzuZRsK4gTwyubrsDq7QxPrO5pw9Np5vJk5HRsX
+xvaZN1STylJUDjm19G5GnTYntv58BCW/eZCaVImLWwuJ4KyY/9UFWO0qHKs5QLogn6+4YZ6MI8ow
+QMv6EPjhirRzqYgGVLjW2kAaSwBP3RphVnltfNROMhwCcmk6q6ClM+KA451v28Q3imGKrg+BCP6s
+nAZFU0IljODFLCw+ASrYDfkLIn9Hc2bnEHFQoDDygwfX1N8Rbsi0dFXmSfwf1/P/BBgAxlgA7BPB
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.editor.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">11.0.0</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Tomcat family of application servers in MyEclipse." epicID="0" id="4185" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_tomcat_module" title="Tomcat Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.tomcat.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Sun App Server family of application servers in MyEclipse." epicID="0" id="4187" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_sun_module" title="Sun App Server Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.sun.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides Maven-integration into core MyEclipse project management." epicID="0" id="4188" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_maven_module" title="Maven Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.maven.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides advanced report creation, design and deployment support in MyEclipse." epicID="0" id="4189" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_reports_module" title="MyEclipse Reports" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.database.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.reports.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+                <impliedsoftware id="myeclipse_editor_module"/>
+                <impliedsoftware id="myeclipse_database_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the Glassfish family of application servers in MyEclipse." epicID="0" id="4191" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_glassfish_module" title="Glassfish Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.glassfish.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides advanced tooling support for the JavaServer Faces framework." epicID="0" id="4192" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_jsf_module" title="JavaServer Faces Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.jsf.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[9.2.0,11.0.0)</property>
+                <impliedsoftware id="myeclipse_editor_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides advanced tooling support for JAX-WS and JAX-RS web service frameworks in MyEclipse." epicID="0" id="4193" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_ws_module" title="Web Services Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.ws.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+                <impliedsoftware id="myeclipse_editor_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the SpringSource tc server in MyEclipse." epicID="0" id="4194" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_tcserver_module" title="SpringSource tc Server Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.tcserver.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[8.4.200,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides advanced tooling support for the Spring framework in MyEclipse." epicID="0" id="4195" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_spring_module" title="Spring Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.database.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.spring.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.persistence.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+                <impliedsoftware id="myeclipse_editor_module"/>
+                <impliedsoftware id="myeclipse_database_module"/>
+                <impliedsoftware id="myeclipse_persistence_module"/>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the JOnAS family of application servers in MyEclipse." epicID="0" id="4196" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_jonas_module" title="JOnAS Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.jonas.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+            <realmsoftware audience="MyEclipse Developers" description="Provides server connector support for the JBoss family of application servers in MyEclipse." epicID="0" id="4197" license="Commerical" provider="Genuitec, LLC" software_id="myeclipse_jboss_module" title="JBoss Support for MyEclipse" updategroup="myeclipse">
+                <icon>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
+3doAAAAASUVORK5CYII=</icon>
+                <required_cap multiple="false" name="com.genuitec.myeclipse.jboss.feature.group" namespace="org.eclipse.equinox.p2.iu" optional="false" range="[7.9.100,11.0.0)"/>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo</updatesite>
+                <updatesite>http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors</updatesite>
+                <updatesite>http://www.poweredbypulse.com/pulse/download/live</updatesite>
+                <category_folder id="myeclipse_lite_modules"/>
+                <property key="myeclipse.dashboard.visibility.range">[7.9.100,11.0.0)</property>
+            </realmsoftware>
+        </catalog>
+    </response>
+</software>

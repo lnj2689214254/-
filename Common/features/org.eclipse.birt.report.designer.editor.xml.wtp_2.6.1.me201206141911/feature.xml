@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.birt.report.designer.editor.xml.wtp" image="eclipse_update_120.jpg" label="%featureName" plugin="org.eclipse.birt.report.designer.ui.editor.xml.wtp" provider-name="%providerName" version="2.6.1.me201206141911">
+
+   <description url="http://www.eclipse.org/birt">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/birt/update-site/2.6"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/birt/update-site/2.6"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.wst.common_ui.feature" match="greaterOrEqual" version="3.0.0"/>
+      <import feature="org.eclipse.wst.xml_ui.feature" match="greaterOrEqual" version="3.0.0"/>
+   </requires>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.designer.ui.editor.xml.wtp" install-size="0" unpack="false" version="3.7.0.v20110602"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.core" install-size="0" unpack="false" version="3.7.0.v20110608"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.designer.core" install-size="0" unpack="false" version="3.7.0.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.designer.ui.editors.schematic" install-size="0" unpack="false" version="3.7.0.v20110602"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.designer.ui" install-size="0" unpack="false" version="3.7.0.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.designer.ui.editors" install-size="0" unpack="false" version="3.7.0.me201108091322"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.model" install-size="0" unpack="false" version="3.7.0.v20110603"/>
+
+   <plugin download-size="0" id="org.w3c.sac" install-size="0" version="1.3.0.v20101011"/>
+
+   <plugin download-size="0" id="org.apache.batik.transcoder" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.mozilla.javascript" install-size="0" unpack="false" version="1.7.2.v201005080400"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.data" install-size="0" unpack="false" version="3.7.0.v20110603"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.data.aggregation" install-size="0" unpack="false" version="3.7.0.v20110602"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.data.adapter" install-size="0" unpack="false" version="3.7.0.v20110602"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.engine" install-size="0" unpack="false" version="3.7.0.v20110603"/>
+
+   <plugin download-size="0" id="com.lowagie.text" install-size="0" unpack="false" version="2.1.7.v201004222200"/>
+
+   <plugin download-size="0" id="org.apache.batik.bridge" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.apache.batik.css" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.apache.batik.dom" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.apache.batik.dom.svg" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.apache.batik.parser" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.apache.batik.svggen" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.apache.batik.util" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.apache.batik.util.gui" install-size="0" unpack="false" version="1.6.0.v200805290154"/>
+
+   <plugin download-size="0" id="org.apache.batik.xml" install-size="0" unpack="false" version="1.6.0.v201011041432"/>
+
+   <plugin download-size="0" id="org.w3c.dom.smil" install-size="0" unpack="false" version="1.0.1.v200903091627"/>
+
+   <plugin download-size="0" id="org.w3c.dom.svg" install-size="0" unpack="false" version="1.1.0.v201011041433"/>
+
+   <plugin download-size="0" id="org.apache.batik.pdf" install-size="0" unpack="false" version="1.6.0.v201105071520"/>
+
+   <plugin download-size="0" id="org.w3c.css.sac" install-size="0" unpack="false" version="1.3.1.v200903091627"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.designer.ui.views" install-size="0" unpack="false" version="3.7.0.v20110602"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.core.ui" install-size="0" unpack="false" version="3.7.0.v20110407"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.engine.fonts" install-size="0" version="2.6.1.v20100812"/>
+
+   <plugin download-size="0" id="org.eclipse.birt.report.model.adapter.oda" install-size="0" unpack="false" version="3.7.0.v20110526"/>
+
+</feature>

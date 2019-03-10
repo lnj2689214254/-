@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easiejboss7.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.debug.core,org.eclipse.swt,org.eclipse.ui,org.eclipse.jdt.
+ launching,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.genu
+ itec.eclipse.core.common,org.eclipse.jdt.debug.ui,com.genuitec.eclips
+ e.easie.core,com.genuitec.eclipse.wdt.jsp.debug,com.genuitec.eclipse.
+ easie.jboss,org.eclipse.core.runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.jboss7.JBoss7LauncherPlugin
+Bundle-Version: 10.0.1.me201202221614
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.jboss7;singleton:=true
+
+Name: preferences.ini
+SHA1-Digest: F/vaZpVvFFDx+zkxjCdhCxuIT9U=
+
+Name: easiejboss7.jar
+SHA1-Digest: wfyfEPLBiReyNYEKytSswryRC6Y=
+
+Name: about.html
+SHA1-Digest: ddti0x21roPn3J1SP4c00WppVO4=
+
+Name: plugin.xml
+SHA1-Digest: x2sratzQ+0uSUyyVyboX+4Z49sQ=
+
+Name: plugin.properties
+SHA1-Digest: w3A7/cP0jB8JIfwTZccpiXLKdek=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+

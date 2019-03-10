@@ -1,0 +1,266 @@
+Manifest-Version: 1.0
+Export-Package: org.codehaus.plexus.component.factory,org.sonatype.aet
+ her.util.filter,org.sonatype.aether.util.version,org.sonatype.aether,
+ org.sonatype.aether.metadata,org.apache.maven.toolchain.model.io.xpp3
+ ,org.apache.maven.artifact.repository.metadata,org.sonatype.aether.co
+ llection,org.codehaus.plexus.configuration.xml,org.apache.maven.artif
+ act.installer,org.sonatype.aether.connector.wagon,com.google.inject.i
+ nternal,org.codehaus.plexus.util,org.codehaus.plexus.util.dag,org.cod
+ ehaus.plexus,org.apache.maven.wagon.providers.file,org.apache.maven.a
+ rtifact.metadata,org.apache.maven.model.inheritance,org.sonatype.aeth
+ er.spi.connector,org.apache.maven.artifact.repository.metadata.io,org
+ .apache.maven.model.profile,org.apache.maven.wagon.repository,org.apa
+ che.maven.repository.legacy.resolver.transform,org.apache.maven.model
+ .management,org.sonatype.aether.util.graph.selector,org.apache.maven.
+ repository,org.apache.maven.wagon.resource,org.codehaus.plexus.interp
+ olation.object,org.sonatype.aether.repository,org.apache.maven.artifa
+ ct.repository.metadata.io.xpp3,org.apache.maven.monitor.logging,org.a
+ pache.maven.classrealm,org.apache.maven.repository.legacy.resolver,or
+ g.apache.maven.wagon,org.sonatype.aether.util.graph,org.apache.maven.
+ reporting,org.codehaus.plexus.classworlds.strategy,org.sonatype.aethe
+ r.util,org.codehaus.plexus.logging.console,org.codehaus.plexus.compon
+ ent,org.apache.maven.usability.plugin.io.xpp3,org.apache.maven.settin
+ gs.validation,org.codehaus.plexus.component.configurator,org.apache.m
+ aven.model.resolution,org.sonatype.aether.spi.locator,org.sonatype.pl
+ exus.components.sec.dispatcher.model.io.xpp3,org.apache.maven.reposit
+ ory.legacy.metadata,org.apache.maven.artifact.repository.layout,org.c
+ odehaus.plexus.util.reflection,org.apache.maven.lifecycle,com.google.
+ inject.internal.util,org.sonatype.aether.util.graph.transformer,org.c
+ odehaus.plexus.util.xml,org.sonatype.aether.spi.localrepo,org.sonatyp
+ e.plexus.build.incremental,org.apache.maven.artifact.resolver,org.cod
+ ehaus.plexus.interpolation.reflection,org.apache.maven.plugin.interna
+ l,org.apache.maven.settings,org.sonatype.aether.impl,org.apache.maven
+ .toolchain,org.sonatype.aether.spi.io,org.apache.maven.model.profile.
+ activation,org.apache.maven.properties.internal,org.apache.maven.mode
+ l.building,org.sonatype.aether.util.concurrency,org.apache.maven.repo
+ sitory.legacy.repository,org.codehaus.plexus.util.xml.pull,org.codeha
+ us.plexus.util.introspection,org.apache.maven.artifact.handler.manage
+ r,org.apache.maven.cli,org.apache.maven.lifecycle.mapping,org.apache.
+ maven.plugin.version.internal,org.apache.maven.profiles.io.xpp3,org.s
+ onatype.aether.installation,org.codehaus.plexus.component.repository.
+ exception,org.sonatype.aether.connector.async,org.apache.maven.wagon.
+ authorization,org.apache.maven.plugin.lifecycle,org.codehaus.plexus.c
+ omponent.configurator.converters.special,org.apache.maven.plugin.life
+ cycle.io.xpp3,org.codehaus.plexus.configuration,org.codehaus.plexus.u
+ til.cli.shell,org.apache.maven.messages,org.apache.maven.model,org.ap
+ ache.maven.artifact.factory,org.apache.maven.repository.legacy,org.ap
+ ache.maven.settings.crypto,org.codehaus.plexus.component.repository,o
+ rg.apache.maven.wagon.proxy,com.google.inject,org.apache.maven.wagon.
+ events,org.apache.maven.toolchain.java,org.codehaus.plexus.util.cli,o
+ rg.sonatype.aether.transfer,org.apache.maven.model.plugin,org.apache.
+ maven.exception,org.codehaus.plexus.component.configurator.converters
+ ,org.apache.maven.plugin.logging,org.apache.maven.plugin.prefix.inter
+ nal,org.apache.maven.plugin.descriptor,org.sonatype.aether.version,or
+ g.apache.maven.usability.plugin,org.apache.maven.configuration.intern
+ al,org.apache.maven.artifact.versioning,org.codehaus.plexus.interpola
+ tion,org.codehaus.plexus.logging,org.apache.maven.profiles,org.apache
+ .maven.repository.internal,org.apache.maven.model.locator,org.apache.
+ maven.eventspy,org.apache.maven.model.validation,org.sonatype.aether.
+ util.repository,org.apache.maven.model.normalization,org.sonatype.aet
+ her.util.layout,org.apache.maven.artifact.resolver.filter,org.apache.
+ maven.model.superpom,org.codehaus.plexus.interpolation.multi,org.apac
+ he.maven.execution,org.sonatype.aether.artifact,org.apache.maven.arti
+ fact.repository,org.sonatype.aether.util.metadata,org.codehaus.plexus
+ .personality.plexus.lifecycle.phase,org.codehaus.plexus.component.con
+ figurator.converters.lookup,org.apache.maven.plugin.version,org.apach
+ e.maven.artifact.deployer,org.sonatype.aether.spi.log,org.apache.mave
+ n.settings.io,org.apache.maven.profiles.activation,META-INF.plexus,or
+ g.apache.maven.settings.io.xpp3,org.codehaus.plexus.interpolation.uti
+ l,org.apache.maven.project.validation,org.apache.maven.artifact.handl
+ er,org.apache.maven.model.interpolation,org.sonatype.aether.util.grap
+ h.manager,org.apache.maven.wagon.authentication,org.apache.maven.sett
+ ings.merge,org.codehaus.plexus.component.configurator.converters.comp
+ osite,org.codehaus.plexus.util.io,org.sonatype.aether.util.artifact,o
+ rg.codehaus.plexus.classworlds,org.sonatype.aether.graph,org.codehaus
+ .plexus.component.composition,org.apache.maven.model.composition,org.
+ codehaus.plexus.classworlds.launcher,org.codehaus.plexus.component.co
+ nfigurator.expression,org.apache.maven.project.interpolation,org.code
+ haus.plexus.component.configurator.converters.basic,org.sonatype.mave
+ n.wagon,org.apache.maven.project.path,org.sonatype.aether.impl.intern
+ al,org.apache.maven,org.codehaus.plexus.classworlds.realm,org.apache.
+ maven.artifact.manager,org.sonatype.plexus.components.cipher,org.sona
+ type.aether.deployment,org.apache.maven.toolchain.model,org.apache.ma
+ ven.wagon.observers,com.google.inject.name,org.codehaus.plexus.interp
+ olation.os,com.google.inject.spi,org.apache.maven.plugin.prefix,org.a
+ pache.maven.configuration,org.sonatype.aether.util.listener,org.apach
+ e.maven.repository.legacy.resolver.conflict,org.apache.maven.model.io
+ .xpp3,org.sonatype.plexus.components.sec.dispatcher,org.apache.maven.
+ model.path,org.sonatype.aether.util.graph.traverser,org.codehaus.plex
+ us.context,org.apache.maven.lifecycle.internal,org.apache.maven.model
+ .merge,org.apache.maven.monitor.event,org.apache.maven.rtinfo.interna
+ l,org.apache.maven.model.io,org.apache.maven.project,com.google.injec
+ t.matcher,org.apache.maven.project.artifact,org.apache.maven.reposito
+ ry.metadata,org.apache.maven.rtinfo,org.apache.maven.project.inherita
+ nce,org.sonatype.plexus.components.sec.dispatcher.model,org.codehaus.
+ plexus.component.annotations,org.apache.maven.artifact,org.apache.mav
+ en.eventspy.internal,org.sonatype.aether.resolution,com.google.inject
+ .binder,com.google.inject.util,org.apache.maven.plugin,org.apache.mav
+ en.settings.building
+Require-Bundle: com.ning.async-http-client;bundle-version="[1.6.3,1.6.
+ 4)"
+Bundle-Vendor: Eclipse.org - m2e
+Bundle-ClassPath: local-patches.jar,jars/maven-embedder-3.0.2.jar,jars
+ /maven-settings-3.0.2.jar,jars/maven-plugin-api-3.0.2.jar,jars/maven-
+ model-builder-3.0.2.jar,jars/plexus-sec-dispatcher-1.3.jar,jars/plexu
+ s-cipher-1.4.jar,jars/maven-core-3.0.2.jar,jars/maven-model-3.0.2.jar
+ ,jars/maven-settings-builder-3.0.2.jar,jars/maven-repository-metadata
+ -3.0.2.jar,jars/maven-artifact-3.0.2.jar,jars/maven-aether-provider-3
+ .0.2.jar,jars/plexus-interpolation-1.14.jar,jars/maven-compat-3.0.2.j
+ ar,jars/commons-cli-1.2.jar,jars/wagon-file-1.0-beta-7.jar,jars/guice
+ -plexus-shim-2.0.0.jar,jars/plexus-component-annotations-1.5.5.jar,ja
+ rs/javax.inject-1.jar,jars/guice-bean-reflect-2.0.0.jar,jars/guice-be
+ an-inject-2.0.0.jar,jars/guice-bean-locators-2.0.0.jar,jars/guice-bea
+ n-binders-2.0.0.jar,jars/guice-bean-scanners-2.0.0.jar,jars/guice-bea
+ n-converters-2.0.0.jar,jars/guice-plexus-metadata-2.0.0.jar,jars/guic
+ e-plexus-converters-2.0.0.jar,jars/guice-plexus-locators-2.0.0.jar,ja
+ rs/guice-plexus-binders-2.0.0.jar,jars/guice-plexus-scanners-2.0.0.ja
+ r,jars/plexus-classworlds-2.4.jar,jars/plexus-utils-2.0.6.jar,jars/si
+ su-guice-2.9.4-no_aop.jar,jars/plexus-build-api-0.0.7.jar,jars/aether
+ -connector-wagon-1.12.jar,jars/aether-api-1.12.jar,jars/aether-spi-1.
+ 12.jar,jars/aether-util-1.12.jar,jars/wagon-provider-api-1.0-beta-6.j
+ ar,jars/aether-impl-1.12.jar,jars/aether-connector-asynchttpclient-1.
+ 12.jar,jars/wagon-ahc-1.2.0.jar
+Bundle-Version: 1.0.0.me201109061757
+Bundle-Name: Embedded Maven Runtime Bundle
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.m2e.maven.runtime;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5, JavaSE-1.6
+
+Name: jars/maven-plugin-api-3.0.2.jar
+SHA1-Digest: cSZedIGP+p1O7abZk20IpidKzxA=
+
+Name: jars/guice-plexus-shim-2.0.0.jar
+SHA1-Digest: CqWO8VBoZG5GFYWk/xfoLi8/+7c=
+
+Name: jars/maven-aether-provider-3.0.2.jar
+SHA1-Digest: IlJ4NUJgE131b4Sd8hpU/tXT8cQ=
+
+Name: jars/guice-bean-inject-2.0.0.jar
+SHA1-Digest: ERh52bG3t634/2gEjHAh+DikJxo=
+
+Name: jars/sisu-guice-2.9.4-no_aop.jar
+SHA1-Digest: Yyr7I1QAujmZw/1juon+yK43q9M=
+
+Name: jars/plexus-classworlds-2.4.jar
+SHA1-Digest: 7zj/XCX4OkoC/NmEPYXz5HAShz4=
+
+Name: jars/plexus-sec-dispatcher-1.3.jar
+SHA1-Digest: 3twCA0+4/NdhXWZZMijLcXCRNLQ=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: jars/guice-bean-scanners-2.0.0.jar
+SHA1-Digest: L2rKCRbULu3zyK/8XS0RBKEb43k=
+
+Name: jars/wagon-ahc-1.2.0.jar
+SHA1-Digest: DSxoXkyMenh+zW6FOo8dQuSI9mM=
+
+Name: jars/plexus-utils-2.0.6.jar
+SHA1-Digest: OiDEJKcSp8ArAq9h3K1fABspqf0=
+
+Name: jars/commons-cli-1.2.jar
+SHA1-Digest: K/lreqi2EcF30ylFKvHckz4UUBw=
+
+Name: jars/guice-plexus-scanners-2.0.0.jar
+SHA1-Digest: QTlQqZE3FKlTpJ1PlTmtzdR/ogw=
+
+Name: jars/guice-bean-locators-2.0.0.jar
+SHA1-Digest: m+71/VjDzWfemTdUBLINr57jEFI=
+
+Name: jars/aether-api-1.12.jar
+SHA1-Digest: 87h1wYbUmUTHA7L+j/HoT/7OEUA=
+
+Name: jars/aether-connector-wagon-1.12.jar
+SHA1-Digest: 1OYFivjBUgYbmV8T8Jzv1uCKtgs=
+
+Name: jars/aether-spi-1.12.jar
+SHA1-Digest: i2NcCiaEcJYYQNxW1Ao7N9rHfjg=
+
+Name: about.html
+SHA1-Digest: 7y3sKm/Khq1nrKZBD7lfFtgNCis=
+
+Name: jars/maven-model-3.0.2.jar
+SHA1-Digest: dTw2G0JgkZcdzP63pYXB9nX4pFE=
+
+Name: jars/wagon-file-1.0-beta-7.jar
+SHA1-Digest: CeJAXVGvOU8tft3qmRvF+PFbSgk=
+
+Name: jars/guice-plexus-locators-2.0.0.jar
+SHA1-Digest: gK437idv2rm1cY17wcftuXpjxjc=
+
+Name: local-patches.jar
+SHA1-Digest: 1FVBUgneVMUf+sj99IFTc407VZk=
+
+Name: jars/guice-bean-binders-2.0.0.jar
+SHA1-Digest: vHFiMj6ia8PvkTSNaXeFnlMPYfw=
+
+Name: jars/maven-artifact-3.0.2.jar
+SHA1-Digest: cDFqEtu2QEQAu0H+ttckaTH6Nkc=
+
+Name: jars/guice-bean-reflect-2.0.0.jar
+SHA1-Digest: 2+HWJMaxoeyednN9cs5f9btlXKs=
+
+Name: jars/maven-model-builder-3.0.2.jar
+SHA1-Digest: ewSG7sqpM1JR7Zw4jBNWUfolens=
+
+Name: jars/guice-plexus-metadata-2.0.0.jar
+SHA1-Digest: JGqL7zUClletFBDIQR7DwNgPwMc=
+
+Name: jars/plexus-build-api-0.0.7.jar
+SHA1-Digest: 5rpc1L/Y3gAjWvk25/Y+sk7UNuY=
+
+Name: jars/maven-settings-builder-3.0.2.jar
+SHA1-Digest: rbC898rrwuzl5YdImZxatuj0s8M=
+
+Name: jars/maven-settings-3.0.2.jar
+SHA1-Digest: owLXSZx8PwLBvjFLNd/6ql+UUMc=
+
+Name: jars/wagon-provider-api-1.0-beta-6.jar
+SHA1-Digest: P5UuAoKud65ZhR2WuxgBXlILYgg=
+
+Name: META-INF/plexus/.gitignore
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: jars/maven-repository-metadata-3.0.2.jar
+SHA1-Digest: GnTKAJ5tWTfrg2LlQZzh6Cadpds=
+
+Name: jars/aether-util-1.12.jar
+SHA1-Digest: TRT18acjjAof58M8peLvRefj+Mo=
+
+Name: jars/aether-connector-asynchttpclient-1.12.jar
+SHA1-Digest: V00umvZt185Fkufv74MNIErScKA=
+
+Name: jars/maven-embedder-3.0.2.jar
+SHA1-Digest: rcklQFkWZ3xPqIcfKaWfr8rewnQ=
+
+Name: jars/guice-bean-converters-2.0.0.jar
+SHA1-Digest: f2qXeCansdf12m95mLlauivHjh4=
+
+Name: jars/javax.inject-1.jar
+SHA1-Digest: aXXaOacEAle9UdIaIxt2yRWHLTg=
+
+Name: jars/maven-compat-3.0.2.jar
+SHA1-Digest: NB73R1JQJuSY4lxGp8L8sMfpVyM=
+
+Name: jars/plexus-interpolation-1.14.jar
+SHA1-Digest: yI3YZP6LglbCVVjOfNY75mugdpM=
+
+Name: jars/guice-plexus-binders-2.0.0.jar
+SHA1-Digest: JJg0ZTQPqkzWAzzBXFqjLH4Y13o=
+
+Name: jars/guice-plexus-converters-2.0.0.jar
+SHA1-Digest: OiOJA6lmrj1aIiNd12HlNFO0kWw=
+
+Name: jars/plexus-component-annotations-1.5.5.jar
+SHA1-Digest: xy8mYNDL7SQkbdtV1/3E9zdNIHg=
+
+Name: jars/plexus-cipher-1.4.jar
+SHA1-Digest: UK3kbyO7OM2YS07FYMRiI0MqrDg=
+
+Name: jars/aether-impl-1.12.jar
+SHA1-Digest: v6Mr2Zm1A6pS5V0zhAwinu4Rpik=
+
+Name: jars/maven-core-3.0.2.jar
+SHA1-Digest: 29gnDZTBELkUydJFy3yQep+gmeg=
+

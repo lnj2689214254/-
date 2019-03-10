@@ -1,0 +1,10 @@
+package com.yychatclient.view;
+
+public class FrinedList {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

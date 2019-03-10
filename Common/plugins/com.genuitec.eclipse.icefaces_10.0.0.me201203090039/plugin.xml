@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+<extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="com.genuitec.eclipse.j2ee.capabilities.preferencepage"
+            class="com.genuitec.eclipse.icefaces.ICEfacesLibraryPrefPage"
+            id="com.genuitec.partners.icesoft.preferences.icefaces"
+            name="%page.icefaces.name">
+      </page>
+   </extension>
+
+   <extension
+         point="org.eclipse.jdt.core.classpathVariableInitializer">
+      <classpathVariableInitializer
+            class="com.genuitec.eclipse.icefaces.ICEfacesCPVariableInitializer"
+            variable="MYECLIPSE_ICEFACES_HOME"/> 
+   </extension>
+    
+   <extension
+         point="org.eclipse.jdt.core.classpathContainerInitializer">
+     <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_161"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_JSF12_161"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_161"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_JSF12_161"/>
+       <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_162"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_JSF12_162"/>
+     <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_162"/>               
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_JSF12_162"/>         
+       <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_170"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_JSF12_170"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_170"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_JSF12_170"/>
+       <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_171"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_JSF12_171"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_171"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_JSF12_171"/>
+        <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_172"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_JSF12_172"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_172"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_JSF12_172"/>
+
+       <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_180"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_JSF12_180"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_180"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_JSF12_180"/>     
+            
+        <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_181"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_JSF12_181"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_181"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Facelets_JSF12_181"/>            
+         
+         
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Core_JSF2_200"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Ace_JSF2_200"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Ice_JSF2_200"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Push_JSF2_200"/>
+            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Core_JSF2_300"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Ace_JSF2_300"/>            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Ice_JSF2_300"/>
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Push_JSF2_300"/>
+            
+      <classpathContainerInitializer
+            class="com.genuitec.eclipse.core.librarymgmt.MEClasspathContainerInitializer"
+            id="melibrary.com.genuitec.eclipse.icefaces.MYECLIPSE_ICEfaces_Mobi_JSF2_300"/>                             
+   </extension>
+   
+</plugin>

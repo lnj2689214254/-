@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<snapshot cataloguid="31" compatibilityVersion="3.0.0" folderIDs="1351" id="rb-5513151-1551332781597" orphaned="false" queuedChanges="false" realmID="451" revision="1" serverBased="true" targetEnvironment="osgi.os=win32,osgi.ws=win32,osgi.arch=x86_64" unmodifiableScopes="BASE|SHARED|DYNAMIC">
+    <representedID id="catalog-_myeclipse_indigo_stable"/>
+    <representedID id="rb-5513151"/>
+    <representedID id="rb-5513151-1551332781597"/>
+    <scope name="BASE" revision="13">
+        <requirement audience="Java Developers" catalogDefinedID="_myeclipse_indigo_stable" catalogDefinedRealmID="indigo" class="ClientBlueprintBranding" description="The latest production release of MyEclipse. Fully tested and stable, intended for enterprise production use." installDirectoryName="MyEclipse 10" product="com.genuitec.myeclipse.product.ide" productBundle="com.genuitec.myeclipse.product" programGroupName="MyEclipse" provider="Genuitec, LLC" shortcutName="MyEclipse 10" title="MyEclipse 10" workspaceName="MyEclipse 10">
+            <image><![CDATA[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
+]]></image>
+            <excludeLicense id="com.genuitec.myeclipse.base.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.base.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.database.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.database.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.db2.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.db2.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.desktop.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.desktop.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.editor.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.editor.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.geronimo.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.geronimo.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.glassfish.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.glassfish.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.icefaces.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.icefaces.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.iedebugger.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.iedebugger.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.imageeditor.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.imageeditor.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jboss.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jboss.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jetty.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jetty.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jonas.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jonas.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jrun.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jrun.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jsf.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.jsf.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.matisse.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.matisse.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.maven.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.maven.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.oracle.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.oracle.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.orion.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.orion.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.persistence.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.persistence.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.pulse.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.pulse.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.reports.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.reports.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.resin.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.resin.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.spring.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.spring.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.struts.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.struts.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.sun.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.sun.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.tapestry.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.tapestry.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.tcserver.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.tcserver.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.tomcat.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.tomcat.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.uml2.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.uml2.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.visualvm.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.visualvm.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.visualvm.server.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.visualvm.server.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.weblogic.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.weblogic.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.websphere.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.websphere.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.webtools.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.webtools.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.ws.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.ws.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.xfire.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.myeclipse.xfire.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.compatibility.e35" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.compatibility.e36" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.compatibility.e37" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.delta.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.delta.e37.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.delta.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.dropins.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.dropins.e37.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.dropins.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.feature.patches.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.feature.patches.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.httpclient.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.httpclient.e37.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.httpclient.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.oakland.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.oakland.e37.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.oakland.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.services.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.services.e37.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.services.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.targetcfg.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.targetcfg.e37.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.targetcfg.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.targetcfg.jdt.e36.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.targetcfg.jdt.e37.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.base.targetcfg.jdt.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.targetcfg.dropins.e36.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.targetcfg.dropins.e36.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.targetcfg.dropins.e37.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.targetcfg.dropins.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.targetcfg.e36.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="com.genuitec.pulse2.client.targetcfg.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="fr.obeo.acceleo.bridge.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="fr.obeo.acceleo.bridge.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.birt.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.birt.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.birt.report.designer.editor.xml.wtp.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.birt.report.designer.editor.xml.wtp.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.cvs.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.cvs.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.common.doc.user.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.common.doc.user.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.oda.designer.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.oda.designer.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.oda.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.connectivity.oda.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.doc.user.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.doc.user.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.apache.derby.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.apache.derby.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.hsqldb.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.hsqldb.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.ibm.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.ibm.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.ingres.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.ingres.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.jdbc.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.jdbc.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.jdt.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.jdt.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.msft.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.msft.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.mysql.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.mysql.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.oda.designer.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.oda.designer.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.oda.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.oda.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.oracle.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.oracle.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.postgresql.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.postgresql.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.sap.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.sap.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.sqlite.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.sqlite.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.sybase.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.enablement.sybase.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.modelbase.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.modelbase.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.parsers.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.parsers.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.results.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.results.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.dltk.core.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.dltk.core.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.draw2d.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.draw2d.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.ecore.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.ecore.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.ecore.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.ecore.ui.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.codegen.ui.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.common.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.common.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.common.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.common.ui.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.converter.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.converter.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.databinding.edit.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.databinding.edit.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.databinding.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.databinding.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.edit.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.edit.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.editor.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.editor.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.sdo.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ecore.sdo.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.edit.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.edit.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.edit.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.edit.ui.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.ecore.editor.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.ecore.editor.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.ecore.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.ecore.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.mapping.ui.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ocl.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.emf.ocl.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.extras.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.extras.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.rcp.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.rcp.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.user.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.equinox.p2.user.ui.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.gef.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.gef.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.graphiti.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.graphiti.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.help.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.help.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jdt.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jdt.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.common.eclipselink.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.common.eclipselink.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.common.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.common.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.dbws.eclipselink.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.dbws.eclipselink.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.eclipselink.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.eclipselink.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jaxb.eclipselink.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jaxb.eclipselink.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jaxb.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jaxb.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jpa.eclipselink.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jpa.eclipselink.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jpa.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jpa.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jpadiagrameditor.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jpt.jpadiagrameditor.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jsf.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jsf.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.common.fproj.enablement.jdt.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.common.fproj.enablement.jdt.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.enterprise_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.enterprise_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.enterprise_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.enterprise_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_adapters.ext.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_adapters.ext.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_adapters.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_adapters.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.server_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.web_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.web_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.web_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.web_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.webpageeditor.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.webpageeditor.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.ws.axis2tools.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.jst.ws.axis2tools.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.m2e.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.m2e.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.m2e.logback.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.m2e.logback.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.ocl.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.ocl.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.pde.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.pde.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.platform.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.platform.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.rcp.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.rcp.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.java.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.java.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.java.jdt.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.java.jdt.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.modeling.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.modeling.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.modeling.xml.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.modeling.xml.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.osgi.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.osgi.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.platform.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.platform.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.ui.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.ui.swt.graphiti.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.ui.swt.graphiti.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.ui.swt.xml.editor.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.sapphire.ui.swt.xml.editor.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.common.fproj.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.common.fproj.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.common_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.common_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.common_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.common_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.jsdt.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.jsdt.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.server_adapters.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.server_adapters.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.server_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.server_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.server_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.server_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.web_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.web_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.web_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.web_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.ws_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.ws_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.ws_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.ws_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.ws_wsdl15.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.ws_wsdl15.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xml.xpath2.processor.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xml.xpath2.processor.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xml_core.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xml_core.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xml_ui.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xml_ui.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xsl.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.wst.xsl.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.xsd.edit.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.xsd.edit.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.xsd.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.eclipse.xsd.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.cvs.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.cvs.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.scm.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.scm.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.wtp.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.maven.ide.eclipse.wtp.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.ajdt.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.ajdt.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.aop.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.aop.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.autowire.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.autowire.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.batch.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.batch.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.integration.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.integration.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.mylyn.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.mylyn.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.osgi.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.osgi.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.security.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.security.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.webflow.feature.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="org.springframework.ide.eclipse.webflow.feature.feature.jar" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="pulse.com.genuitec.myeclipse.product.ide.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="pulse.org.eclipse.equinox.p2.user.ui.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="pulse.org.eclipse.equinox.p2.user.ui.feature.group_1.1.x.feature.patch" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="pulse.org.eclipse.platform.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="pulse.org.eclipse.platform.feature.group_3.5.x.feature.patch" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="pulse.org.eclipse.rcp.feature.group" namespace="org.eclipse.equinox.p2.iu"/>
+            <excludeLicense id="pulse.org.eclipse.rcp.feature.group_3.5.x.feature.patch" namespace="org.eclipse.equinox.p2.iu"/>
+        </requirement>
+        <requirement class="ClientBlueprintProperties">
+            <property key="com.genuitec.pulse.common.blueprint.public.version" value="10.5"/>
+            <property key="com.genuitec.pulse.common.blueprint.resolve.options" value="macosx-35,windows-64,linux-64"/>
+            <property key="com.genuitec.pulse.common.bypass.freelance.enforcement" value="true"/>
+        </requirement>
+        <requirement catalogSoftwareID="4151" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4152" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4153" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4154" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement alias="MyEclipse Enterprise Workbench (Stable) OneMeta" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable/onemeta"/>
+        <requirement alias="MyEclipse Pulse Integration Update Site" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable/pulse"/>
+        <requirement alias="MyEclipse Enterprise Workbench (Stable) Supporting" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable/supporting"/>
+        <requirement alias="MyEclipse Enterprise Workbench (Stable)" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://downloads.myeclipseide.com/downloads/products/eworkbench/indigo/enterprise-stable"/>
+        <requirement alias="MyEclipse JDKs" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://downloads.myeclipseide.com/downloads/products/eworkbench/jdks"/>
+        <requirement alias="Eclipse 3.7 Updates" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/eclipse/updates/3.7"/>
+        <requirement alias="Indigo Discovery" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://eclipse.poweredbypulse.com/downloads/aux/eclipse-mirror/releases/indigo"/>
+        <requirement alias="Pulse Resolution Patches" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://eclipse.poweredbypulse.com/downloads/products/pulse/mirrors"/>
+        <requirement alias="Pulse Dynamic Site" artifacts="true" class="ClientBlueprintUpdateSite" metadata="true" updateSite="http://www.poweredbypulse.com/pulse/download/live"/>
+    </scope>
+    <scope name="SHARED"/>
+    <scope name="DYNAMIC"/>
+    <scope name="PERSONAL">
+        <requirement catalogSoftwareID="4159" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4160" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4161" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4162" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4163" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4164" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4165" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4166" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4167" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4168" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4172" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4173" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4174" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4175" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4176" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4178" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4179" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4180" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4181" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4184" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4185" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4187" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4188" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4189" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4191" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4192" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4193" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4194" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4195" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4196" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+        <requirement catalogSoftwareID="4197" class="ClientBlueprintRequiredSoftware" range="0.0.0"/>
+    </scope>
+    <scope name="THISSYSTEMONLY"/>
+</snapshot>

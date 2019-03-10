@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:metadatamodel
+	xmlns:md="http://org.eclipse.jst.jsf.common.metadata/metadata.ecore"
+	xmlns:dti="http://org.eclipse.jsf.pagedesigner/dtinfo.ecore"
+	xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="http://www.icesoft.com/icefaces/mobile/component" type="tagFile">
+	<entity id="audio" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.MobiAudioOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+					setNonVisualChildElements="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="commandButtonGroup" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiCommandButtonGroupOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="commandButton" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiCommandButtonOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+					setNonVisualChildElements="true">
+				    <resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+				<tag-decorate-info id="vpd-decorate-preview">
+					<resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+			</value>
+		</trait>
+	</entity>
+	<entity id="camera" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.MobiCameraOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="geolocation" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEMobile/mobi/small/Geolocation_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="carousel" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiCarouselOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="dateSpinner" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiDateSpinnerOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" 
+					needBorderDecorator="true" 
+					widget="true"/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="fieldsetGroup" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiFieldsetGroupOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="fieldsetRow" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiFieldsetRowOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="flipswitch" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiFlipswitchOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="graphicImage" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.eclipse.jst.pagedesigner.CreateElementOperation">
+						<parameter value="img"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.CopyAllAttributesOperation"/>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="styleClass"/>
+						<parameter value="class"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="url"/>
+						<parameter value="src"/>
+					</operation>
+					<operation id="org.eclipse.jst.pagedesigner.RenameAttributeOperation">
+						<parameter value="value"/>
+						<parameter value="src"/>
+					</operation>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.ResolveResourceAttributeOperation">
+						<parameter value="src"/>
+					</operation>					
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true">
+					<resolve-attribute-value attributeName="src"/>
+				</tag-decorate-info>
+				<tag-decorate-info id="vpd-decorate-preview">
+					<resolve-attribute-value attributeName="src"/>
+				</tag-decorate-info>
+			</value>
+		</trait>
+	</entity>
+	<entity id="icemobilesx" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiIcemobilesxOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true"
+					widget="true"
+					setNonVisualChildElements="true">
+				    <resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+				<tag-decorate-info id="vpd-decorate-preview">
+					<resolve-attribute-value attributeName="value"/>
+				</tag-decorate-info>
+			</value>
+		</trait>
+	</entity>	
+	<entity id="inputText" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiInputTextOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="outputListItem" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiOutputListItemOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="outputListItems" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiOutputListItemOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="outputList" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiOutputListOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="microphone" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEMobile/mobi/small/Microphone_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="qrcode" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEMobile/mobi/small/QrCode_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="scan" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation id="org.icefaces.eclipse.jst.pagedesigner.MobiScanOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="deviceStylesheet" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEMobile/mobi/small/DeviceStylesheet_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="thumbnail" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiThumbnailOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="timeSpinner" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiTimeSpinnerOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="camcorder" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiCamcorderOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+	<entity id="videoPlayer" type="tag">
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-convert-info>
+					<operation
+						id="org.icefaces.eclipse.jst.pagedesigner.MobiVideoPlayerOperation" />
+				</tag-convert-info>
+				<tag-decorate-info id="vpd-decorate-design"
+					multiLevel="true" needBorderDecorator="true" />
+			</value>
+		</trait>
+	</entity>
+</md:metadatamodel>

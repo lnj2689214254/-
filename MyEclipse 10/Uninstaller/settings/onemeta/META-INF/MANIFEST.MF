@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Genuitec, LLC
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 10.5.0.me201206141911
+Bundle-Name: OneInstall Delivery Metadata
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: pulse.onemeta.com.genuitec.myeclipse.enterprise.w
+ orkbench.onemeta.win32
+

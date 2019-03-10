@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:metadatamodel
+	xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:md="http://org.eclipse.jst.jsf.common.metadata/metadata.ecore"
+	xmlns:cnst="http://org.eclipse.jst.jsf.core/constraints.ecore"
+	xmlns:mdt="http://org.eclipse.jst.jsf.common.metadata/metadataTraitTypes.ecore"
+	xmlns:pi="http://org.eclipse.jsf.pagedesigner/paletteInfos.ecore"
+	xmlns:dti="http://org.eclipse.jsf.pagedesigner/dtinfo.ecore"	
+	xmlns:qe="http://org.eclipse.jsf.pagedesigner/QuickEditTabSections.ecore"
+	id="http://www.icefaces.org/icefaces/core"
+	type="tagFile">
+
+	<trait id="is-jsf-component-library">
+		<value xsi:type="mdt:BooleanValue">true</value>
+	</trait>
+	<trait id="images-base-path">
+		<value xsi:type="mdt:StringValue">/icons/palette/ICEfaces/core</value>
+	</trait>
+	<trait id="display-label">
+		<value xsi:type="mdt:StringValue">ICEfaces Core Components</value>
+	</trait>
+	
+	<trait id="description">
+		<value xsi:type="mdt:StringValue">ICEfaces Core Components</value>
+	</trait>
+
+	<trait id="default-prefix">
+		<value xsi:type="mdt:StringValue">icecore</value>
+	</trait>
+	
+	<trait id="paletteInfos">
+		<value xsi:type="pi:PaletteInfos">
+			<item id="config" />
+			<item id="push" />
+			<item id="singleSubmit" />
+		</value>
+	</trait>
+	<entity id="config" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Config_C16.png</value>
+		</trait>
+		<trait id="tag-create">
+			<value xsi:type="pi:TagCreationInfo">
+				<attribute id="render" value="true" />
+			</value>
+		</trait>
+        <trait id="quick-edit-tab">
+            <value xsi:type="qe:QuickEditTabSections">
+                <section id="render"/>
+                <section id="ariaEnabled"/>      
+            </value>
+        </trait>			
+		<entity id="render">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+			</trait>
+		</entity>
+		<entity id="ariaEnabled">
+			<trait id="attribute-value-runtime-type">
+				<value xsi:type="mdt:StringValue">org.eclipse.jst.jsf.core.attributevalues.BooleanType</value>
+			</trait>
+		</entity>
+		<entity id="mandatoryResource" />
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/core/small/Config_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>		
+	</entity>
+	
+	<entity id="singleSubmit" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/SingleSubmit_C16.png</value>
+		</trait>
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/core/small/SingleSubmit_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>
+	<entity id="push" type="tag">
+		<trait id="small-icon">
+			<value xsi:type="mdt:StringValue">small/Push_C16.png</value>
+		</trait>
+		<trait id="dt-info">
+			<value xsi:type="dti:DTInfo">
+				<tag-decorate-info id="vpd-decorate-design"
+					nonVisual="true"
+					nonVisualImagePath="icons/palette/ICEfaces/core/small/Push_C16.png"
+					widget="true"
+				/>
+				<tag-decorate-info id="vpd-decorate-preview"
+					nonVisual="true"
+				/>
+			</value>
+		</trait>
+	</entity>	
+</md:metadatamodel>

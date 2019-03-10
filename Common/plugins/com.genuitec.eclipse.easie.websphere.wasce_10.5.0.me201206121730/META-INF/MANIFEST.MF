@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.easie.websphere.wasce,com.genuite
+ c.eclipse.easie.websphere.wasce.preference
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: wasce.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.ui.views,org.eclipse.jf
+ ace.text,org.eclipse.ui.workbench.texteditor,org.eclipse.ui.editors,o
+ rg.eclipse.core.resources,org.eclipse.debug.core,org.eclipse.swt,org.
+ eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launching,org.eclipse
+ .jdt.debug,org.eclipse.core.runtime,com.genuitec.eclipse.core,com.gen
+ uitec.eclipse.core.common,org.eclipse.debug.ui,org.eclipse.jdt.ui,org
+ .eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core,com.genuitec.ec
+ lipse.wdt.jsp.debug,org.eclipse.core.runtime.compatibility,com.genuit
+ ec.eclipse.ast.deploy.core
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.websphere.wasce.WebsphereLaun
+ cherPlugin
+Bundle-Version: 10.5.0.me201206121730
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.websphere.wasce;single
+ ton:=true
+
+Name: preferences.ini
+SHA1-Digest: mK2Ax2is7sSTABr8jB9JY8Ov1Vk=
+
+Name: about.html
+SHA1-Digest: nZ5n61N2Yn3iyOz7WBaCjjDqOJI=
+
+Name: plugin.xml
+SHA1-Digest: VjXYFIbv2zowIDgKr87llXT9elE=
+
+Name: plugin.properties
+SHA1-Digest: Dfl8kLwbu6AZYq5gMEeqYh6L0qg=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+
+Name: wasce.jar
+SHA1-Digest: 7J2AvITSZZzRvT5zJRn6CI34K9I=
+
+Name: icons/websphere_logo.gif
+SHA1-Digest: mjWoUTZvCnu/3hVJjjPD63663kU=
+

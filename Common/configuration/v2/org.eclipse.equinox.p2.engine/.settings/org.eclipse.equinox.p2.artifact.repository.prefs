@@ -1,0 +1,17 @@
+#Thu Feb 28 13:46:22 CST 2019
+repositories/file\:_D\:_360Downloads_Common/provider=
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/suffix=artifacts.xml
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/version=1.0.0
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/description=
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_D\:_360Downloads_Common/description=
+repositories/file\:_D\:_360Downloads_Common/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/isSystem=true
+eclipse.preferences.version=1
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/name=download cache
+repositories/file\:_D\:_360Downloads_Common/uri=file\:/D\:/360Downloads/Common/
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/provider=
+repositories/file\:_D\:_360Downloads_Common/name=Bundle pool
+repositories/file\:_D\:_360Downloads_Common_configuration_v2_org.eclipse.equinox.p2.core_cache/uri=file\:/D\:/360Downloads/Common/configuration/v2/org.eclipse.equinox.p2.core/cache/
+repositories/file\:_D\:_360Downloads_Common/isSystem=true
+repositories/file\:_D\:_360Downloads_Common/version=1

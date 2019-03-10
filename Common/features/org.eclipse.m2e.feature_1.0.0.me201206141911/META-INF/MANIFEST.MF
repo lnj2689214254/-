@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+
+Name: feature.properties
+SHA1-Digest: SS1Z8UjnV09eumjhLgm+CCvOSXM=
+
+Name: epl-v10.html
+SHA1-Digest: pTOyybcpEe+Y8lkSVUtarMleXqE=
+
+Name: feature.xml
+SHA1-Digest: mgfrdtPBse7Thu8CQV1CwkXxzVY=
+
+Name: license.html
+SHA1-Digest: zfjcL9nrH2EQzj7ew8+eum3USA8=
+
+Name: p2.inf
+SHA1-Digest: MgKa4Cr21KvzSFMT0QwqaQlAjDs=
+

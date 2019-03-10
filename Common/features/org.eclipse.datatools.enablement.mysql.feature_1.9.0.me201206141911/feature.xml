@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.datatools.enablement.mysql.feature" image="eclipse_update_120.jpg" label="%featureName" plugin="org.eclipse.datatools.enablement.finfo" provider-name="%providerName" version="1.9.0.me201206141911">
+
+   <description>
+      %description
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.datatools.modelbase.feature" match="greaterOrEqual" version="1.8.0"/>
+      <import feature="org.eclipse.datatools.connectivity.feature" match="greaterOrEqual" version="1.8.0"/>
+      <import feature="org.eclipse.datatools.enablement.jdbc.feature" match="greaterOrEqual" version="1.8.0"/>
+   </requires>
+
+   <plugin download-size="0" id="org.eclipse.datatools.enablement.mysql.dbdefinition" install-size="0" unpack="false" version="1.0.4.v200906161800"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.enablement.mysql" install-size="0" unpack="false" version="1.0.2.me201012090051"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.enablement.mysql.ui" install-size="0" unpack="false" version="1.0.0.v200906020900"/>
+
+   <plugin download-size="0" id="org.eclipse.datatools.enablement.finfo" install-size="0" unpack="false" version="1.5.1.v200906161800"/>
+
+</feature>

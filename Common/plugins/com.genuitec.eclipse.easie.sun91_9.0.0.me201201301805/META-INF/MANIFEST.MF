@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.easie.sun91,com.genuitec.eclipse.
+ easie.sun91.preference
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: easiesunglassfish2.jar
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.resources,org.eclipse.debug.core,org.
+ eclipse.swt,org.eclipse.ui,org.eclipse.jdt.core,org.eclipse.jdt.launc
+ hing,org.eclipse.jdt.debug,org.eclipse.core.runtime,com.genuitec.ecli
+ pse.core,com.genuitec.eclipse.core.common,org.eclipse.debug.ui,org.ec
+ lipse.jdt.ui,org.eclipse.jdt.debug.ui,com.genuitec.eclipse.easie.core
+ ,com.genuitec.eclipse.wdt.jsp.debug,com.genuitec.eclipse.easie.sun,or
+ g.eclipse.core.runtime.compatibility
+Bundle-Vendor: %providerName
+Plugin-Class: com.genuitec.eclipse.easie.sun91.Sun91LauncherPlugin
+Bundle-Version: 9.0.0.me201201301805
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActiva
+ tor
+Bundle-SymbolicName: com.genuitec.eclipse.easie.sun91;singleton:=true
+
+Name: easiesunglassfish2.jar
+SHA1-Digest: sA+koa1+MzTFo6RA51BAPWChFsY=
+
+Name: preferences.ini
+SHA1-Digest: u/2JxGoTiFX+x71giLhGTraYKP0=
+
+Name: about.html
+SHA1-Digest: cCxoqCUmaNfD9vky/3TutMKAb5A=
+
+Name: plugin.xml
+SHA1-Digest: WZUu4ENJTYnOwkIARqqe2tO437k=
+
+Name: plugin.properties
+SHA1-Digest: fPYreFVz3+ce/JrAK5jUyL8KD/c=
+
+Name: license.html
+SHA1-Digest: 4MdwJc4qs/wi4VSGHrIOANUVTRQ=
+

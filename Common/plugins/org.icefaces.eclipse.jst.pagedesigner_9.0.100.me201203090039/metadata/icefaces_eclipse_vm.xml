@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:metadatamodel id="hhttp://www.icesoft.com/icefaces/component"
+    type="tagFile"
+    xmlns:md="http://org.eclipse.jst.jsf.common.metadata/metadata.ecore"
+    xmlns:viewMap="http://org.eclipse.jst.jsf.core/componentMapping.ecore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://org.eclipse.jst.jsf.core/componentMapping.ecore">
+
+    <entity id="column" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.UIColumn</className>
+                        <superClasses>javax.faces.component.UIColumn</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.Column</componentType>
+                        <componentFamily>javax.faces.Column</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="columnGroup" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.ColumnGroup</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.ColumnGroup</componentType>
+                        <componentFamily>com.icesoft.faces.Column</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="columns" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.UIColumns</className>
+                        <superClasses>com.icesoft.faces.component.panelseries.UISeries</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlDataTable</superClasses>
+                        <superClasses>javax.faces.component.UIData</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.Columns</componentType>
+                        <componentFamily>javax.faces.Columns</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="commandButton" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlCommandButton</className>
+                        <superClasses>javax.faces.component.html.HtmlCommandButton</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlCommandButton</componentType>
+                        <componentFamily>javax.faces.Command</componentFamily>
+                        <renderType>com.icesoft.faces.Button</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="commandLink" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlCommandLink</className>
+                        <superClasses>javax.faces.component.html.HtmlCommandLink</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlCommandLink</componentType>
+                        <componentFamily>javax.faces.Command</componentFamily>
+                        <renderType>com.icesoft.faces.Link</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="commandSortHeader" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.commandsortheader.CommandSortHeader</className>
+                        <superClasses>com.icesoft.faces.component.ext.HtmlCommandLink</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlCommandLink</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.SortHeader</componentType>
+                        <componentFamily>javax.faces.Command</componentFamily>
+                        <renderType>com.icesoft.faces.SortHeader</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="dataExporter" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.dataexporter.DataExporter</className>
+                        <superClasses>com.icesoft.faces.component.outputresource.OutputResource</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.DataExporter</componentType>
+                        <componentFamily>com.icesoft.faces.DataExporter</componentFamily>
+                        <renderType>com.icesoft.faces.DataExporterRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="dataPaginator" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.datapaginator.DataPaginator</className>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.DataScroller</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.DataScroller</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="dataTable" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlDataTable</className>
+                        <superClasses>com.icesoft.faces.component.panelseries.UISeries</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlDataTable</superClasses>
+                        <superClasses>javax.faces.component.UIData</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlDataTable</componentType>
+                        <componentFamily>javax.faces.Data</componentFamily>
+                        <renderType>com.icesoft.faces.Table</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="effect" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.effect.ApplyEffect</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.ApplyEffect</componentType>
+                        <componentFamily>com.icesoft.faces.ApplyEffectFamily</componentFamily>
+                        <renderType>com.icesoft.faces.ApplyEffectRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="form" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlForm</className>
+                        <superClasses>javax.faces.component.html.HtmlForm</superClasses>
+                        <superClasses>javax.faces.component.UIForm</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlForm</componentType>
+                        <componentFamily>javax.faces.Form</componentFamily>
+                        <renderType>com.icesoft.faces.Form</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="gMap" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.gmap.GMap</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.GMap</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.GMapRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="gMapControl" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.gmap.GMapControl</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.GMapControl</componentType>
+                        <componentFamily>com.icesoft.faces.GMapControl</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="gMapDirection" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.gmap.GMapDirection</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.GMapDirection</componentType>
+                        <componentFamily>com.icesoft.faces.GMapDirection</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="gMapGeoXml" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.gmap.GMapGeoXml</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.GMapGeoXml</componentType>
+                        <componentFamily>com.icesoft.faces.GMapGeoXml</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="gMapLatLng" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.gmap.GMapLatLng</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.GMapLatLng</componentType>
+                        <componentFamily>com.icesoft.faces.GMapLatLng</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="gMapLatLngs" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.gmap.GMapLatLngs</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.GMapLatLngs</componentType>
+                        <componentFamily>com.icesoft.faces.GMapLatLngs</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="gMapMarker" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.gmap.GMapMarker</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.GMapMarker</componentType>
+                        <componentFamily>com.icesoft.faces.GMapMarker</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="graphicImage" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlGraphicImage</className>
+                        <superClasses>javax.faces.component.html.HtmlGraphicImage</superClasses>
+                        <superClasses>javax.faces.component.UIGraphic</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlGraphicImage</componentType>
+                        <componentFamily>javax.faces.Graphic</componentFamily>
+                        <renderType>com.icesoft.faces.Image</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="headerRow" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HeaderRow</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HeaderRow</componentType>
+                        <componentFamily>com.icesoft.faces.Header</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="inputFile" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.inputfile.InputFile</className>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>java.io.Serializable</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.File</componentType>
+                        <componentFamily>com.icesoft.faces.File</componentFamily>
+                        <renderType>com.icesoft.faces.Upload</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="inputHidden" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlInputHidden</className>
+                        <superClasses>javax.faces.component.html.HtmlInputHidden</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlInputHidden</componentType>
+                        <componentFamily>javax.faces.Input</componentFamily>
+                        <renderType>com.icesoft.faces.Hidden</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="inputRichText" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.inputrichtext.InputRichText</className>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.InputRichText</componentType>
+                        <componentFamily>javax.faces.Input</componentFamily>
+                        <renderType>com.icesoft.faces.InputRichTextRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="inputSecret" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlInputSecret</className>
+                        <superClasses>com.icesoft.faces.component.ext.HtmlInputText</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlInputText</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlInputSecret</componentType>
+                        <componentFamily>javax.faces.Input</componentFamily>
+                        <renderType>com.icesoft.faces.Secret</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="inputText" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlInputText</className>
+                        <superClasses>javax.faces.component.html.HtmlInputText</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlInputText</componentType>
+                        <componentFamily>javax.faces.Input</componentFamily>
+                        <renderType>com.icesoft.faces.Text</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="inputTextarea" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlInputTextarea</className>
+                        <superClasses>javax.faces.component.html.HtmlInputTextarea</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlInputTextarea</componentType>
+                        <componentFamily>javax.faces.Input</componentFamily>
+                        <renderType>com.icesoft.faces.Textarea</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="loadBundle" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.loadbundle.LoadBundle</className>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.LoadBundle</componentType>
+                        <componentFamily>com.icesoft.faces.LoadBundle</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="menuBar" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.menubar.MenuBar</className>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.Menu</componentType>
+                        <componentFamily>com.icesoft.faces.Menu</componentFamily>
+                        <renderType>com.icesoft.faces.View</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="menuItem" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.menubar.MenuItem</className>
+                        <superClasses>com.icesoft.faces.component.menubar.MenuItemBase</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.MenuNode</componentType>
+                        <componentFamily>com.icesoft.faces.MenuNode</componentFamily>
+                        <renderType>com.icesoft.faces.View</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="menuItemSeparator" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.menubar.MenuItemSeparator</className>
+                        <superClasses>com.icesoft.faces.component.menubar.MenuItemBase</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.MenuNodeSeparator</componentType>
+                        <componentFamily>com.icesoft.faces.MenuNodeSeparator</componentFamily>
+                        <renderType>com.icesoft.faces.View</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="menuItems" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.menubar.MenuItems</className>
+                        <superClasses>com.icesoft.faces.component.menubar.MenuItemBase</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.MenuNodes</componentType>
+                        <componentFamily>com.icesoft.faces.MenuNodes</componentFamily>
+                        <renderType>com.icesoft.faces.View</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="menuPopup" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.menupopup.MenuPopup</className>
+                        <superClasses>com.icesoft.faces.component.menubar.MenuBar</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.MenuPopup</componentType>
+                        <componentFamily>com.icesoft.faces.MenuPopup</componentFamily>
+                        <renderType>com.icesoft.faces.View</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="message" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlMessage</className>
+                        <superClasses>javax.faces.component.html.HtmlMessage</superClasses>
+                        <superClasses>javax.faces.component.UIMessage</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlMessage</componentType>
+                        <componentFamily>javax.faces.Message</componentFamily>
+                        <renderType>com.icesoft.faces.Message</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="messages" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlMessages</className>
+                        <superClasses>javax.faces.component.html.HtmlMessages</superClasses>
+                        <superClasses>javax.faces.component.UIMessages</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlMessages</componentType>
+                        <componentFamily>javax.faces.Messages</componentFamily>
+                        <renderType>com.icesoft.faces.Messages</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputBody" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.OutputBody</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputBody</componentType>
+                        <componentFamily>com.icesoft.faces.OutputBody</componentFamily>
+                        <renderType>com.icesoft.faces.OutputBody</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputChart" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.outputchart.OutputChart</className>
+                        <superClasses>com.icesoft.faces.component.ext.HtmlCommandButton</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlCommandButton</superClasses>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>java.io.Serializable</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputChart</componentType>
+                        <componentFamily>javax.faces.Command</componentFamily>
+                        <renderType>com.icesoft.faces.OutputChartRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputConnectionStatus" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.outputconnectionstatus.OutputConnectionStatus</className>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputConnectionStatus</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.OutputConnectionStatusRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputDeclaration" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.outputdeclaration.OutputDeclaration</className>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputDeclaration</componentType>
+                        <componentFamily>javax.faces.Output</componentFamily>
+                        <renderType>com.icesoft.faces.OutputDeclaration</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="outputFormat" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlOutputFormat</className>
+                        <superClasses>javax.faces.component.html.HtmlOutputFormat</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlOutputFormat</componentType>
+                        <componentFamily>javax.faces.Output</componentFamily>
+                        <renderType>com.icesoft.faces.Format</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="outputHead" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.OutputHead</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputHead</componentType>
+                        <componentFamily>com.icesoft.faces.OutputHead</componentFamily>
+                        <renderType>com.icesoft.faces.OutputHead</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputHtml" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.OutputHtml</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputHtml</componentType>
+                        <componentFamily>com.icesoft.faces.OutputHtml</componentFamily>
+                        <renderType>com.icesoft.faces.OutputHtml</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputLabel" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlOutputLabel</className>
+                        <superClasses>javax.faces.component.html.HtmlOutputLabel</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlOutputLabel</componentType>
+                        <componentFamily>javax.faces.Output</componentFamily>
+                        <renderType>com.icesoft.faces.Label</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="outputLink" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlOutputLink</className>
+                        <superClasses>javax.faces.component.html.HtmlOutputLink</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlOutputLink</componentType>
+                        <componentFamily>javax.faces.Output</componentFamily>
+                        <renderType>com.icesoft.faces.Link</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="outputMedia" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.outputmedia.OutputMedia</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputMedia</componentType>
+                        <componentFamily>com.icesoft.faces.OutputMedia</componentFamily>
+                        <renderType>com.icesoft.faces.OutputMedia</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputProgress" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.outputprogress.OutputProgress</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.Progress</componentType>
+                        <componentFamily>com.icesoft.faces.Progress</componentFamily>
+                        <renderType>com.icesoft.faces.Bar</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputResource" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.outputresource.OutputResource</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputResource</componentType>
+                        <componentFamily>com.icesoft.faces.OutputResource</componentFamily>
+                        <renderType>com.icesoft.faces.OutputResourceRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputStyle" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.style.OutputStyle</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.OutputStyleComp</componentType>
+                        <componentFamily>com.icesoft.faces.OutputStyle</componentFamily>
+                        <renderType>com.icesoft.faces.style.OutputStyleRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="outputText" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlOutputText</className>
+                        <superClasses>javax.faces.component.html.HtmlOutputText</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlOutputText</componentType>
+                        <componentFamily>javax.faces.Output</componentFamily>
+                        <renderType>com.icesoft.faces.Text</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="panelBorder" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panelborder.PanelBorder</className>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.BorderLayout</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.BorderLayout</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelCollapsible" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panelcollapsible.PanelCollapsible</className>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelCollapsible</componentType>
+                        <componentFamily>com.icesoft.faces.PanelCollapsible</componentFamily>
+                        <renderType>com.icesoft.faces.PanelCollapsibleRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelConfirmation" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panelconfirmation.PanelConfirmation</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelConfirmation</componentType>
+                        <componentFamily>com.icesoft.faces.PanelConfirmation</componentFamily>
+                        <renderType>com.icesoft.faces.PanelConfirmationRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelDivider" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.paneldivider.PanelDivider</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelDivider</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.PanelDividerRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelGrid" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlPanelGrid</className>
+                        <superClasses>javax.faces.component.html.HtmlPanelGrid</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlPanelGrid</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.Grid</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelGroup" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlPanelGroup</className>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlPanelGroup</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.Group</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelLayout" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panellayout.PanelLayout</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelLayout</componentType>
+                        <componentFamily>com.icesoft.faces.Layout</componentFamily>
+                        <renderType>com.icesoft.faces.PanelLayout</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelPopup" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panelpopup.PanelPopup</className>
+                        <superClasses>com.icesoft.faces.component.ext.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelPopup</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.PanelPopup</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelPositioned" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panelpositioned.PanelPositioned</className>
+                        <superClasses>com.icesoft.faces.component.panelseries.UISeries</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlDataTable</superClasses>
+                        <superClasses>javax.faces.component.UIData</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.dragdrop.PanelPositioned</componentType>
+                        <componentFamily>com.icesoft.faces.dragdrop.PanelPositionedFamily</componentFamily>
+                        <renderType>com.icesoft.faces.dragdrop.PanelPositionedRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelSeries" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panelseries.PanelSeries</className>
+                        <superClasses>com.icesoft.faces.component.panelseries.UISeries</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlDataTable</superClasses>
+                        <superClasses>javax.faces.component.UIData</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelSeries</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.PanelSeriesRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelStack" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.panelstack.PanelStack</className>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelStack</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.PanelStack</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelTab" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.paneltabset.PanelTab</className>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelTab</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.TabbedPaneTab</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelTabSet" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.paneltabset.PanelTabSet</className>
+                        <superClasses>com.icesoft.faces.component.panelseries.UISeries</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlDataTable</superClasses>
+                        <superClasses>javax.faces.component.UIData</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelTabSet</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.TabbedPane</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="panelTooltip" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.paneltooltip.PanelTooltip</className>
+                        <superClasses>com.icesoft.faces.component.panelpopup.PanelPopup</superClasses>
+                        <superClasses>com.icesoft.faces.component.ext.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlPanelGroup</superClasses>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.PanelTooltip</componentType>
+                        <componentFamily>javax.faces.Panel</componentFamily>
+                        <renderType>com.icesoft.faces.PanelTooltipRenderer</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="portlet" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.portlet.Portlet</className>
+                        <superClasses>javax.faces.component.UINamingContainer</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.Portlet</componentType>
+                        <componentFamily>com.icesoft.faces.Portlet</componentFamily>
+                        <renderType>com.icesoft.faces.Portlet</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="radio" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlRadio</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlRadio</componentType>
+                        <componentFamily>com.icesoft.faces.HtmlRadio</componentFamily>
+                        <renderType>com.icesoft.faces.Radio</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="rowSelector" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.RowSelector</className>
+                        <superClasses>javax.faces.component.UIPanel</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.RowSelector</componentType>
+                        <componentFamily>com.icesoft.faces.RowSelectorFamily</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="selectBooleanCheckbox" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlSelectBooleanCheckbox</className>
+                        <superClasses>javax.faces.component.html.HtmlSelectBooleanCheckbox</superClasses>
+                        <superClasses>javax.faces.component.UISelectBoolean</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlSelectBooleanCheckbox</componentType>
+                        <componentFamily>javax.faces.SelectBoolean</componentFamily>
+                        <renderType>com.icesoft.faces.Checkbox</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectInputDate" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.selectinputdate.SelectInputDate</className>
+                        <superClasses>com.icesoft.faces.component.ext.HtmlInputText</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlInputText</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.utils.SeriesStateHolder</interfaces>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.SelectInputDate</componentType>
+                        <componentFamily>javax.faces.Input</componentFamily>
+                        <renderType>com.icesoft.faces.Calendar</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectInputText" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.selectinputtext.SelectInputText</className>
+                        <superClasses>com.icesoft.faces.component.ext.HtmlInputText</superClasses>
+                        <superClasses>javax.faces.component.html.HtmlInputText</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.SelectInputText</componentType>
+                        <componentFamily>javax.faces.Input</componentFamily>
+                        <renderType>com.icesoft.faces.SelectInputText</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectManyCheckbox" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlSelectManyCheckbox</className>
+                        <superClasses>javax.faces.component.html.HtmlSelectManyCheckbox</superClasses>
+                        <superClasses>javax.faces.component.UISelectMany</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlSelectManyCheckbox</componentType>
+                        <componentFamily>javax.faces.SelectMany</componentFamily>
+                        <renderType>com.icesoft.faces.Checkbox</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectManyListbox" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlSelectManyListbox</className>
+                        <superClasses>javax.faces.component.html.HtmlSelectManyListbox</superClasses>
+                        <superClasses>javax.faces.component.UISelectMany</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlSelectManyListbox</componentType>
+                        <componentFamily>javax.faces.SelectMany</componentFamily>
+                        <renderType>com.icesoft.faces.Listbox</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectManyMenu" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlSelectManyMenu</className>
+                        <superClasses>javax.faces.component.html.HtmlSelectManyMenu</superClasses>
+                        <superClasses>javax.faces.component.UISelectMany</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlSelectManyMenu</componentType>
+                        <componentFamily>javax.faces.SelectMany</componentFamily>
+                        <renderType>com.icesoft.faces.Menu</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectOneListbox" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlSelectOneListbox</className>
+                        <superClasses>javax.faces.component.html.HtmlSelectOneListbox</superClasses>
+                        <superClasses>javax.faces.component.UISelectOne</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlSelectOneListbox</componentType>
+                        <componentFamily>javax.faces.SelectOne</componentFamily>
+                        <renderType>com.icesoft.faces.Listbox</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectOneMenu" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlSelectOneMenu</className>
+                        <superClasses>javax.faces.component.html.HtmlSelectOneMenu</superClasses>
+                        <superClasses>javax.faces.component.UISelectOne</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlSelectOneMenu</componentType>
+                        <componentFamily>javax.faces.SelectOne</componentFamily>
+                        <renderType>com.icesoft.faces.Menu</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="selectOneRadio" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.ext.HtmlSelectOneRadio</className>
+                        <superClasses>javax.faces.component.html.HtmlSelectOneRadio</superClasses>
+                        <superClasses>javax.faces.component.UISelectOne</superClasses>
+                        <superClasses>javax.faces.component.UIInput</superClasses>
+                        <superClasses>javax.faces.component.UIOutput</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>com.icesoft.faces.component.IceExtended</interfaces>
+                        <interfaces>javax.faces.component.EditableValueHolder</interfaces>
+                        <interfaces>javax.faces.component.ValueHolder</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.HtmlSelectOneRadio</componentType>
+                        <componentFamily>javax.faces.SelectOne</componentFamily>
+                        <renderType>com.icesoft.faces.Radio</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+            <include-entity-group id="common-valueholder-attributes"/>
+        </trait>
+    </entity>
+    <entity id="setEventPhase" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.seteventphase.SetEventPhase</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.SetEventPhase</componentType>
+                        <componentFamily>com.icesoft.faces.SetEventPhase</componentFamily>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="tree" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.tree.Tree</className>
+                        <superClasses>javax.faces.component.UICommand</superClasses>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.ActionSource</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.TreeView</componentType>
+                        <componentFamily>com.icesoft.faces.TreeView</componentFamily>
+                        <renderType>com.icesoft.faces.View</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entity id="treeNode" type="tag">
+        <trait id="viewElementMapping">
+            <md:value xsi:type="viewMap:TagMapping">
+                <versionedTagToViewMappings>
+                    <typeInfo xsi:type="viewMap:ComponentTypeInfo_">
+                        <className>com.icesoft.faces.component.tree.TreeNode</className>
+                        <superClasses>javax.faces.component.UIComponentBase</superClasses>
+                        <superClasses>javax.faces.component.UIComponent</superClasses>
+                        <superClasses>java.lang.Object</superClasses>
+                        <interfaces>javax.faces.component.NamingContainer</interfaces>
+                        <interfaces>javax.faces.component.StateHolder</interfaces>
+                        <componentType>com.icesoft.faces.TreeNode</componentType>
+                        <componentFamily>com.icesoft.faces.TreeNode</componentFamily>
+                        <renderType>com.icesoft.faces.View</renderType>
+                    </typeInfo>
+                </versionedTagToViewMappings>
+            </md:value>
+        </trait>
+    </entity>
+    <entityGroup id="common-valueholder-attributes">
+        <entity id="value">
+            <trait id="attributeMapping">
+                <md:value xsi:type="viewMap:AttributeToPropertyMapping">
+                    <propertyName>value</propertyName>
+                    <elAllowed>true</elAllowed>
+                </md:value>
+            </trait>
+        </entity>
+        <entity id="converter">
+            <trait id="attributeMapping">
+                <md:value xsi:type="viewMap:AttributeToPropertyMapping">
+                    <elAllowed>true</elAllowed>
+                    <customConversionFactoryId>org.eclipse.jst.jsf.core.valueHolderAttributeMapper</customConversionFactoryId>
+                </md:value>
+            </trait>
+        </entity>
+    </entityGroup>
+</md:metadatamodel>

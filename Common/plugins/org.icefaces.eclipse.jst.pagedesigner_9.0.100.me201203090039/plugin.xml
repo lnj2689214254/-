@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+  <extension point="org.eclipse.jst.pagedesigner.pageDesignerExtension">
+      <linkCreator class="org.icefaces.eclipse.jst.pagedesigner.actions.ICEfacesCommandLinkCreator" linkIdentifier="ICEfaces CommandLink"/>
+      <linkCreator class="org.icefaces.eclipse.jst.pagedesigner.actions.ICEfacesOutputLinkCreator" linkIdentifier="ICEfaces OutputLink"/>
+      <dtResourceProvider
+            class="org.icefaces.eclipse.jst.pagedesigner.dtresourceprovider.IceDTResourceProvider"
+            id="http://www.icesoft.com/icefaces/component">
+      </dtResourceProvider>
+
+      <dtResourceProvider
+            class="org.icefaces.eclipse.jst.pagedesigner.dtresourceprovider.AceDTResourceProvider"
+            id="http://www.icefaces.org/icefaces/components">
+      </dtResourceProvider>
+      
+      <dtResourceProvider
+            class="org.icefaces.eclipse.jst.pagedesigner.dtresourceprovider.MobiDTResourceProvider"
+            id="http://www.icesoft.com/icefaces/mobile/component">
+      </dtResourceProvider>
+      
+      <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.CopyChildrenIgnorFacetOperation"
+			id="CopyChildrenIgnorFacetOperation">
+	  </tagTransformOperation>
+	  
+<!-- ICEfaces ACE Components, ace -->
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceAccordionOperation"
+			id="AceAcordionOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceColumnOperation"
+			id="AceColumnOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceColumnGroupOperation"
+			id="AceColumnGroupOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceConfirmationDialogOperation"
+			id="AceConfirmDialogOperation">
+     </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceDataExporterOperation"
+			id="AceDataExporterOperation">
+	 </tagTransformOperation>     
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceDataTableOperation"
+			id="AceDataTableOperation">
+	 </tagTransformOperation>
+      <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceDateTimeEntryOperation"
+			id="AceDateTimeEntryOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceDialogOperation"
+			id="AceDialogOperation">
+	  </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceExpansionTogglerOperation"
+			id="AceExpansionTogglerOperation">
+	 </tagTransformOperation>	  
+
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceMenuItemOperation"
+			id="AceMenuItemOperation">
+	 </tagTransformOperation>
+	  
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceNotificationPanelOperation"
+			id="AceNotificationPanelOperation">
+	 </tagTransformOperation>
+	 
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AcePanelOperation"
+			id="AcePanelOperation">
+	 </tagTransformOperation>	 
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AcePanelExpansionOperation"
+			id="AcePanelExpansionOperation">
+	 </tagTransformOperation>
+	 
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceProgressBarOperation"
+			id="AceProgressBarOperation">
+	 </tagTransformOperation>
+	 	 
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceRowOperation"
+			id="AceRowOperation">
+	 </tagTransformOperation> 	 
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceRowExpansionOperation"
+			id="AceRowExpansionOperation">
+	 </tagTransformOperation>
+     <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceSliderEntryOperation"
+			id="AceSliderEntryOperation">
+	 </tagTransformOperation>
+     <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceTabSetOperation"
+			id="AceTabSetOperation">
+	 </tagTransformOperation>
+      <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.ace.AceTabPaneOperation"
+			id="AceTabPaneOperation">
+	 </tagTransformOperation>
+	 
+<!-- ICEfaces ICE Components, ice -->      
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.DataPaginatorOperation"
+		id="DataPaginatorOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.GMapMarkerOperation"
+		id="GMapMarkerOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.GMapOperation"
+		id="GMapOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.InputFileOperation"
+		id="InputFileOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.InputRichTextOperation"
+		id="InputRichTextOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.MenuBarOperation"
+		id="MenuBarOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.MenuItemOperation"
+		id="MenuItemOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.MenuPopupOperation"
+		id="MenuPopupOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.OutputChartOperation"
+		id="OutputChartOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.OutputConnectionStatusOperation"
+		id="OutputConnectionStatusOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.OutputMediaOperation"
+		id="OutputMediaOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.OutputProgressOperation"
+		id="OutputProgressOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelBorderOperation"
+		id="PanelBorderOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelCollapsibleOperation"
+		id="PanelCollapsibleOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelDividerOperation"
+		id="PanelDividerOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelLayoutOperation"
+		id="PanelLayoutOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelPopupOperation"
+		id="PanelPopupOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelPositionedOperation"
+		id="PanelPositionedOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelSeriesOperation"
+		id="PanelSeriesOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelStackOperation"
+		id="PanelStackOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelTabOperation"
+		id="PanelTabOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.PanelTabSetOperation"
+		id="PanelTabSetOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.SelectInputDateOperation"
+		id="SelectInputDateOperation">
+	  </tagTransformOperation>
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ice.TreeOperation"
+		id="TreeOperation">
+	  </tagTransformOperation>
+ <!-- ICEfaces Components, general -->   
+      <tagTransformOperation
+		class="org.icefaces.eclipse.jst.pagedesigner.operations.ResolveResourceAttributeOperation"
+		id="ResolveResourceAttributeOperation">
+	  </tagTransformOperation>	
+
+<!-- ICEMobile Mobi Components -->
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiAudioOperation"
+			id="MobiAudioOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiCameraOperation"
+			id="MobiCameraOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiCamcorderOperation"
+			id="MobiCamcorderOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiCarouselOperation"
+			id="MobiCarouselOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiCommandButtonGroupOperation"
+			id="MobiCommandButtonGroupOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiCommandButtonOperation"
+			id="MobiCommandButtonOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiDateSpinnerOperation"
+			id="MobiDateSpinnerOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiFieldsetGroupOperation"
+			id="MobiFieldsetGroupOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiFieldsetRowOperation"
+			id="MobiFieldsetRowOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiFlipswitchOperation"
+			id="MobiFlipswitchOperation">
+	 </tagTransformOperation>
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiIcemobilesxOperation"
+			id="MobiIcemobilesxOperation">
+	 </tagTransformOperation>	 
+	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiInputTextOperation"
+			id="MobiInputTextOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiOutputListItemOperation"
+			id="MobiOutputListItemOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiOutputListOperation"
+			id="MobiOutputListOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiScanOperation"
+			id="MobiScanOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiThumbnailOperation"
+			id="MobiThumbnailOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiTimeSpinnerOperation"
+			id="MobiTimeSpinnerOperation">
+	 </tagTransformOperation>
+	 	 <tagTransformOperation
+			class="org.icefaces.eclipse.jst.pagedesigner.operations.mobi.MobiVideoPlayerOperation"
+			id="MobiVideoPlayerOperation">
+	 </tagTransformOperation>
+ 
+   </extension>
+
+   <extension point="org.eclipse.jst.pagedesigner.jsp.core.pageVar">
+      <taglib uri="http://www.icesoft.com/icefaces/component">
+      	<tag varTypeStringIsAttr="true"
+            varNameIsAttr="true"
+            varTypeMode="EXPRESSION_COLLECTION_ITEM"
+            varTypeString="value"
+            varName="var"
+            tagName="dataTable"/>
+      	<tag varTypeStringIsAttr="true"
+            varNameIsAttr="true"
+            varTypeMode="EXPRESSION_COLLECTION_ITEM"
+            varTypeString="value"
+            varName="var"
+            tagName="columns"/>
+      	<tag varTypeStringIsAttr="true"
+            varNameIsAttr="true"
+            varTypeMode="EXPRESSION_COLLECTION_ITEM"
+            varTypeString="value"
+            varName="var"
+            tagName="panelSeries"/>
+      	<tag varTypeStringIsAttr="true"
+            varNameIsAttr="true"
+            varTypeMode="EXPRESSION_COLLECTION_ITEM"
+            varTypeString="value"
+            varName="var"
+            tagName="panelTabSet"/>
+      	<tag varTypeStringIsAttr="true"
+            varNameIsAttr="true"
+            varTypeMode="EXPRESSION_COLLECTION_ITEM"
+            varTypeString="value"
+            varName="var"
+            tagName="panelPositioned"/>
+      	<tag varTypeStringIsAttr="true"
+            varNameIsAttr="true"
+            varTypeMode="EXPRESSION_COLLECTION_ITEM"
+            varTypeString="value"
+            varName="var"
+            tagName="tree"/>
+     </taglib>
+   </extension>
+
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertySections">
+		<propertySections
+			contributorId="org.eclipse.jst.pagedesigner.tabPropertyContributor">
+			<propertySection
+				class="org.icefaces.eclipse.jst.pagedesigner.sections.ICEfacesDataTableColumnsSection"
+				tab="org.eclipse.jst.pagedesigner.tabQuickEdit"
+				id="section.icefaces.dataTable.columns">
+			</propertySection>
+		</propertySections>
+	</extension> 
+
+   <extension point="org.eclipse.jst.jsf.common.standardMetaDataFiles">
+	<standardMetaDataFile
+            location="$nl$/metadata/icefaces_component_pi.xml"
+            uri="http://www.icesoft.com/icefaces/component">
+      </standardMetaDataFile>
+      <standardMetaDataFile
+            location="$nl$/metadata/icefaces_component.xml"
+            uri="http://www.icesoft.com/icefaces/component">      
+      </standardMetaDataFile>
+      <standardMetaDataFile
+            location="$nl$/metadata/icefaces_component_dti.xml"
+            uri="http://www.icesoft.com/icefaces/component">      
+      </standardMetaDataFile>             
+      <standardMetaDataFile
+            location="$nl$/metadata/icefaces_hidden_component.xml"
+            uri="http://www.icesoft.com/icefaces">
+      </standardMetaDataFile>  
+     <standardMetaDataFile
+            location="$nl$/metadata/icefaces_ace_pi.xml"
+            uri="http://www.icefaces.org/icefaces/components" />
+            
+     <standardMetaDataFile
+            location="$nl$/metadata/icefaces_ace_dti.xml"
+            uri="http://www.icefaces.org/icefaces/components" />
+
+     <standardMetaDataFile
+            location="$nl$/metadata/icefaces_ace.xml"
+            uri="http://www.icefaces.org/icefaces/components" />
+ 
+      <standardMetaDataFile
+            location="$nl$/metadata/icefaces_core.xml"
+            uri="http://www.icefaces.org/icefaces/core" />
+            
+	<standardMetaDataFile
+            location="$nl$/metadata/icemobile_mobi_pi.xml"
+            uri="http://www.icesoft.com/icefaces/mobile/component">
+      </standardMetaDataFile>
+ 	<standardMetaDataFile
+            location="$nl$/metadata/icemobile_mobi.xml"
+            uri="http://www.icesoft.com/icefaces/mobile/component">
+      </standardMetaDataFile>
+	<standardMetaDataFile
+            location="$nl$/metadata/icemobile_mobi_dti.xml"
+            uri="http://www.icesoft.com/icefaces/mobile/component">
+      </standardMetaDataFile>  
+   </extension>
+ 
+</plugin>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.jpt.jpadiagrameditor.feature" label="%featureName" plugin="org.eclipse.jpt.jpadiagrameditor.branding" provider-name="%providerName" version="1.0.0.me201206141911">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.graphiti.feature" match="greaterOrEqual" version="0.8.0"/>
+      <import feature="org.eclipse.jpt.jpa.feature" match="greaterOrEqual" version="3.0.0"/>
+   </requires>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpadiagrameditor.ui" install-size="0" unpack="false" version="1.0.0.me201108091322"/>
+         
+   <plugin download-size="0" id="org.eclipse.jpt.jpadiagrameditor.doc.user" install-size="0" unpack="false" version="1.0.0.me201206141911"/>
+
+   <plugin download-size="0" id="org.eclipse.jpt.jpadiagrameditor.branding" install-size="0" unpack="false" version="1.0.0.v201103020000"/>
+
+</feature>
